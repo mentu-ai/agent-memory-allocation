@@ -1,0 +1,42 @@
+{
+ "answer": "Never edit frozen frontmatter fields (claim, predictions, falsification criteria, `verdict`, `result`), anything in `results/`, `corpus/supported/`, or `corpus/refuted/`. Corrections go in new dated documents.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 8232,
+ "cache_read_tokens": 23595,
+ "call_key": "confirmatory:q002:B#0",
+ "cost_usd": 0.022648500000000002,
+ "duration_s": 13.6,
+ "error_class": null,
+ "gold_rp": "CLAUDE.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": null,
+  "located": false,
+  "read_count": 0,
+  "reads": [],
+  "searches": [],
+  "zero_read": true
+ },
+ "input_tokens": 31837,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 333,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 763,
+ "policy": "B",
+ "qid": "q002",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670176.959,
+ "tokens_marginal": 9005,
+ "tokens_total": 32600
+}

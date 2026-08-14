@@ -1,0 +1,80 @@
+{
+ "answer": "18,780",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 15041,
+ "cache_read_tokens": 127828,
+ "call_key": "confirmatory:q051:B#0",
+ "cost_usd": 0.046903799999999995,
+ "duration_s": 13.1,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c28b-injection-channel-returnability.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/refuted/c28-promotion-lane-returnability.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/refuted/c28-promotion-lane-returnability.md",
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c28b-injection-channel-returnability.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "C28",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c28b-injection-channel-returnability.md",
+    "pattern": "18,780 non-tool memory-file mentions",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 142903,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 460,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 801,
+ "policy": "B",
+ "qid": "q051",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/refuted/c28-promotion-lane-returnability.md",
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c28b-injection-channel-returnability.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "C28",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c28b-injection-channel-returnability.md",
+   "pattern": "18,780 non-tool memory-file mentions",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670791.126,
+ "tokens_marginal": 15876,
+ "tokens_total": 143704
+}

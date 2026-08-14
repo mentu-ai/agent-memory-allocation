@@ -1,0 +1,46 @@
+{
+ "answer": "an instrument that measures human cognition directly (consented human task/attention telemetry with a defined schema), which this corpus does not contemplate.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 19527,
+ "cache_read_tokens": 61806,
+ "call_key": "confirmatory:q111:C#0",
+ "cost_usd": 0.0473476,
+ "duration_s": 10.0,
+ "error_class": null,
+ "gold_rp": "lineage/exclusions.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/lineage/exclusions.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/lineage/exclusions.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 81351,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 607,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 419,
+ "policy": "C",
+ "qid": "q111",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/lineage/exclusions.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671451.997,
+ "tokens_marginal": 19964,
+ "tokens_total": 81770
+}

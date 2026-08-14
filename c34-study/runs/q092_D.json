@@ -1,0 +1,33 @@
+{
+ "answer": "MENTU_RUN_ID",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 6237,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q092:D#0",
+ "cost_usd": 0.015337900000000002,
+ "duration_s": 5.0,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-c22-run-id-capture-bridge.md",
+ "input_tokens": 22486,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 558,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 246,
+ "policy": "D",
+ "qid": "q092",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671249.656,
+ "tokens_marginal": 6493,
+ "tokens_total": 22732
+}

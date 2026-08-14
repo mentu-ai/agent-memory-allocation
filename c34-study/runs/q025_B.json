@@ -1,0 +1,88 @@
+{
+ "answer": "the pre-registered observation window/cohort has not elapsed",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 21149,
+ "cache_read_tokens": 123789,
+ "call_key": "confirmatory:q025:B#0",
+ "cost_usd": 0.0584659,
+ "duration_s": 13.9,
+ "error_class": null,
+ "gold_rp": "applications/2026-07-01-capture-contracts-c7-c23.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "blocked conjecture",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "bottom line",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "has not elapsed",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 144972,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 389,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 751,
+ "policy": "B",
+ "qid": "q025",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "blocked conjecture",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "bottom line",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "has not elapsed",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670488.341,
+ "tokens_marginal": 21934,
+ "tokens_total": 145723
+}

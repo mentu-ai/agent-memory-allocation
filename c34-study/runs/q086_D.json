@@ -1,0 +1,33 @@
+{
+ "answer": "1/18 post-regime runs",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 6669,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q086:D#0",
+ "cost_usd": 0.0160569,
+ "duration_s": 5.8,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-11-c1b-eligibility-accounting.md",
+ "input_tokens": 22918,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 543,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 217,
+ "policy": "D",
+ "qid": "q086",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671183.161,
+ "tokens_marginal": 6896,
+ "tokens_total": 23135
+}

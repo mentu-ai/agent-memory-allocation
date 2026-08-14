@@ -1,0 +1,48 @@
+{
+ "answer": "Pilot selection seed: `c31-agentbench-pilot-v1`.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 22649,
+ "cache_read_tokens": 61796,
+ "call_key": "confirmatory:q064:C#0",
+ "cost_usd": 0.056465600000000005,
+ "duration_s": 38.8,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-c31-capability-conditioned-resident-utility-v1.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/BUILD-c31-capability-conditioned-resident-utility-v1.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/BUILD-c31-capability-conditioned-resident-utility-v1.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 84463,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 498,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 994,
+ "policy": "C",
+ "qid": "q064",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/BUILD-c31-capability-conditioned-resident-utility-v1.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670929.169,
+ "tokens_marginal": 23661,
+ "tokens_total": 85457
+}

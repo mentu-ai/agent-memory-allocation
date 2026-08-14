@@ -1,0 +1,1 @@
+{"bucket": "digest", "key": "digest:observatory/packets/2026-06-27.md", "value": {"digest": "Beat #16 (2026-06-27): C1b arm accrual flat, corrects yesterday's infra-exclusion overcount (109 not 113), zombie run cadence trickling to 1/day.", "tokens": 27580, "cost_usd": 0.0485406, "input_sha256": "a138d8e95efc8bd31e0ad5b67d5b77afce1ee5f04d0a8fb97e25873b2f7cc981"}}

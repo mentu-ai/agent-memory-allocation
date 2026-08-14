@@ -1,0 +1,33 @@
+{
+ "answer": "Measurement contract completeness at event time. One point for each component above.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 7032,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q035:D#0",
+ "cost_usd": 0.0166279,
+ "duration_s": 4.6,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c14-measurement-contract-validity.md",
+ "input_tokens": 23281,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 418,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 186,
+ "policy": "D",
+ "qid": "q035",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670607.311,
+ "tokens_marginal": 7228,
+ "tokens_total": 23467
+}

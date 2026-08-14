@@ -1,0 +1,82 @@
+{
+ "answer": "139",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 16760,
+ "cache_read_tokens": 234866,
+ "call_key": "confirmatory:q106:B#0",
+ "cost_usd": 0.06139460000000001,
+ "duration_s": 17.5,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-agentbench-context-allocation-instrument.md",
+  "located": true,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-agentbench-context-allocation-instrument.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "formal pre-setup version probe",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "pre-setup",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 251684,
+ "input_uncached": 58,
+ "is_error": false,
+ "ledger_position": 595,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 7,
+ "output_tokens": 866,
+ "policy": "B",
+ "qid": "q106",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-agentbench-context-allocation-instrument.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "formal pre-setup version probe",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "pre-setup",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671395.459,
+ "tokens_marginal": 17684,
+ "tokens_total": 252550
+}

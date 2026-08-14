@@ -1,0 +1,78 @@
+{
+ "answer": "386 consecutive failures, 0 successes",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 13511,
+ "cache_read_tokens": 123225,
+ "call_key": "confirmatory:q102:B#0",
+ "cost_usd": 0.0442415,
+ "duration_s": 11.8,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-14-run-horizon-intervention-preregistration.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-14-run-horizon-intervention-preregistration.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-14-run-horizon-intervention-preregistration.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "ane-fortress",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "consecutive failures.*0 successes|0 successes.*consecutive failures",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 138613,
+ "input_uncached": 1877,
+ "is_error": false,
+ "ledger_position": 586,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 604,
+ "policy": "B",
+ "qid": "q102",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-14-run-horizon-intervention-preregistration.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "ane-fortress",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "consecutive failures.*0 successes|0 successes.*consecutive failures",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671362.455,
+ "tokens_marginal": 15992,
+ "tokens_total": 139217
+}

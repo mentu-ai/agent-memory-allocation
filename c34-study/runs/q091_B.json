@@ -1,0 +1,78 @@
+{
+ "answer": "c22.operational_surface_event.v1",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12721,
+ "cache_read_tokens": 89439,
+ "call_key": "confirmatory:q091:B#0",
+ "cost_usd": 0.0374119,
+ "duration_s": 10.7,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-c22-operational-surface-snapshot.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-operational-surface-snapshot.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-operational-surface-snapshot.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "v1 direct surface-event payload",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "surface-event.*schema",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 102186,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 554,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 600,
+ "policy": "B",
+ "qid": "q091",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-operational-surface-snapshot.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "v1 direct surface-event payload",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "surface-event.*schema",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671232.31,
+ "tokens_marginal": 13347,
+ "tokens_total": 102786
+}

@@ -1,0 +1,46 @@
+{
+ "answer": "ane-fortress accumulated **330 consecutive failures with 0 successes**, as stated in the observation packet: \"Read-only JSONL recount: ane-fortress **330 runs / 0 successes / max consecutive-failure streak 330 / recipe_version={None} throughout / 2026-05-17 \u2192 2026-06-24T06:20Z**, still scheduled.\"",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20898,
+ "cache_read_tokens": 61807,
+ "call_key": "confirmatory:q102:C#0",
+ "cost_usd": 0.051764700000000004,
+ "duration_s": 12.2,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-14-run-horizon-intervention-preregistration.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 82723,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 587,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 754,
+ "policy": "C",
+ "qid": "q102",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671363.395,
+ "tokens_marginal": 21670,
+ "tokens_total": 83477
+}

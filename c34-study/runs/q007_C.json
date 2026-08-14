@@ -1,0 +1,46 @@
+{
+ "answer": "7 across 1 file",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20002,
+ "cache_read_tokens": 102535,
+ "call_key": "confirmatory:q007:C#0",
+ "cost_usd": 0.05683849999999999,
+ "duration_s": 22.0,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-archived-references-audit.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-archived-references-audit.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-archived-references-audit.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 122563,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 351,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 1311,
+ "policy": "C",
+ "qid": "q007",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-archived-references-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670247.451,
+ "tokens_marginal": 21339,
+ "tokens_total": 123874
+}

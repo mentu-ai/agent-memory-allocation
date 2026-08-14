@@ -1,0 +1,33 @@
+{
+ "answer": "R_k = 1",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 17906,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q067:D#0",
+ "cost_usd": 0.0392009,
+ "duration_s": 7.9,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-epistemics-program-v1.md",
+ "input_tokens": 34155,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 502,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 351,
+ "policy": "D",
+ "qid": "q067",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670972.571,
+ "tokens_marginal": 18267,
+ "tokens_total": 34506
+}

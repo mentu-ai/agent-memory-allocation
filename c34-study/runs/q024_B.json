@@ -1,0 +1,92 @@
+{
+ "answer": "post-footer-fix rows are 45/300",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 19411,
+ "cache_read_tokens": 167590,
+ "call_key": "confirmatory:q024:B#0",
+ "cost_usd": 0.061968,
+ "duration_s": 20.2,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-20-publication-readiness-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c12-translation-bottleneck.md",
+  "located": true,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c12-translation-bottleneck.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-return-funnel-and-footer-root-cause.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-20-publication-readiness-audit.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "C12.*translation.*bottleneck|translation.*bottleneck.*C12",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "post-footer-fix",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "post-footer-fix.*rows|rows.*post-footer-fix",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 187043,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 387,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 1269,
+ "policy": "B",
+ "qid": "q024",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c12-translation-bottleneck.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-return-funnel-and-footer-root-cause.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-20-publication-readiness-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "C12.*translation.*bottleneck|translation.*bottleneck.*C12",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "post-footer-fix",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "post-footer-fix.*rows|rows.*post-footer-fix",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670468.171,
+ "tokens_marginal": 20722,
+ "tokens_total": 188312
+}

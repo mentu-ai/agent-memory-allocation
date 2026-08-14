@@ -1,0 +1,78 @@
+{
+ "answer": "3",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12885,
+ "cache_read_tokens": 89604,
+ "call_key": "confirmatory:q037:B#0",
+ "cost_usd": 0.0379714,
+ "duration_s": 11.2,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c16-conditional-activation-selectivity.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c16-conditional-activation-selectivity.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c16-conditional-activation-selectivity.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "predeclared predictor score",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "typed condition.*dependency.*trust.*precedent.*semantic-coherence",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 102515,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 422,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 643,
+ "policy": "B",
+ "qid": "q037",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c16-conditional-activation-selectivity.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "predeclared predictor score",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "typed condition.*dependency.*trust.*precedent.*semantic-coherence",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670617.774,
+ "tokens_marginal": 13554,
+ "tokens_total": 103158
+}

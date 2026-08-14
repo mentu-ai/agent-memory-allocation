@@ -1,0 +1,110 @@
+{
+ "answer": "the 06-11 note's F1 exact-one overcount",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 16872,
+ "cache_read_tokens": 195028,
+ "call_key": "confirmatory:q087:B#0",
+ "cost_usd": 0.0632218,
+ "duration_s": 28.7,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-12-c1b-population-and-filter-change.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-run-class-exclusion.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-run-class-exclusion.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-population-and-filter-change.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "F2 collector.*start-time guard|start-time guard.*F2",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "F2 collector",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "F2.*overcount|overcount.*F2",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "start-time guard",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "start-time guard.*overcount|overcount.*start-time guard",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 211950,
+ "input_uncached": 50,
+ "is_error": false,
+ "ledger_position": 548,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 9,
+ "output_tokens": 1985,
+ "policy": "B",
+ "qid": "q087",
+ "qtype": "synthesis",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-run-class-exclusion.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-population-and-filter-change.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "F2 collector.*start-time guard|start-time guard.*F2",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "F2 collector",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "F2.*overcount|overcount.*F2",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "start-time guard",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "start-time guard.*overcount|overcount.*start-time guard",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671188.961,
+ "tokens_marginal": 18907,
+ "tokens_total": 213935
+}

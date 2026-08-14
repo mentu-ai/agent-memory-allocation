@@ -1,0 +1,46 @@
+{
+ "answer": "Item 4 does not describe the zombie runaway's cadence change; it addresses C24 P1's threshold crossing instead. The cadence description appears in Item 1: \"a ~6\u00d7 cadence spike over the prior week (2\u20137/day)\"",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20940,
+ "cache_read_tokens": 61809,
+ "call_key": "confirmatory:q130:C#0",
+ "cost_usd": 0.0588789,
+ "duration_s": 27.8,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-27.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 82767,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 662,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 2160,
+ "policy": "C",
+ "qid": "q130",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671807.635,
+ "tokens_marginal": 23118,
+ "tokens_total": 84927
+}

@@ -1,0 +1,46 @@
+{
+ "answer": "status 128",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18777,
+ "cache_read_tokens": 61809,
+ "call_key": "confirmatory:q108:C#0",
+ "cost_usd": 0.047752899999999994,
+ "duration_s": 13.1,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-26-c31-pilot-revision-5-shallow-git-rebuild.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-4-history-sanitization.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-4-history-sanitization.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 80604,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 601,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 800,
+ "policy": "C",
+ "qid": "q108",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-4-history-sanitization.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671419.65,
+ "tokens_marginal": 19595,
+ "tokens_total": 81404
+}

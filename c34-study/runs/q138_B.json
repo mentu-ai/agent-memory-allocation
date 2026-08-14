@@ -1,0 +1,58 @@
+{
+ "answer": "0.9",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 10973,
+ "cache_read_tokens": 120918,
+ "call_key": "confirmatory:q138:B#0",
+ "cost_usd": 0.0370718,
+ "duration_s": 12.1,
+ "error_class": null,
+ "gold_rp": "results/2026-06-10-c4-epistemic-mass.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c4-epistemic-mass.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c4-epistemic-mass.md"
+  ],
+  "searches": [
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "median hours.*weight|weight.*median",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 131925,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 679,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 600,
+ "policy": "B",
+ "qid": "q138",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c4-epistemic-mass.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "median hours.*weight|weight.*median",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671900.318,
+ "tokens_marginal": 11607,
+ "tokens_total": 132525
+}

@@ -1,0 +1,92 @@
+{
+ "answer": "fail at 0.0%",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18904,
+ "cache_read_tokens": 162677,
+ "call_key": "confirmatory:q016:B#0",
+ "cost_usd": 0.06025770000000001,
+ "duration_s": 17.7,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-foundational-ideas-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-19.md",
+  "located": true,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-19.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-foundational-ideas-audit.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-20-publication-readiness-audit.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*2026-06-19*",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "live readiness digest.*2026-06-19|manifest identity gate|2026-06-19.*digest",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "manifest identity",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "live readiness",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 181623,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 368,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 1228,
+ "policy": "B",
+ "qid": "q016",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-19.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-foundational-ideas-audit.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-20-publication-readiness-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*2026-06-19*",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "live readiness digest.*2026-06-19|manifest identity gate|2026-06-19.*digest",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "manifest identity",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "live readiness",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670369.91,
+ "tokens_marginal": 20174,
+ "tokens_total": 182851
+}

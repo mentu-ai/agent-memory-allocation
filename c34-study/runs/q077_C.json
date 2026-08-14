@@ -1,0 +1,46 @@
+{
+ "answer": "The paper offers no formal justification for the \"true zero\" claim beyond asserting that \"the patterns exist and are queryable; they are simply not returned into subsequent work.\" The paper's reasoning is that because the detection channel is present (patterns are queryable against `injected_signal_ids`/`used_signal_ids`), the observation of zero reuse constitutes a confirmed true zero rather than a measurement gap. However, the referee identifies this as a blocker reproducibility defect, noting that the paper's own \u00a78 states the verdict is \"closed pending accrual\" and the C9 readiness artifact explicitly classifies this state as \"INSTRUMENT INSUFFICIENT: pattern substrate exists, but exposure/use gates fail\" \u2014 meaning it is a measurement gap, not a true zero.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 24319,
+ "cache_read_tokens": 61809,
+ "call_key": "confirmatory:q077:C#0",
+ "cost_usd": 0.0605819,
+ "duration_s": 20.1,
+ "error_class": null,
+ "gold_rp": "docs/referee/B2-validity.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-repro.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-repro.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 86146,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 522,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 1149,
+ "policy": "C",
+ "qid": "q077",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-repro.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671069.083,
+ "tokens_marginal": 25486,
+ "tokens_total": 87295
+}

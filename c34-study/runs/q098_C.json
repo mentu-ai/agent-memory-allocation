@@ -1,0 +1,46 @@
+{
+ "answer": "instruments/2026-07-06-protocol-v22-regime-boundary-and-impact.md",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 23802,
+ "cache_read_tokens": 61799,
+ "call_key": "confirmatory:q098:C#0",
+ "cost_usd": 0.0643919,
+ "duration_s": 34.6,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-06-child-lane-instrument.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 85619,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 582,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 2118,
+ "policy": "C",
+ "qid": "q098",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671327.859,
+ "tokens_marginal": 25938,
+ "tokens_total": 87737
+}

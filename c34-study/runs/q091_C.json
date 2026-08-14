@@ -1,0 +1,46 @@
+{
+ "answer": "The v1 direct surface-event payload uses schema `c22.operational_surface_event.v1`.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 19683,
+ "cache_read_tokens": 61803,
+ "call_key": "confirmatory:q091:C#0",
+ "cost_usd": 0.0490443,
+ "duration_s": 11.2,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-c22-operational-surface-snapshot.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-operational-surface-snapshot.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-operational-surface-snapshot.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 81504,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 556,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 696,
+ "policy": "C",
+ "qid": "q091",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-operational-surface-snapshot.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671236.677,
+ "tokens_marginal": 20397,
+ "tokens_total": 82200
+}

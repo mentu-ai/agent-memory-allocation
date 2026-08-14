@@ -1,0 +1,717 @@
+{
+ "authored_n": 141,
+ "authoring_cost_usd": 7.4385,
+ "authoring_tokens_note": "per-call totals incl. nested-CLI system-prompt overhead (mostly cache reads) \u2014 same accounting as policy runs, symmetric by design",
+ "authoring_tokens_total": 3945524,
+ "files": 141,
+ "frontmatter_n": 0,
+ "generator": "claude-sonnet-5",
+ "index": {
+  "AGENTS.md": {
+   "digest": "Agent entry protocol: constitutional rules for this Mentu theory repo (conjecture lifecycle, edit restrictions, observer-effect, daily observatory beat).",
+   "input_sha256": "96ae78c7b2ff63b0780f2db6f198e63ef87a0c4b1036c03221cca4b5fa52e05d",
+   "source": "authored"
+  },
+  "CLAUDE.md": {
+   "digest": "Agent entry protocol for the epistemics repo: constitutional rules (freeze/edit restrictions, observer-effect read-only access) and the daily observatory beat procedure.",
+   "input_sha256": "20e21941f2b605fbd135afb8a2188f9f7510ec4dcaa217b7c0b6ad25aaea12b2",
+   "source": "authored"
+  },
+  "applications/2026-06-10-spine-applications-map.md": {
+   "digest": "Backlog mapping 11 proposals from 2025 research into the Mentu spine (engine/daemon/mcp/api), tied to conjectures C1\u2013C5; not corpus material, no verdicts.",
+   "input_sha256": "f27e09f17c1e8e344b7cca8f2f4959e2969aa2b70752f0f2da1515bc2f3f9c76",
+   "source": "authored"
+  },
+  "applications/2026-06-13-okf-projection-of-the-corpus.md": {
+   "digest": "Non-corpus 2026-06-13 log: OKF-projected the corpus (read-only) and found 27/32 orphan docs, 10 proposed links, no retrieval layer.",
+   "input_sha256": "ff95c704ac46721392d02509d4b8b1cb36ca46d1dbbaf457f0eb63806a67c138",
+   "source": "authored"
+  },
+  "applications/2026-06-13-policy-harness-release-claims.md": {
+   "digest": "Vets Mentu Policy Harness press-release claims against corpus verdicts, classifying each (FACT/CONSTRUCTION/MECHANISM/CONJECTURE) with what's safe to assert publicly.",
+   "input_sha256": "8d6c5acbf9d591d2ed00f4afb81df38a00373f9fd94351b76ec161f373e0d7d5",
+   "source": "authored"
+  },
+  "applications/2026-06-13-research-section-audit.md": {
+   "digest": "Audit of mentu.ai `/research` docs vs the corpus: pre-corpus overclaims (esp. C1-refuted recursion, ADHD analogy, stale facts) with a prioritized fix list.",
+   "input_sha256": "47c6d335a8744494ee51db296037998071e3044da9c0820de435041e544d584a",
+   "source": "authored"
+  },
+  "applications/2026-06-19-archived-references-audit.md": {
+   "digest": "Read-only audit of 4 archived product READMEs (Universal CIR, InfraOS, ESE); admits narrower conjecture C17 on schema-portable CIR processing.",
+   "input_sha256": "80f26879ef1e1de684a66f5ec2e5e2f113415a399d7fd739755509c9a961185e",
+   "source": "authored"
+  },
+  "applications/2026-06-19-constitutional-engine-audit.md": {
+   "digest": "Read-only audit admitting C16 (conditional activation selectivity) from the constitutional-engine source; live telemetry lacks candidate-level activation logs, so no verdict yet.",
+   "input_sha256": "415df4b67b23fc4bd342eae6d01ee99c72c3c506555868f13bbb780235c97208",
+   "source": "authored"
+  },
+  "applications/2026-06-19-context-network-recursive-audit.md": {
+   "digest": "Read-only audit of context-network/recursive-evolution source docs; admits conjecture C21 (typed context-network yield) and lists next telemetry-schema push.",
+   "input_sha256": "96d8e5d2c7f70ef75b066f1d30527ad6022742f7be159057d76dfd9c1ee9f600",
+   "source": "authored"
+  },
+  "applications/2026-06-19-core-concepts-frameworks-audit.md": {
+   "digest": "Audit deciding whether to admit C9 (pattern crystallization utility); scope, live CIR readiness digest, dispositions of related ideas, next steps for instrumenting pattern exposure.",
+   "input_sha256": "24a8a145fe790e896ba40044d0bfe97ef0b7ae1cd8b7bb7a22045d9a7b8f60a2",
+   "source": "authored"
+  },
+  "applications/2026-06-19-engine-governance-maturity-audit.md": {
+   "digest": "Read-only audit of 5 mentu-physics ese/engine docs, admits conjecture C19 (governed evolution stability) with dispositions table and a live-substrate readiness digest showing zero current governance/m",
+   "input_sha256": "aa0e3a498755dfc89ce5d0b53fdd6f0a84c35800fd62391af90dd1aac0e7c732",
+   "source": "authored"
+  },
+  "applications/2026-06-19-engineering-operational-surface-audit.md": {
+   "digest": "Read-only C22 audit landing operational-surface telemetry (schemas, join-key fixes, event capture) with a live readiness/blocker digest and next-push field list.",
+   "input_sha256": "80b5062fea98f26d08273b212e3ae94488d5d0b649e462e266bfeced3123d1a7",
+   "source": "authored"
+  },
+  "applications/2026-06-19-epistemic-computer-audit.md": {
+   "digest": "Read-only audit admitting C18 (intent-density capture advantage) from epistemic-computer blueprint docs; finds live substrate lacks per-capture modality/consent/quality metadata needed to test it.",
+   "input_sha256": "6aa5253be5339633b4d52f2d47d08f858b8751a7c9c8caf98e25cdcc3db82bd5",
+   "source": "authored"
+  },
+  "applications/2026-06-19-epistemic-matter-compiler-audit.md": {
+   "digest": "Read-only audit admitting C15 (compiler-invocation readiness) from 4 blueprint files; scores YAML/handle-soul field coverage, notes no strict Stage0+1+2+ specimen exists yet.",
+   "input_sha256": "8a63d7d3d4dd30d3b7a62cd36a54badb75a6bb8b3ecc878d3dbe1931df5bf870",
+   "source": "authored"
+  },
+  "applications/2026-06-19-epistemic-nodes-measurement-audit.md": {
+   "digest": "Audit of mentu-physics epistemic-nodes/measurement docs; admits C14 (measurement contract validity), scores CIR readiness (8774 signals), excludes physics-metaphor claims.",
+   "input_sha256": "92ab063273af0c97fc73b1d6c00acf546fd1aef3e6446f67e8a007c38e6fb155",
+   "source": "authored"
+  },
+  "applications/2026-06-19-foundational-ideas-audit.md": {
+   "digest": "Read-only audit admitting C8 (coherence dividend) from mentu-physics files; other ideas folded/parked; readiness = INSTRUMENT INSUFFICIENT pending manifest hashes.",
+   "input_sha256": "ead6980a9da1edba025c1eb86b37d640ed10a69886417faad4dc679c169761e6",
+   "source": "authored"
+  },
+  "applications/2026-06-19-foundations-participatory-audit.md": {
+   "digest": "Audit admitting C20 (participatory alignment yield); scopes/dispositions overlapping ideas, digests source/live readiness, flags missing participation-event logging as blocker.",
+   "input_sha256": "71a3406904c74facbe929539b4766f5ed47a34504cfa6f5d01178810e0f5d9bc",
+   "source": "authored"
+  },
+  "applications/2026-06-19-legacy-corpus-salvage-audit.md": {
+   "digest": "Legacy corpus salvage audit (2026-06-19): read-only review of predecessor repos, admits C6\u2013C22 as operationalized conjectures with sourcing/salvage rationale.",
+   "input_sha256": "ddf228bd62c64b8d4c6a6a3408f6e7d8022c5fc3df7e0590d411afed04173ed6",
+   "source": "authored"
+  },
+  "applications/2026-06-19-mentu-finder-lacs-audit.md": {
+   "digest": "Read-only audit of Mentu Finder/Crawlio LACS; admits C7 handle-mediated-returnability conjecture, flags instrument-insufficient for verdict analysis.",
+   "input_sha256": "7226143d80d9a66cef2d4323c2dcba5d480bd2e2f3949bcebe508047cfd3e382",
+   "source": "authored"
+  },
+  "applications/2026-06-19-orchestration-laws-positions-audit.md": {
+   "digest": "Read-only 2026-06-19 audit admitting C10 (structure debt) into the corpus, with C10 readiness digest and dispositions for parked/lineage ideas.",
+   "input_sha256": "7646aa11a3a4d8c7085f6c6796990cbe94fa19184673f2ea791c0e3953875d0d",
+   "source": "authored"
+  },
+  "applications/2026-06-19-science-corpus-audit.md": {
+   "digest": "Science corpus audit (2026-06-19): admits C11 (measurement-action closure) and C12 (translation bottleneck) conjectures; both readiness-gate as not-yet-verdictable.",
+   "input_sha256": "9949727ba7ca9ac678a862c2ceb5c1c2cecb3fe659022e96172e4db7e9f090af",
+   "source": "authored"
+  },
+  "applications/2026-06-19-sequence-review-trust-ledger-audit.md": {
+   "digest": "Trust-ledger audit: admits C23 (review calibration), maps substrate gaps, defines a 3-stream telemetry contract for scoring sequence-review predictions.",
+   "input_sha256": "89936ef1061ba51ceb84f37c6ace083c0e5b79bca0610bd55730d98d35e36599",
+   "source": "authored"
+  },
+  "applications/2026-06-19-tri-layer-participatory-architecture-audit.md": {
+   "digest": "Read-only audit admitting C13 (semantic redundancy resilience) from tri-layer architecture docs; scores current corpus for layer redundancy but blocks verdict pending recovery-trial data.",
+   "input_sha256": "a17d428be4b7b34b04402385a5a026577feb822be2a792d8e443dae7bff5e1bd",
+   "source": "authored"
+  },
+  "applications/2026-06-20-publication-readiness-audit.md": {
+   "digest": "Publication readiness audit (2026-06-20): 490 legacy ESE files reviewed against 2026 rules; classifies C1\u2013C23 empirical spine vs. live-conjecture status.",
+   "input_sha256": "0487486c22834fa8b662d9d98314880d8524cef1d03cffcbe26145067d6117fd",
+   "source": "authored"
+  },
+  "applications/2026-07-01-capture-contracts-c7-c23.md": {
+   "digest": "Capture-contract register for C7\u2013C23: signal-emission audit finding data accrual (not missing instrumentation) is the dominant blocker; C11 is the one true code gap.",
+   "input_sha256": "7ffb58bdcd2f7c87f77ca28f51cb8998dbc2483f2b849f1d250e2e0df0164279",
+   "source": "authored"
+  },
+  "applications/2026-07-01-issue-register.md": {
+   "digest": "Issue register for a 2026-07-01 Mentu instrument/corpus audit: ledger hash-spec bug (fixed) plus several resolved/needs-decision items on hashing, chain breaks, and config.",
+   "input_sha256": "207edab24918741674d81c6d31ab730de71f6d8a61b1b936d863fb2ef1c24cd2",
+   "source": "authored"
+  },
+  "applications/2026-07-01-offer-pathway-design-proposal.md": {
+   "digest": "Design proposal comparing 3 organic-offer trigger options (handle-match, measurement\u2192action edge, retrieval) for C25's intervention arm; recommends Option A.",
+   "input_sha256": "e6e5c506a80c9458b2423d5262f148831a3e379409187fc34ef4555785b668ae",
+   "source": "authored"
+  },
+  "applications/2026-07-01-related-work-verified.md": {
+   "digest": "Related work survey grounding this study's return-base-rate question against memory-system, benchmark, provenance, and RWE-measurement literature, with citation verification notes.",
+   "input_sha256": "9ff775fc929ef4a2eda9862073a0f7379be38cf341a25a6b439376096d5449ab",
+   "source": "authored"
+  },
+  "applications/2026-07-01-return-funnel-and-footer-root-cause.md": {
+   "digest": "Return funnel decomposition + footer-channel root cause: traces why `missing_footer_rate` is ~1.00, proposes an additive absent/misplaced diagnostic split (non-verdict, no gate opened).",
+   "input_sha256": "25dfd2a9a267a9b1edecf75dd7cbe267cdc72af5579a25f3a8f0d2a20cf6f8d6",
+   "source": "authored"
+  },
+  "contribution-strategy-memo.md": {
+   "digest": "Positioning memo (2026-07-01, non-corpus): argues for a preregistered study of memory *return* rates vs. the field's focus on retrieval quality; external claims are unverified recall, flagged as such.",
+   "input_sha256": "f980a2fa5f5f0d5aaf5992fd75dbf5e01c6990bcfb82e29d45c2a78cb6af5fc7",
+   "source": "authored"
+  },
+  "corpus/conjectures/c10-structure-debt.md": {
+   "digest": "C10 conjecture spec: structure/identity debt (placeholder workspaces, ambiguity, alias, recipe-hash gaps) predicted to worsen run outcomes; gated, not yet verdictable \u2014 predictions/falsification/data ",
+   "input_sha256": "3ad1be9409ef73877461e62261afcd196a2d13fd0209ee7068152f4765741491",
+   "source": "authored"
+  },
+  "corpus/conjectures/c11-measurement-action-closure.md": {
+   "digest": "Conjecture: does measurement only help when it closes into a traceable response path (vs. becoming ritual/dashboard theater); readiness-only, gate not yet met.",
+   "input_sha256": "3282e302ef2066c8add8ed12cf4595642997aa79ae3eedf1387d8c83dc899dcd",
+   "source": "authored"
+  },
+  "corpus/conjectures/c12-translation-bottleneck.md": {
+   "digest": "Conjecture C12: tests whether meaning loss across Mentu's translation chain (selection\u2192injection\u2192use\u2192outcome) predicts worse reliability/reuse; gate not yet mature.",
+   "input_sha256": "f966861bb62fdd2b7001801adc030727112cf7951fc5cc5522322f1314cfe326",
+   "source": "authored"
+  },
+  "corpus/conjectures/c13-semantic-redundancy-resilience.md": {
+   "digest": "Conjecture C13: tests whether redundant identity encoding across metadata layers (path, filename, frontmatter, handles) improves artifact recovery/reuse resilience \u2014 not yet gate-ready.",
+   "input_sha256": "3af596a9a7dd450aa378d195952f662d2285a408cda95b84d9bc0cbcb9c184a7",
+   "source": "authored"
+  },
+  "corpus/conjectures/c14-measurement-contract-validity.md": {
+   "digest": "C14 examines whether measurement contract completeness (subject, method, uncertainty, lineage, etc.) predicts more stable/reusable Mentu measurements \u2014 gated, not yet verdicted.",
+   "input_sha256": "59b15ecd6bf689a071d129a751182b1cf48f2c731796e9f228567b80d67f8a9b",
+   "source": "authored"
+  },
+  "corpus/conjectures/c15-compiler-invocation-readiness.md": {
+   "digest": "Conjecture C15: predicts compiler-invocation-ready metadata (Stage 0/1/2+ fields) improves parse, validation, reuse, and composition outcomes vs. ad hoc metadata.",
+   "input_sha256": "6a02f7c8a81fbab12702ce862eb0847e5903cdf2cdc150475d3dc48086dc6a54",
+   "source": "authored"
+  },
+  "corpus/conjectures/c16-conditional-activation-selectivity.md": {
+   "digest": "Conjecture C16: tests whether typed/explicit runtime activation conditions beat retrieval-only activation for context selectivity \u2014 readiness-gated, no verdict yet (needs candidate-level activation/sk",
+   "input_sha256": "49de7a613c2d9874ab0851afa567f2c7f8e49daa5ed4ce343c87f7c5bf0dcc64",
+   "source": "authored"
+  },
+  "corpus/conjectures/c17-schema-portable-cir-processing.md": {
+   "digest": "Conjecture C17: tests whether schema-portable CIR processing beats ad hoc/bespoke on coverage, cost, and downstream utility; readiness-gated, no verdict yet.",
+   "input_sha256": "ee20701b4225eafa09a9b88b1d6e81a4b58bf9e4dd7d384279592893434c305f",
+   "source": "authored"
+  },
+  "corpus/conjectures/c18-intent-density-capture-advantage.md": {
+   "digest": "Conjecture C18: tests whether intent-dense capture (notes, drafts, imports) beats passive ambient capture (audio/video/sensors) on downstream return/utility.",
+   "input_sha256": "b25c50f883ecfc63b68dad35202c414adf4cc5043718e3df04cd3c9888c82667",
+   "source": "authored"
+  },
+  "corpus/conjectures/c19-governed-evolution-stability.md": {
+   "digest": "C19: predeclared operationalization for governed knowledge-module evolution \u2014 boundary/assumption/maturity/tension metadata vs. drift, revert, and reuse outcomes (gated, no data yet).",
+   "input_sha256": "9f673f59ed473be430256c3bf3adef602ef8d62b452066e974389bbb8e9c291c",
+   "source": "authored"
+  },
+  "corpus/conjectures/c1b-return-as-intelligence-randomized.md": {
+   "digest": "C1b conjecture: distilled/randomized fair test of return-as-intelligence; prerequisites landed, live experiment accruing since 2026-06-10, gated at \u2265150 runs/arm.",
+   "input_sha256": "347949ccadaa1435552a55fda2b4db9e8bf56632245b0438fbd9b0e62efbd840",
+   "source": "authored"
+  },
+  "corpus/conjectures/c2-friction-to-production.md": {
+   "digest": "Conjecture C2: friction-to-production ratio predicts throughput; instrument mismatch stalled test v1, revised operationalization awaits \u22658-week outcome data (~mid-July 2026).",
+   "input_sha256": "3ba171234ebfbcf88a67b5f207e10db70a292c6726246eea62542aed7e11b6a2",
+   "source": "authored"
+  },
+  "corpus/conjectures/c20-participatory-alignment-yield.md": {
+   "digest": "Conjecture C20: proposes measuring whether boundary-triggered human participation (vs. ad hoc review) improves alignment/correction/trust/utility, with contract-completeness scoring, predictions, gate",
+   "input_sha256": "0e4bf337bfebb2e86ec945ecc7c01fdf4607f81abc2506a419778783dae3d59e",
+   "source": "authored"
+  },
+  "corpus/conjectures/c21-typed-context-network-yield.md": {
+   "digest": "Conjecture C21: typed context-network relationships (dependencies, translations, tensions, topology, health checks) predicted to outperform isolated/untyped links on navigation, composition, and reuse",
+   "input_sha256": "2fd89e87c3023725fb8eb1a25ee77bc9796a002fff89d72a0bdb104e2b9e91ab",
+   "source": "authored"
+  },
+  "corpus/conjectures/c22-operational-surface-debt.md": {
+   "digest": "Conjecture C22: operational-surface debt (fragmented tools/dashboards/manual handoffs) predicts failure/rework/delay; predictions frozen 2026-06-19, not yet adjudicated.",
+   "input_sha256": "0e075cb2743bbecec776093507dc0beffc3c505804571acc950c7536b0b545fb",
+   "source": "authored"
+  },
+  "corpus/conjectures/c23-review-trust-calibration.md": {
+   "digest": "Conjecture C23: proposes citation-gated review ratings as calibrated trust forecasts vs. mechanical run-success baselines, gated on 200+ review_commit rows (not yet met).",
+   "input_sha256": "c2a318924246538ae64972bd8aa8eaa4c54b76266685cbb7a63e233b771978b7",
+   "source": "authored"
+  },
+  "corpus/conjectures/c24-failure-driven-retirement.md": {
+   "digest": "C24: does Mentu's orchestrator ever throttle/retire persistently-failing recipes, or does it reschedule zombies (e.g. ane-fortress, 257/257 fails) forever unchanged? (frozen predictions, gated at 90 d",
+   "input_sha256": "b3ceb7f1b1f42677457af89d31779ca99058d9fa886a046b1279b1dc01793e3c",
+   "source": "authored"
+  },
+  "corpus/conjectures/c25-return-intervention.md": {
+   "digest": "C25 conjecture: read-only funnel shows return\u22480 caused by organic-offer failure; predicts building an offer pathway raises return, with frozen but ungated (0/150) intervention design and Amendment 1 u",
+   "input_sha256": "b09c3eb580143087c86849e7c68e9c40654c2437274ffe1526af38ce0866da6d",
+   "source": "authored"
+  },
+  "corpus/conjectures/c26b-search-reachability-first-order.md": {
+   "digest": "Conjecture C26b: bets search-reachability (not residency depth) is the first-order driver of whether stored knowledge objects get exercised; predictions frozen, unadjudicated.",
+   "input_sha256": "4732942356732dfc79f7f2b551a158abd06b4a93b069ba4e8eb21a351bdd2d80",
+   "source": "authored"
+  },
+  "corpus/conjectures/c27-resident-set-utilization.md": {
+   "digest": "C27: conjecture testing whether a harness's boot-resident skill catalog is mostly unused \u2014 frozen predictions on invocation concentration, dead-skill fraction, and token waste, from 2,368 archived ses",
+   "input_sha256": "d9f7688157008ee9620b49a3c1208d29c76e693dca6a430a5c8eb4b2401bed70",
+   "source": "authored"
+  },
+  "corpus/conjectures/c28b-injection-channel-returnability.md": {
+   "digest": "Conjecture C28b: adjudicates whether promoted memory returns via push (injection) channel vs pull, forward-only test with frozen predictions and falsification criteria.",
+   "input_sha256": "2650f8e65ff7ed703f95210f9d75351455b298c1519dd3c78e6ed1272f890df6",
+   "source": "authored"
+  },
+  "corpus/conjectures/c3-epistemic-entropy.md": {
+   "digest": "C3 conjecture: mechanical decay of unreinforced signals SUPPORTED; reinforcement/contradiction predictions INSUFFICIENT-EVIDENCE, re-test gated on \u226560d or \u2265100 contradictions.",
+   "input_sha256": "a2fccd8da338ca4c71af5715e771055455189539a3142a1587eb12a37e454404",
+   "source": "authored"
+  },
+  "corpus/conjectures/c30-staged-graph-admission.md": {
+   "digest": "Conjecture C30: proposes describing agent execution as staged graph-lifecycle axes (construction/freeze/authoring/substrate), with frozen predictions on staged-identity, zero execution-time planning, ",
+   "input_sha256": "6329edb48ea4810086b8a69c47bb552f4963fde9b962532429d007d58d625b9c",
+   "source": "authored"
+  },
+  "corpus/conjectures/c31-capability-conditioned-resident-utility.md": {
+   "digest": "Registers C31: capability-conditioned resident-vs-pointer-paged guidance study comparing Opus 4.8 vs Opus 5 on AGENTBench, with frozen predictions and gate criteria.",
+   "input_sha256": "10d72a6fb866c88c6c8e9b3af08587c179e5bc660ba01d10a917fbd2abf022f5",
+   "source": "authored"
+  },
+  "corpus/conjectures/c5-boundary-impedance.md": {
+   "digest": "C5 conjecture spec: boundary impedance claim, predictions P1/P2, falsification criteria, and pointer to normalization design doc for cross-workspace reuse analysis.",
+   "input_sha256": "b26ee30df67e184f531650d0370f713d1a307ba1e40f95424fd1deed59bd971c",
+   "source": "authored"
+  },
+  "corpus/conjectures/c6-epistemic-compounding.md": {
+   "digest": "C6 conjecture spec: tests whether prior verified production predicts future production (epistemic compounding) on live Mentu data; gated on C2 friction data maturity.",
+   "input_sha256": "b5019b48141fd42b48cc6681fa81bae3788ecda96685a8729d9adc89bf80d209",
+   "source": "authored"
+  },
+  "corpus/conjectures/c7-handle-mediated-returnability.md": {
+   "digest": "C7 conjecture: predeclared test of whether richer epistemic handles (parents/project/domain/tags/summary) predict later reuse in Crawlio LACS data; not yet adjudicated.",
+   "input_sha256": "c020ecf7e4feeb808843ad6ded1d2227d0a1cc7d9eb9523c85db8050ccd438ca",
+   "source": "authored"
+  },
+  "corpus/conjectures/c8-coherence-dividend.md": {
+   "digest": "C8 conjecture: coherence dividend from guardrails; predictions frozen, gate fails on manifest-hash join (0%), verdict is INSTRUMENT INSUFFICIENT.",
+   "input_sha256": "f963186a8a4ef2580aaff5c0f22f3edd7e172c8e9a03f771e57e0c63dac1862c",
+   "source": "authored"
+  },
+  "corpus/conjectures/c9-pattern-crystallization-utility.md": {
+   "digest": "C9: pattern-crystallization utility conjecture \u2014 tests whether crystallized patterns are actually selected/used/help outcomes vs. raw signals; currently INSTRUMENT INSUFFICIENT (no pattern exposure in",
+   "input_sha256": "7d6732eca67a4a85faa8c290673ee2f6d0de7f8c6bd074c1433f7840b977c171",
+   "source": "authored"
+  },
+  "corpus/refuted/c1-return-as-intelligence.md": {
+   "digest": "C1 refuted: 0/54 injected CIR runs showed usage of injected context\u2014\"return as intelligence\" not supported by data.",
+   "input_sha256": "23e9e1969c25dd2b63028d716040665e4a9ef4f0087ac35a398f0ebc953279cd",
+   "source": "authored"
+  },
+  "corpus/refuted/c28-promotion-lane-returnability.md": {
+   "digest": "C28 REFUTED: memory-directory pointer residency doesn't drive recall \u2014 promotion-lane analysis found return rates too low to support the \"resident pointer\" mechanism.",
+   "input_sha256": "f3e8edd9114d44b1f08b007923d376f835d00dc84bcd510da7327c226a9107de",
+   "source": "authored"
+  },
+  "corpus/supported/c4-epistemic-mass.md": {
+   "digest": "C4: SUPPORTED \u2014 heavier workflows (more steps) fail more and are fixed slower; per-step success also degrades with weight, revising the mechanism.",
+   "input_sha256": "44748c7df206c1cfd2817ac711f19eca6da29527f7a767bd4ad7ddd939c343ac",
+   "source": "authored"
+  },
+  "docs/BUILD-agent-graph-runtime-paper-v1.md": {
+   "digest": "BUILD spec for the Agent Graph Runtime preprint (Mentu as reference implementation): scope, claim classes, P0\u2013P3 build/gate stages, repo rules.",
+   "input_sha256": "0b3ae29f75c0fea161d492859388543340fd5a6c116866b98dda8e8d4c42afb1",
+   "source": "authored"
+  },
+  "docs/BUILD-c31-capability-conditioned-resident-utility-v1.md": {
+   "digest": "BUILD contract for C31: capability-conditioned resident vs. pointer-paged guidance on AGENTBench, arms/predictions/manifest/pilot rules.",
+   "input_sha256": "be46fbd70b84c07cb3286ec5942f5ce7905f10116719931d4998e17661f14052",
+   "source": "authored"
+  },
+  "docs/BUILD-cir-substrate-hardening-v1.md": {
+   "digest": "Build plan for hardening CIR substrate post-exhaust-incident: 7 milestones covering signal tiering, provenance-safe pruning, verdict materialization, and C7 telemetry routing.",
+   "input_sha256": "478011aa3d3d7f711777e3efdd82c344940e98bf918f95b31f0144e1713cd01c",
+   "source": "authored"
+  },
+  "docs/BUILD-constitutional-silence-paper-v1.md": {
+   "digest": "Theory + first production census of abstention as a governed, measurable agent operation (silence-canon-derived taxonomy, no cited constants).",
+   "input_sha256": "f48eef3c848074ad14be49a13130a31585f597d8733b68e568592f0f9359b903",
+   "source": "authored"
+  },
+  "docs/BUILD-epistemics-program-v1.md": {
+   "digest": "Master build plan for \"The Epistemics Program v1\" \u2014 scope, sequencing, executor rules, and mentu recipe/session phase structure.",
+   "input_sha256": "7f3c99d7a2e0c0a1a83569c75e100f9328336f97c407ef83ae67570201477672",
+   "source": "authored"
+  },
+  "docs/BUILD-evidence-carrying-execution-paper-v1.md": {
+   "digest": "BUILD spec for the \"Evidence-Carrying Execution\" platform-anchor systems paper: scope, prior art, and re-derivation constraints on canon-sourced numbers.",
+   "input_sha256": "dfc468a8aeaeeb833076d1b129b823bafe822c504e37c24eefff82dab5922411",
+   "source": "authored"
+  },
+  "docs/BUILD-protocol-v22-obligations-v1.md": {
+   "digest": "Build spec: mechanical protocol v2.2 obligations (co-intervention marker, verifier update, anchor re-grounding, provenance-map update) executed against mentu-complete@949a018.",
+   "input_sha256": "e4dd0dccd9fde8ccb5666ad1b167255c3ae111442feb3e304cd5fe49a413aea2",
+   "source": "authored"
+  },
+  "docs/BUILD-run-horizon-v1.md": {
+   "digest": "Build plan for Run Horizon v1: a behavioral failure-prediction model + abort/retirement policy on mentu-complete, milestones M0\u2013M2, coupled to epistemics conjectures C24/C1b.",
+   "input_sha256": "95f464c2e5ddabd39ba20a4f655cd96ea14706f6b7b07b90275c0edbd3d8f0bd",
+   "source": "authored"
+  },
+  "docs/CONTEXT-parked-and-parallel-papers.md": {
+   "digest": "Directory listing of parked/parallel paper candidates (DEC, semantic-safety, Fourth-Law hysteresis, \u03c6\u2091, flow-dynamics) with reasons, unlock conditions, and source pointers.",
+   "input_sha256": "88c467ad9391027be7fa20bc999997a8972dcdb6a23c12038e0a9add6b00597a",
+   "source": "authored"
+  },
+  "docs/PLAN-hardening-and-retest-2026-08-12.md": {
+   "digest": "Post-pilot hardening/retest plan (2026-08-12): five standing method rules (Phase H), known gaps (Phase F), and the C33 T1/T2/T3 retest decision (Phase T).",
+   "input_sha256": "4203fc5db6c970ff53dd9f7062439bf03cb4dd403b22b7016cae98a36d10f5d5",
+   "source": "authored"
+  },
+  "docs/escalations/2026-07-04-return-base-rate-B2.md": {
+   "digest": "Escalation log: B2 referee-pass blockers on the Return-Base-Rate paper (unit mismatch, denominator/digest gaps), resolved 2026-07-04 via read-only re-derivation.",
+   "input_sha256": "9f255f0dc002a6661120500158f2b25509921e707e2a78b6130e74a8868f6839",
+   "source": "authored"
+  },
+  "docs/referee/B2-field.md": {
+   "digest": "Adversarial referee report critiquing \"The Return Base Rate\" paper's framing of \"inject\" vs. retrieval and preregistration claims in F1\u2013F4.",
+   "input_sha256": "33fc831e397b2f75038e90c73331159a6955a6cbd0d7385341a9a100bcdb359d",
+   "source": "authored"
+  },
+  "docs/referee/B2-repro.md": {
+   "digest": "Referee report (blocker+major findings) flagging reproducibility gaps in the return-base-rate paper's provenance, data availability, and a C9 true-zero claim contradicting \u00a78.",
+   "input_sha256": "6bcee7fed0cbe2e68455f2ff93cc5c1c70c2468740465f3e7b6bd84ef3d10481",
+   "source": "authored"
+  },
+  "docs/referee/B2-stats.md": {
+   "digest": "Adversarial referee report (stats/methods) on the return-base-rate paper: flags P1's incommensurable rates, denominator-dependence, and right-censoring bias.",
+   "input_sha256": "ce965b7ca96e1c80e7b04016f9dbeacfbc005de4b1bc16a165357cde4d7bb246",
+   "source": "authored"
+  },
+  "docs/referee/B2-validity.md": {
+   "digest": "Adversarial referee report (measurement-validity lens) on the return-base-rate paper: flags undefined \"accessed\" numerator, funnel unit mismatch, and inconsistent instrument standards.",
+   "input_sha256": "3eb0d412ada2358827d33c676b97750824151c8e7b11bdcd587ab26c0be1c2f7",
+   "source": "authored"
+  },
+  "docs/referee/B2v2-field.md": {
+   "digest": "Adversarial re-referee confirming F1\u2013F6 resolved (retrieve/provide split, conditional/unconditional framing, Wiese scope, quantifier scoping); F7 verdict cut off.",
+   "input_sha256": "2156f0dd54154e9fe3fbfd224f24735592b1b497b9bbf427528513fdd6bd3d58",
+   "source": "authored"
+  },
+  "docs/referee/B2v2-repro.md": {
+   "digest": "Reproducibility re-referee of the return-base-rate paper v1.2: blockers/majors mostly resolved, but flags new snapshot-value and Fig 4 (superseded \"\u226510\u00d7\") regressions.",
+   "input_sha256": "08a665ae40e4e21935896f4f5230d0ff3a2c071ea56d8c4f6685ec3baf6f312d",
+   "source": "authored"
+  },
+  "docs/referee/B2v2-stats.md": {
+   "digest": "Confirmatory statistics re-audit of B2v2 findings (F1\u2013F6+) vs paper v1.2/C25 amendment: 13 resolved, 2 partial, 1 not-resolved.",
+   "input_sha256": "e1c259d9dd03476dde98d09dd6fa27c24a47f7c295d789c4a7090eae5f5d760b",
+   "source": "authored"
+  },
+  "docs/referee/B2v2-validity.md": {
+   "digest": "Referee re-review confirming resolution status (11 resolved/4 partial/2 not-resolved) of prior B2 measurement-validity findings on the return-base-rate paper v1.2.",
+   "input_sha256": "7f50689ffda392198de68c9d45ed514204c6fc2789dbabffaa308bfffc27e248",
+   "source": "authored"
+  },
+  "essays/2026-06-10-when-the-theory-met-its-instrument.md": {
+   "digest": "First synthesis essay (2026-06-10): ties Mentu's telemetry to 2025's unmeasured theory, walks C1/C3/C4 results and one refuted conjecture.",
+   "input_sha256": "5bbdf0dbd9d55de111a178189d07502456d6d063e5e8ae1fb5b08c389726b37c",
+   "source": "authored"
+  },
+  "essays/2026-08-12-what-the-burned-pilot-taught.md": {
+   "digest": "Meta-lessons essay on the C33 pilot's failure trail (gates verify parts not wholes, distrust green results, no claims about uncontrolled surfaces); candidate for canon metabolization.",
+   "input_sha256": "460ebf9ff13c16d4e69c687bd4a00184f8e39816c76f6b7612e64125aeb84226",
+   "source": "authored"
+  },
+  "external-critique-audit-2026-07-02.md": {
+   "digest": "Positioning memo (not a corpus artifact) auditing an external agent's 10 critique points against the epistemics canon/corpus/Mentu\u20146 already owned, 2 additive, 2 rejected.",
+   "input_sha256": "c4d75555ffc7a8118ce3e1d7ffab2f710cfc3d008913a7a4ad5645374d631e0b",
+   "source": "authored"
+  },
+  "instruments/2026-06-10-return-loop-diagnosis.md": {
+   "digest": "Diagnosis: return-loop reads empty because injected CIR content is truncated operational exhaust, not distilled knowledge; agents correctly report \"none used.\"",
+   "input_sha256": "9d56e967c43c4aa44ec4a6d1b9336577e470f497a61fca854a26b04d74020eb5",
+   "source": "authored"
+  },
+  "instruments/2026-06-11-c1b-eligibility-accounting.md": {
+   "digest": "Resolves C1b's arm/eligibility gap: one \"eligible\" run predates the randomizer; first accrued randomized outcome (`withheld`) examined; a duplicate-beat provenance issue noted.",
+   "input_sha256": "ef0c04bf71407cd30b279bca2f8c8f8f5a60bd866b94f9851c0b65c06410ec43",
+   "source": "authored"
+  },
+  "instruments/2026-06-12-c1b-population-and-filter-change.md": {
+   "digest": "Instrument note (2026-06-12): repairs widening the C1b post-regime population (flag-based randomization, temporal env fix, feature-class-only collector filter) plus pre-registered F3/F4 triggers.",
+   "input_sha256": "f49b2193ad8aa4dbf0c32e22f7263ef8342f7e49718a61b431783f0c13dc0edc",
+   "source": "authored"
+  },
+  "instruments/2026-06-12-c1b-run-class-exclusion.md": {
+   "digest": "Instrument note: raw data shows all 4 arms to date are smoke-class (0 organic), corrects a timing error, and flags an open gate-countability question for smoke arms.",
+   "input_sha256": "f2e7f132d87f1f225b6920da53d49346f91cb54aeec86a7cd6257aa24531ba88",
+   "source": "authored"
+  },
+  "instruments/2026-06-13-okf-projection.md": {
+   "digest": "Read-only projection tool: `okf project` mirrors this corpus into a derived OKF graph/retrieval bundle without mutating source or CIR db.",
+   "input_sha256": "8715fbb81ea132cdce9d0042dd43edd132eb02a13970aab5228ac528d76d4bd5",
+   "source": "authored"
+  },
+  "instruments/2026-06-15-c1b-footer-measurement-fix.md": {
+   "digest": "Instrument fix note: C1b's citation footer channel was broken (never emitted pre-fix), engine repaired 2026-06-15, pre-fix arms voided, new regime boundary set.",
+   "input_sha256": "e75984edf26b3add68472349c856ab264f64a5c07c7a4bff1e5e6b9679aca9e5",
+   "source": "authored"
+  },
+  "instruments/2026-06-19-c22-operational-surface-snapshot.md": {
+   "digest": "Records C22 operational-surface telemetry (snapshot/observation/event schemas) added to Mentu; exposure data only, no verdict.",
+   "input_sha256": "83258e94f4ff3a61c56ff8acc8e60abf85a99749c84be7180548a088cf902102",
+   "source": "authored"
+  },
+  "instruments/2026-06-19-c22-run-id-capture-bridge.md": {
+   "digest": "Run-id capture bridge (2026-06-19): adds `--run-id` plumbing across mentu-engine/hooks/mcp for C22 join key; instrumentation only, no verdict evidence.",
+   "input_sha256": "a9e9b73725d5235719e63ba913dcc638e4b7d52a5fb081fdbdfe3a9a660e6cf1",
+   "source": "authored"
+  },
+  "instruments/2026-06-19-c22-surface-debt-score-v1.md": {
+   "digest": "Freezes C22's deterministic pre-outcome exposure scoring rules (v1) for operational-surface-debt; not a verdict\u2014still needs 1,000 scored exposure rows plus cohorts/controls.",
+   "input_sha256": "d6767cccf60b869adf18ed217e040c5a227f00972b1b7539cd7f34b64fdd5ea9",
+   "source": "authored"
+  },
+  "instruments/2026-06-19-c5-normalization-design.md": {
+   "digest": "Instrument design note (2026-06-19): defines C5's boundary-impedance normalization rules, workspace identity resolution, and primary/secondary analysis surfaces.",
+   "input_sha256": "edae9a84d9e7443cafa13d596f13d779fc12e972d2fb97d712da700140c89a0a",
+   "source": "authored"
+  },
+  "instruments/2026-06-19-general-epistemic-telemetry-handles.md": {
+   "digest": "Telemetry-hardening spec: adds typed epistemic-handle metadata (conjecture id, evidence role/tier, capture boundary) across mentu-engine/mcp/Crawlio; no verdict impact.",
+   "input_sha256": "6dde88591dbe4770d09b5d71efbaab201605bf7a91a85d34ee686071066e8394",
+   "source": "authored"
+  },
+  "instruments/2026-07-02-organic-offer-pathway-ship.md": {
+   "digest": "C25 organic-offer pathway ship record: intervention regime marker, engine commits, trigger design, frozen lane params, and acceptance-contract checklist (no verdict).",
+   "input_sha256": "55ba84b176e996d74a995313b6d80e4fe46ebbe82c87094ea8a838d7a8580f98",
+   "source": "authored"
+  },
+  "instruments/2026-07-06-c25-cointervention-amendment.md": {
+   "digest": "C25 co-intervention amendment: adds reporting-only steer_message tracking to the C25 analyzer, gate still closed, no verdict/prediction changes.",
+   "input_sha256": "5fbc11eb859476f1b83b2bffed9794b870cef6f69ad17a60b3917d0108ecca46",
+   "source": "authored"
+  },
+  "instruments/2026-07-06-child-lane-instrument.md": {
+   "digest": "Instrument note: adds the child-agent call lane (W1), a transcript-based structural channel measuring C1b brief use, complementing (not replacing) the footer.",
+   "input_sha256": "761052a54efb41a5b82011a98e3bf2842a061e6f17b4d967faa2a53a7d860927",
+   "source": "authored"
+  },
+  "instruments/2026-07-06-protocol-v22-regime-boundary-and-impact.md": {
+   "digest": "Instrument note: audits Mentu protocol v2.2 upstream changes, declares regime boundary, and lists corpus obligations (C25, verifier version, paper anchors, provenance).",
+   "input_sha256": "62e02b4918bf65f962e6df9cdc789e92cfbdde1175aa6325a07844e0c48b9f4d",
+   "source": "authored"
+  },
+  "instruments/2026-07-06-return-paper-verifier-v2-rederivation.md": {
+   "digest": "Instrument correction: re-derives return-base-rate \u00a72 chain-break counts under verifier v2 (canonical-ancestry); ledger bytes unchanged, 100% integrity preserved, no frozen verdict affected.",
+   "input_sha256": "86a7c9ce399504458904209bd3bd5e420ea570ab630ecda75dc7dfa6240fd672",
+   "source": "authored"
+  },
+  "instruments/2026-07-08-cir-exhaust-purge-regime-note.md": {
+   "digest": "Regime note: 2026-07-08 CIR exhaust purge (233,918 rows) + age-only reaping for handle_snapshot/temporal_result \u2014 never pool measurements across this date for C7, C1b, C22/C25, or latency.",
+   "input_sha256": "5ae1c13791c62d9fbd56aaf8914698b868fef827da02b7c1e12cf1494f948b85",
+   "source": "authored"
+  },
+  "instruments/2026-07-14-run-horizon-intervention-preregistration.md": {
+   "digest": "Pre-registration (2026-07-14) freezing the C24 run-horizon failure-tripwire intervention: threshold, predictions P1\u2013P4, falsification, and population scope.",
+   "input_sha256": "1004c738d75e1f5593046996a491997844aa95f6ebe01979390052cb1ac68476",
+   "source": "authored"
+  },
+  "instruments/2026-07-18-boot-manifest-gauge.md": {
+   "digest": "Per-session gauge of resident config (T0 content, T1 pointers) via SessionStart hook; measures only, no thresholds, forward-only from 2026-07-18.",
+   "input_sha256": "35008d1ecf13c8241c999bdacc0cf637ac92b566a40fb370a6026a8557066a56",
+   "source": "authored"
+  },
+  "instruments/2026-07-26-agentbench-context-allocation-instrument.md": {
+   "digest": "AGENTBench harness/container-isolation spec for C31's context-allocation experiment (guidance placement, credential handling, image provenance).",
+   "input_sha256": "350a13562f1ea40b40e7957e55b9b0011df12a80f32d283d591f78ca763931f4",
+   "source": "authored"
+  },
+  "instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md": {
+   "digest": "Instrument note: C31 pilot rev-2 fixes Claude Code runtime attestation after a launcher-path mismatch aborted preparation before any pilot run.",
+   "input_sha256": "cb264c7b73d4b3e1ebb4f74e65ac7ba8948716e52d903e0a996bb2c373e3b889",
+   "source": "authored"
+  },
+  "instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md": {
+   "digest": "Instrument-repair note: C31 pilot revision 3 fixes an arm64/amd64 executable-selection failure by pinning a native arm64 Claude binary onto the frozen amd64 AGENTBench image; no pilot cell was run.",
+   "input_sha256": "548c7a0a2ac3a39a0e99121e5d51f846a88562dd158501658463955d08f6b9aa",
+   "source": "authored"
+  },
+  "instruments/2026-07-26-c31-pilot-revision-4-history-sanitization.md": {
+   "digest": "Instrument note: C31 pilot revision 4 fixes a status-128 git-sanitation failure by serializing GC/ref-deletion mechanics; frozen design unchanged, no verdict impact.",
+   "input_sha256": "1ec435e6c27dc355623e8a4b93e10a59102d2390a5398740080b4cd432610651",
+   "source": "authored"
+  },
+  "instruments/2026-07-26-c31-pilot-revision-5-shallow-git-rebuild.md": {
+   "digest": "C31 pilot revision-5 instrument note: 2026-07-26 shallow-repack failure and its Git metadata-rebuild repair for credential-free public-setup prep, design otherwise unchanged.",
+   "input_sha256": "2e69c14f9ab5949804e83f2362bc0efc1ac8af6ec5728a6036542d586a4d2029",
+   "source": "authored"
+  },
+  "instruments/2026-07-26-c31-pilot-revision-6-setup-before-runtime.md": {
+   "digest": "Instrument revision-6 note: C31 pilot fixed a setup/runtime attestation failure by sealing public setup before Claude runtime injection\u2014no arms/estimand changed.",
+   "input_sha256": "d1fcc432b01645ae764e7efaa8dc4a02c0b08cb45eb7d6a60dc37dcb46c747c1",
+   "source": "authored"
+  },
+  "instruments/mentu-instrument.md": {
+   "digest": "Founding provenance map: five Mentu data sources (audit.jsonl, ledger.jsonl, cir.db, commitments, training) with fields, sizes, and dates \u2014 required reading for operationalizing any conjecture.",
+   "input_sha256": "107bed4343bf579395c88495697b7d7d73994adda9e015663fe518634cb675af",
+   "source": "authored"
+  },
+  "lineage/exclusions.md": {
+   "digest": "Log of what the 2025 corpus's speculative law-suites and self-scored claims were excluded from this corpus and why, with readmission conditions per item.",
+   "input_sha256": "3234a1830a562e723c8e61df51808eedb32ffc914b4b13b8b97699fe31b2bdb5",
+   "source": "authored"
+  },
+  "lineage/from-ese-2025.md": {
+   "digest": "Salvage map from the 2025 ESE corpus (epistemic-main/mentu-physics) into current conjectures C1\u2013C13+, tracing which docs each descends from and what was dropped.",
+   "input_sha256": "b57dc361121cdd77ca747e5f70231547591c49c3ef91a86a58c4e524bc4c5868",
+   "source": "authored"
+  },
+  "observatory/CANON-observation-packet-v0.1.md": {
+   "digest": "Daily/weekly beat protocol: read Mentu SQLite read-only, write dated observation packets, classify findings, update tracking frontmatter, gate frozen analyses.",
+   "input_sha256": "b70dbb1fca94438eb5835f57a4faca980a67fedee7f9f4a370371d92d74cab31",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-10.md": {
+   "digest": "Founding-day observation packet (2026-06-10): mechanical digest, C1b/C3/C2 gate status, zombie-run watch, and interpretation notes \u2014 all `note`-level, no gate events.",
+   "input_sha256": "00a5f24b270dd220743c0ad0622b2ca4d78834073bb731d8f05368023a17669c",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-11.md": {
+   "digest": "Beat #1 observation packet (2026-06-11): C3 sprinting toward its detection gate (48/100), first C1b arm landed (withheld/failed), zombie recipe day 2.",
+   "input_sha256": "b4839ad67ededac5776d84505ec8162255dd4cc75e0247b91a4c2ff27790faaf",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-12.md": {
+   "digest": "Beat #2 packet: C1b's 4 arms turn out to be smoke-test artifacts (0 organic accrual), C3's gate-arrival sprint reverses, and ane-fortress zombie goes quiet.",
+   "input_sha256": "2ff9333ec55da27fa1264c9ab59d16f83e39647bb455b0a6b529717c22ede327",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-13.md": {
+   "digest": "Beat #3 (2026-06-13): C1b organic accrual starts (12 arms, 10:2 injected:withheld), 0/10 injected runs cite \u2014 live P2 ghost signal; C3 at 63/100.",
+   "input_sha256": "cc764add62015ef1340ed77ba1e4411c116da1bdf939198a9a8461b93aec951c",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-14.md": {
+   "digest": "Weekly synthesis (beat #4, 2026-06-14): C1b arming broadened to 3 recipe families with 0/13 citation, C3 flat, week-1 recap.",
+   "input_sha256": "ca597e76cb414d515a7dc000f4375c457a6f5720d9592845bbf57236e45da8be",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-16.md": {
+   "digest": "Beat #5 (2026-06-16): C1b footer fix confirmed void; post-fix accrual still zero (eligibility gap); ane-fortress zombie hits 5\u00d7/0, monopolizes calendar day.",
+   "input_sha256": "a68279d7e0074cc25fdbc1b961711fdffa7701b64716bf3a033c8a78e08f46b0",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-17.md": {
+   "digest": "Beat #6 (2026-06-17): F5 headline miss \u2014 first wild successful injected feature-class run still emits no CIR_USED footer; zombie hits all-time high 9/0.",
+   "input_sha256": "259f474814530bf9d839257b5e3f8e985d82896f642a053497c717a7aca8c440",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-18.md": {
+   "digest": "Beat #7 packet (2026-06-18): F5 escalates to 2/3 injected misses at mfr=1.0 (tier3-confounded); zombie ane-fortress crystallizes as attention-allocation candidate at its 3-packet deadline.",
+   "input_sha256": "da2ef54c4231c871e93ee4fbbb011dc97cb410948117f4af718d5006223172fd",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-19.md": {
+   "digest": "Beat #8 (2026-06-19): F5 clears \u2014 footer channel fires on wild runs for first time; fire clause also tripped but clear overrides; footer heterogeneity noted.",
+   "input_sha256": "12e53a30cba0d8bd82865da0aba6560065dfac5bc3b9eb948f000e33d21477ac",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-20.md": {
+   "digest": "Beat #9 (2026-06-20): quiet day, backfilled C1b arm, C24 \"failure-driven-retirement\" conjecture born from ane-fortress zombie, C3/C2 flat, no gates opened.",
+   "input_sha256": "80b5c62221bcacac2fa598b2aa11bdae12eb225f8c24a33a302768379e1df304",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-21.md": {
+   "digest": "Beat #10 (2026-06-21): C1b 17/18 arms, ane-fortress zombie revives to 266/0, exclusion confirmed load-bearing, C3/C2/return gauge flat \u2014 all `note`, no gate-events.",
+   "input_sha256": "d00563bbe2752fa2e74c63b23f3598f2b65657fb91ad917ec8e527974c29b3af",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-22.md": {
+   "digest": "Beat #11 (2026-06-22): C1b accrual stalled (17/18, 4 straight beats), zombie ane-fortress at 270/0, cir.db confirmed TTL-pruned not cumulative; all notes, no gates.",
+   "input_sha256": "e838a4ae1ff5cc120d872514061194789b02becbdde123c5fafa144657365242",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-23.md": {
+   "digest": "Beat #12 (2026-06-23): C1b accrued zero arms despite peak run volume (18), proving the gate is recurrence- not throughput-limited; zombie ane-fortress cadence accelerating (279/0, 5 runs/day).",
+   "input_sha256": "32a1e0e917adc333b4ec4135abad2af78f5f0a3e21f31f695eb91a075241ad46",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-24.md": {
+   "digest": "Beat #13 (2026-06-24): ane-fortress zombie runs away (330/0 lifetime, 24 runs/day), C1b arms stay flat, infra exclusion filters 108 armed zombie runs.",
+   "input_sha256": "1438c3ce5e434c0a4a532ea7cc2eceedeed6af95e10277e6d207fb2c089519cf",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-25.md": {
+   "digest": "Beat #14 (2026-06-25): C1b arming refuted as recurrence-driven \u2014 two hash recipes armed cold on first run; ane-fortress zombie peaked at 47, then halted mid-morning.",
+   "input_sha256": "4a1c547228bee8513e1889f96efaae132f10d6b14aa03bd3cb8c36f8d6ce69bd",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-26.md": {
+   "digest": "Beat #15 packet (2026-06-26): first \"useful\" citation triple confirms the CIR chain works, but it's instrument validation, not a P1 readout \u2014 plus a zombie-recipe stall.",
+   "input_sha256": "80b8ae03a0ab9290974b487be5b39d63fd3680b989bb40047f52eab4884a755c",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-27.md": {
+   "digest": "Beat #16 (2026-06-27): C1b arm accrual flat, corrects yesterday's infra-exclusion overcount (109 not 113), zombie run cadence trickling to 1/day.",
+   "input_sha256": "a138d8e95efc8bd31e0ad5b67d5b77afce1ee5f04d0a8fb97e25873b2f7cc981",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-28.md": {
+   "digest": "C1b beat #17 (2026-06-28): first balanced injected/withheld accrual on cir-positive-reuse-audit, C24 zombie-cadence correction, still no P1/P2 readout.",
+   "input_sha256": "909e42e81fe2e977bd3b1de978fa6d65770f0a3727cce8dc0cf2547a9a0b25a5",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-29.md": {
+   "digest": "Beat #18 (2026-06-29): C1b accrual traced to a 06-28 straggler run; C3 contradictions jump +6 in one burst; ane-fortress hits its first zero-run day.",
+   "input_sha256": "0371796a93079f9377df7910f116864b6f7246a662ef71f09ed123fa093f2d0b",
+   "source": "authored"
+  },
+  "observatory/packets/2026-06-30.md": {
+   "digest": "Beat #19 (2026-06-30): fully flat null beat post-fix \u2014 0 live runs, C1b/C3/C2 unchanged, second zero-ane zombie day held open, no gate-events.",
+   "input_sha256": "b6756b6070539b34c065c96d908c389ccceec81cb3541b1bdd5ba92156b6d886",
+   "source": "authored"
+  },
+  "observatory/packets/2026-07-13.md": {
+   "digest": "Beat #20 (2026-07-13): 13-day observatory outage diagnosed & fixed; C2 gate check FAILED (ephemeral strata); C1b accrual DRY 15 days (anomaly); C3 at 91/100.",
+   "input_sha256": "cb665a9b3582f7f8f386fd53d82dd91e07aaeb0fa62bd2761da28c68204803c7",
+   "source": "authored"
+  },
+  "results/2026-06-10-c1-return-as-intelligence.md": {
+   "digest": "C1 (return-as-intelligence) REFUTED \u2014 CIR injected briefs into 54 runs but 0 were ever cited as used; success delta not significant.",
+   "input_sha256": "5d0475ea8c5164342d8ecba1b66f46efeec05523d7e38a0b723dd26a7350b8b2",
+   "source": "authored"
+  },
+  "results/2026-06-10-c2-friction-to-production.md": {
+   "digest": "INCONCLUSIVE result for C2 (friction-to-production): instrument mismatch found, revised operationalization proposed for next attempt.",
+   "input_sha256": "9b494659e39821bc8a9a92992275bccd2506e7ed3b96e7df28a9376fc1a4ca74",
+   "source": "authored"
+  },
+  "results/2026-06-10-c3-epistemic-entropy.md": {
+   "digest": "Result \u2014 C3 epistemic entropy: decay SUPPORTED (monotone, no boosts), reinforcement/contradiction INSUFFICIENT-EVIDENCE (0.045% access rate, detector too young).",
+   "input_sha256": "95cd16b4d2d98649fefe5756d65e4b91dc2666dc4ec03eb67275281f7eef7eed",
+   "source": "authored"
+  },
+  "results/2026-06-10-c4-epistemic-mass.md": {
+   "digest": "C4 epistemic mass: heavy workflows (7+ steps) fail 100% per-step and are almost never modified after failure \u2014 verdict SUPPORTED (2026-06-10).",
+   "input_sha256": "63e18f1eff19f1bda07dbfd08d190d6dd4db5681b30e98fe357b1a1d58e74ab3",
+   "source": "authored"
+  },
+  "results/2026-07-18-c27-resident-set-utilization.md": {
+   "digest": "C27 resident-set utilization first probe run: coverage floor failed (n=156 of required 500 interactive sessions), no verdict, but yields instrument findings on corpus composition and denominator recon",
+   "input_sha256": "7cd9b04d764b8aedbb1b0677ce4b5f7de9c73567ee694dadc9a9878a5be39ef0",
+   "source": "authored"
+  },
+  "results/2026-07-18-c28-promotion-lane-returnability.md": {
+   "digest": "C28 promotion-lane REFUTED verdict \u2014 1.27% re-read rate vs 25% threshold; documents evidence table, channel caveat, and interpretation.",
+   "input_sha256": "2a2fb0d8408d98723922d14920e9062843f645443f1dd477bed97dc02aa6d411",
+   "source": "authored"
+  },
+  "results/2026-08-12-c25-return-intervention.md": {
+   "digest": "C25 return intervention: gate-triggered analysis result \u2014 INDETERMINATE (4.7\u00d7 rise, short of order-of-magnitude bar; offer scarcity binding).",
+   "input_sha256": "60a47732cf5fe1d39bc4eacc49b8ea2de40af1dda0715d753f59971d0d6cc00b",
+   "source": "authored"
+  }
+ },
+ "snapshot_commit": "cb736542a2bfc96a230e8bb9b605d11ff0b87d86"
+}

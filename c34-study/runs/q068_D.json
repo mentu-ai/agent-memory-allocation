@@ -1,0 +1,33 @@
+{
+ "answer": "escalation file, human decides framing before it enters the draft",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 11740,
+ "cache_read_tokens": 15257,
+ "call_key": "smoke:q068:D#0",
+ "cost_usd": 0.0322707,
+ "duration_s": 17.6,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-evidence-carrying-execution-paper-v1.md",
+ "input_tokens": 27007,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 318,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 1451,
+ "policy": "D",
+ "qid": "q068",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "smoke",
+ "started_at": 1786669739.163,
+ "tokens_marginal": 13201,
+ "tokens_total": 28458
+}

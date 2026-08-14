@@ -1,0 +1,33 @@
+{
+ "answer": "at least 1,000 participation opportunities are logged, including skipped/defaulted opportunities",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 7378,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q043:D#0",
+ "cost_usd": 0.0181399,
+ "duration_s": 6.0,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c20-participatory-alignment-yield.md",
+ "input_tokens": 23627,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 439,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 350,
+ "policy": "D",
+ "qid": "q043",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670696.215,
+ "tokens_marginal": 7738,
+ "tokens_total": 23977
+}

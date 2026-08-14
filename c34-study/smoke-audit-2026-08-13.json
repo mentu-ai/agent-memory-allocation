@@ -1,0 +1,24 @@
+{
+ "adjudicator_error": null,
+ "adjudicator_ran_end_to_end": true,
+ "adjudicator_smoke_verdict": "instrument-insufficient",
+ "adjudicator_smoke_verdict_bearing": false,
+ "expected_records": 30,
+ "findings": [],
+ "gate": "excluded_smoke_audit",
+ "note": "smoke records are permanently barred from adjudication, from every denominator and from the effect table; the verdict above is an end-to-end liveness check only",
+ "passed": true,
+ "smoke_questions": [
+  "q009",
+  "q013",
+  "q021",
+  "q028",
+  "q040",
+  "q065",
+  "q068",
+  "q083",
+  "q103",
+  "q110"
+ ],
+ "smoke_records": 30
+}

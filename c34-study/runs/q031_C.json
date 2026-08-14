@@ -1,0 +1,46 @@
+{
+ "answer": "The primary unit of analysis for C10 is `(workspace, week)`.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 19141,
+ "cache_read_tokens": 61800,
+ "call_key": "confirmatory:q031:C#0",
+ "cost_usd": 0.04622,
+ "duration_s": 8.2,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c10-structure-debt.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c10-structure-debt.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c10-structure-debt.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 80959,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 405,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 348,
+ "policy": "C",
+ "qid": "q031",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c10-structure-debt.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670568.328,
+ "tokens_marginal": 19507,
+ "tokens_total": 81307
+}

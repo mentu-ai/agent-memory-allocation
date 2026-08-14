@@ -1,0 +1,50 @@
+{
+ "answer": "none are content-hash failures",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 39982,
+ "cache_read_tokens": 216057,
+ "call_key": "confirmatory:q079:C#0",
+ "cost_usd": 0.1097817,
+ "duration_s": 24.9,
+ "error_class": null,
+ "gold_rp": "docs/referee/B2v2-repro.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-issue-register.md",
+  "located": true,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-issue-register.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/BUILD-cir-substrate-hardening-v1.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-repro.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 256081,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 530,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 1634,
+ "policy": "C",
+ "qid": "q079",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-issue-register.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/BUILD-cir-substrate-hardening-v1.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-repro.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671103.262,
+ "tokens_marginal": 41658,
+ "tokens_total": 257715
+}

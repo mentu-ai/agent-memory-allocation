@@ -1,0 +1,33 @@
+{
+ "answer": "Steer-derived offers must be reported separately at readout; never pooled silently.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 10351,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q069:D#0",
+ "cost_usd": 0.0249459,
+ "duration_s": 9.1,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-protocol-v22-obligations-v1.md",
+ "input_tokens": 26600,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 505,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 522,
+ "policy": "D",
+ "qid": "q069",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670988.32,
+ "tokens_marginal": 10883,
+ "tokens_total": 27122
+}

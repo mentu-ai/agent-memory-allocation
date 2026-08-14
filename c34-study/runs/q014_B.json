@@ -1,0 +1,68 @@
+{
+ "answer": "0",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12040,
+ "cache_read_tokens": 123547,
+ "call_key": "confirmatory:q014:B#0",
+ "cost_usd": 0.0389537,
+ "duration_s": 10.2,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-epistemic-matter-compiler-audit.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-matter-compiler-audit.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-matter-compiler-audit.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "strict compiler-callable specimens|Stage 0|Stage 1",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 135621,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 362,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 497,
+ "policy": "B",
+ "qid": "q014",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-matter-compiler-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "strict compiler-callable specimens|Stage 0|Stage 1",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670336.591,
+ "tokens_marginal": 12571,
+ "tokens_total": 136118
+}

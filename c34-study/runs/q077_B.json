@@ -1,0 +1,78 @@
+{
+ "answer": "The patterns exist and are queryable; they are simply not returned into subsequent work.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 22156,
+ "cache_read_tokens": 163874,
+ "call_key": "confirmatory:q077:B#0",
+ "cost_usd": 0.0642964,
+ "duration_s": 14.1,
+ "error_class": null,
+ "gold_rp": "docs/referee/B2-validity.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-validity.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-validity.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "true zero",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "pattern non-reuse",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 186072,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 521,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 711,
+ "policy": "B",
+ "qid": "q077",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-validity.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "true zero",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "pattern non-reuse",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671067.597,
+ "tokens_marginal": 22909,
+ "tokens_total": 186783
+}

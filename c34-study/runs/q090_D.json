@@ -1,0 +1,33 @@
+{
+ "answer": "C1B_FOOTER_FIX",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 7639,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q090:D#0",
+ "cost_usd": 0.0185569,
+ "duration_s": 6.2,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-15-c1b-footer-measurement-fix.md",
+ "input_tokens": 23888,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 552,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 329,
+ "policy": "D",
+ "qid": "q090",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671226.082,
+ "tokens_marginal": 7978,
+ "tokens_total": 24217
+}

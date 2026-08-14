@@ -1,0 +1,100 @@
+{
+ "answer": "Success 9/12 (9/9 excluding the zombie)",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 15227,
+ "cache_read_tokens": 161202,
+ "call_key": "confirmatory:q115:B#0",
+ "cost_usd": 0.051301200000000005,
+ "duration_s": 15.9,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-11.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c4-epistemic-mass.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c4-epistemic-mass.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-11.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "success rate.*zombie|zombie.*success rate",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "zombie",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "success rate",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "zombie.*success rate|success rate.*zombie|excluding.*zombie|zombie.*excluding",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 176471,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 617,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 937,
+ "policy": "B",
+ "qid": "q115",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c4-epistemic-mass.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-11.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "success rate.*zombie|zombie.*success rate",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "zombie",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "success rate",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "zombie.*success rate|success rate.*zombie|excluding.*zombie|zombie.*excluding",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671532.778,
+ "tokens_marginal": 16206,
+ "tokens_total": 177408
+}

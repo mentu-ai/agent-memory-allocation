@@ -1,0 +1,50 @@
+{
+ "answer": "98 of 217,629 signals (0.045%) have ever been accessed",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 26185,
+ "cache_read_tokens": 153816,
+ "call_key": "confirmatory:q137:C#0",
+ "cost_usd": 0.0729156,
+ "duration_s": 18.3,
+ "error_class": null,
+ "gold_rp": "results/2026-06-10-c3-epistemic-entropy.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "located": true,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+   "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c27-resident-set-utilization.md",
+   "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c3-epistemic-entropy.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 180035,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 677,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 1026,
+ "policy": "C",
+ "qid": "q137",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c27-resident-set-utilization.md",
+  "/private/tmp/claude-501/c34-sandbox/results/2026-06-10-c3-epistemic-entropy.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671888.514,
+ "tokens_marginal": 27245,
+ "tokens_total": 181061
+}

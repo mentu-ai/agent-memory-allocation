@@ -1,0 +1,54 @@
+{
+ "answer": "the pre-registered observation window/cohort has not elapsed",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 38254,
+ "cache_read_tokens": 379993,
+ "call_key": "confirmatory:q025:C#0",
+ "cost_usd": 0.1264813,
+ "duration_s": 39.8,
+ "error_class": null,
+ "gold_rp": "applications/2026-07-01-capture-contracts-c7-c23.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/README.md",
+  "located": true,
+  "read_count": 5,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/README.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/PLAN-hardening-and-retest-2026-08-12.md",
+   "/private/tmp/claude-501/c34-sandbox/essays/2026-08-12-what-the-burned-pilot-taught.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 418321,
+ "input_uncached": 74,
+ "is_error": false,
+ "ledger_position": 394,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 9,
+ "output_tokens": 2380,
+ "policy": "C",
+ "qid": "q025",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/README.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/PLAN-hardening-and-retest-2026-08-12.md",
+  "/private/tmp/claude-501/c34-sandbox/essays/2026-08-12-what-the-burned-pilot-taught.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670490.747,
+ "tokens_marginal": 40708,
+ "tokens_total": 420701
+}

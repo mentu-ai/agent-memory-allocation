@@ -1,0 +1,52 @@
+{
+ "answer": "the patterns exist and are queryable",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 38356,
+ "cache_read_tokens": 315603,
+ "call_key": "confirmatory:q076:C#0",
+ "cost_usd": 0.1216103,
+ "duration_s": 42.8,
+ "error_class": null,
+ "gold_rp": "docs/referee/B2-stats.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-repro.md",
+  "located": true,
+  "read_count": 4,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-repro.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-field.md",
+   "/private/tmp/claude-501/c34-sandbox/paper/return-base-rate-paper.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-stats.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 354017,
+ "input_uncached": 58,
+ "is_error": false,
+ "ledger_position": 524,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 7,
+ "output_tokens": 2656,
+ "policy": "C",
+ "qid": "q076",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-repro.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-field.md",
+  "/private/tmp/claude-501/c34-sandbox/paper/return-base-rate-paper.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-stats.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671053.247,
+ "tokens_marginal": 41070,
+ "tokens_total": 356673
+}

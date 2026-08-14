@@ -1,0 +1,1285 @@
+{
+ "answerer": "claude-haiku-4-5-20251001",
+ "corpus_files": 141,
+ "dropped_after_regeneration": [],
+ "generation_input_chars": 8000,
+ "generator": "claude-sonnet-5",
+ "n_confirmatory": 120,
+ "n_smoke": 10,
+ "questions": [
+  {
+   "answer": "the Codex trailer",
+   "generation_input_sha256": "96ae78c7b2ff63b0780f2db6f198e63ef87a0c4b1036c03221cca4b5fa52e05d",
+   "id": "q001",
+   "qtype": "lookup",
+   "question": "Beats must commit with a descriptive message ending in what?",
+   "rp": "AGENTS.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "Corrections go in new dated documents",
+   "generation_input_sha256": "20e21941f2b605fbd135afb8a2188f9f7510ec4dcaa217b7c0b6ad25aaea12b2",
+   "id": "q002",
+   "qtype": "lookup",
+   "question": "What must happen before Corrections that go in new dated documents can be edited into frozen frontmatter fields?",
+   "rp": "CLAUDE.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "Item 1 (attention-decay) is the one the zombie pays for daily",
+   "generation_input_sha256": "3551fe4f7a02f66b9a7309ae7a9efedf8187b9e31b2a1af92b3effcc0b078f07",
+   "id": "q003",
+   "qtype": "synthesis",
+   "question": "What is item 1 in the Tier 1 reading order, and whose daily cost does it pay for?",
+   "rp": "applications/2026-06-10-spine-applications-map.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "10 edges",
+   "generation_input_sha256": "ff95c704ac46721392d02509d4b8b1cb36ca46d1dbbaf457f0eb63806a67c138",
+   "id": "q004",
+   "qtype": "lookup",
+   "question": "How many edges does okf suggest-links propose, stable at --max 200?",
+   "rp": "applications/2026-06-13-okf-projection-of-the-corpus.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "1621 core / 893 adapter non-blank LOC",
+   "generation_input_sha256": "b5013ac5b597d5080e48a870a21784e2fa81e71a7aa9ce0d5bd844d6a4a816d4",
+   "id": "q005",
+   "qtype": "lookup",
+   "question": "What was the measured breakdown of core vs. adapter non-blank LOC on 2026-06-13?",
+   "rp": "applications/2026-06-13-policy-harness-release-claims.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "cites, extends, contradicts, refines, synthesizes, supports, questions, corrects",
+   "generation_input_sha256": "9caae88fa768764deae5c85e0883b4ec891d7d49a2c5e9f2a1998924d02f63cf",
+   "id": "q006",
+   "qtype": "lookup",
+   "question": "What relationship enum does cognitive-infrastructure's factual error concern, replaced by which real shipped set?",
+   "rp": "applications/2026-06-13-research-section-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "zero-migration term hits: 7 across 1 file",
+   "generation_input_sha256": "80f26879ef1e1de684a66f5ec2e5e2f113415a399d7fd739755509c9a961185e",
+   "id": "q007",
+   "qtype": "lookup",
+   "question": "What term hit count applies to zero-migration across how many files?",
+   "rp": "applications/2026-06-19-archived-references-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "semantic_gate_eval` 104",
+   "generation_input_sha256": "415df4b67b23fc4bd342eae6d01ee99c72c3c506555868f13bbb780235c97208",
+   "id": "q008",
+   "qtype": "lookup",
+   "question": "How many CIR activation-like proxy kinds were `semantic_gate_eval`?",
+   "rp": "applications/2026-06-19-constitutional-engine-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "41,226",
+   "generation_input_sha256": "96d8e5d2c7f70ef75b066f1d30527ad6022742f7be159057d76dfd9c1ee9f600",
+   "id": "q009",
+   "qtype": "lookup",
+   "question": "What is the exact CIR relation row count reported in the source coverage digest?",
+   "rp": "applications/2026-06-19-context-network-recursive-audit.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "6,214/6,214",
+   "generation_input_sha256": "24a8a145fe790e896ba40044d0bfe97ef0b7ae1cd8b7bb7a22045d9a7b8f60a2",
+   "id": "q010",
+   "qtype": "lookup",
+   "question": "How many crystallized patterns had source-cluster linkage as of the audit?",
+   "rp": "applications/2026-06-19-core-concepts-frameworks-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "recipe_version` 5,767; `correction.judge` 630",
+   "generation_input_sha256": "aa0e3a498755dfc89ce5d0b53fdd6f0a84c35800fd62391af90dd1aac0e7c732",
+   "id": "q011",
+   "qtype": "lookup",
+   "question": "What are the seven governance-like CIR kinds and their counts, with recipe_version leading at what number?",
+   "rp": "applications/2026-06-19-engine-governance-maturity-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "16,041",
+   "generation_input_sha256": "1dbdafd3dd03a160c0560c21356e31c63757bc68e08db52e68f2b0327b5eb4d9",
+   "id": "q012",
+   "qtype": "lookup",
+   "question": "How many logical source lines does the current source snapshot have?",
+   "rp": "applications/2026-06-19-engineering-operational-surface-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "analyses/c18-intent-density-capture-advantage/analyze.py",
+   "generation_input_sha256": "6aa5253be5339633b4d52f2d47d08f858b8751a7c9c8caf98e25cdcc3db82bd5",
+   "id": "q013",
+   "qtype": "lookup",
+   "question": "Which analyzer file checks source vocabulary and local capture/run substrates for C18?",
+   "rp": "applications/2026-06-19-epistemic-computer-audit.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "0",
+   "generation_input_sha256": "8a63d7d3d4dd30d3b7a62cd36a54badb75a6bb8b3ecc878d3dbe1931df5bf870",
+   "id": "q014",
+   "qtype": "lookup",
+   "question": "How many strict compiler-callable specimens combining Stage 0 and Stage 1 were found?",
+   "rp": "applications/2026-06-19-epistemic-matter-compiler-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "calibration/reference coverage: 4",
+   "generation_input_sha256": "92ab063273af0c97fc73b1d6c00acf546fd1aef3e6446f67e8a007c38e6fb155",
+   "id": "q015",
+   "qtype": "lookup",
+   "question": "What is the count of calibration/reference coverage in the readiness snapshot?",
+   "rp": "applications/2026-06-19-epistemic-nodes-measurement-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "fail at 0.0%",
+   "generation_input_sha256": "ead6980a9da1edba025c1eb86b37d640ed10a69886417faad4dc679c169761e6",
+   "id": "q016",
+   "qtype": "lookup",
+   "question": "What is the manifest identity gate percentage in the live readiness digest from 2026-06-19?",
+   "rp": "applications/2026-06-19-foundational-ideas-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "run outcome rows: 629",
+   "generation_input_sha256": "71a3406904c74facbe929539b4766f5ed47a34504cfa6f5d01178810e0f5d9bc",
+   "id": "q017",
+   "qtype": "lookup",
+   "question": "How many run outcome rows contain participation-adjacent terms?",
+   "rp": "applications/2026-06-19-foundations-participatory-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "C7 handle-mediated returnability",
+   "generation_input_sha256": "82c03520e00dfbf6e6eb022094fd848a4b2d3a60a8bca36efc753fd1f3b314f8",
+   "id": "q018",
+   "qtype": "lookup",
+   "question": "What did the follow-up audit of mentu-finder and Crawlio LACS admit?",
+   "rp": "applications/2026-06-19-legacy-corpus-salvage-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "67,956",
+   "generation_input_sha256": "7226143d80d9a66cef2d4323c2dcba5d480bd2e2f3949bcebe508047cfd3e382",
+   "id": "q019",
+   "qtype": "lookup",
+   "question": "How many ledger rows were recorded in the live LACS substrate digest?",
+   "rp": "applications/2026-06-19-mentu-finder-lacs-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "620/629 (98.6%)",
+   "generation_input_sha256": "7646aa11a3a4d8c7085f6c6796990cbe94fa19184673f2ea791c0e3953875d0d",
+   "id": "q020",
+   "qtype": "lookup",
+   "question": "What percentage of run rows had run-signal join coverage?",
+   "rp": "applications/2026-06-19-orchestration-laws-positions-audit.md",
+   "set": "unused"
+  },
+  {
+   "answer": "stable C5 boundary classes on run outcomes",
+   "generation_input_sha256": "9949727ba7ca9ac678a862c2ceb5c1c2cecb3fe659022e96172e4db7e9f090af",
+   "id": "q021",
+   "qtype": "synthesis",
+   "question": "What item in the Next push section addresses the C5 boundary-classes gap noted in the C12 readiness verdict?",
+   "rp": "applications/2026-06-19-science-corpus-audit.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "a read-only evaluator",
+   "generation_input_sha256": "89936ef1061ba51ceb84f37c6ace083c0e5b79bca0610bd55730d98d35e36599",
+   "id": "q022",
+   "qtype": "lookup",
+   "question": "What is the first safe product primitive after the read model exists?",
+   "rp": "applications/2026-06-19-sequence-review-trust-ledger-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "19",
+   "generation_input_sha256": "a17d428be4b7b34b04402385a5a026577feb822be2a792d8e443dae7bff5e1bd",
+   "id": "q023",
+   "qtype": "lookup",
+   "question": "How many text artifacts scored in the readiness snapshot?",
+   "rp": "applications/2026-06-19-tri-layer-participatory-architecture-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "post-footer-fix rows are 45/300",
+   "generation_input_sha256": "82ccd37a54f7cac8670f43f4c5dcd937892b60f105b8724e3424c536d9fa49b7",
+   "id": "q024",
+   "qtype": "lookup",
+   "question": "How many post-footer-fix rows exist for C12 translation bottleneck?",
+   "rp": "applications/2026-06-20-publication-readiness-audit.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "the pre-registered observation window/cohort has not elapsed",
+   "generation_input_sha256": "7dd37aa87353de7478b54a3a11de3103e4d9c0b6dd71e6a4cb395e176f64b68a",
+   "id": "q025",
+   "qtype": "lookup",
+   "question": "According to the bottom line summary, what has not elapsed for many of the blocked conjectures?",
+   "rp": "applications/2026-07-01-capture-contracts-c7-c23.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0 of 11,106",
+   "generation_input_sha256": "d443455cade0186e0abd5fb36d21600eb53c5470f2e2348e767062b8618a34bc",
+   "id": "q026",
+   "qtype": "lookup",
+   "question": "How many of 11,106 engine-written hashes did the documented compute_hash reproduce?",
+   "rp": "applications/2026-07-01-issue-register.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "trivially the matched handle",
+   "generation_input_sha256": "b2fe68df1c17d8ed0afd6468b82af9ea2878f3c8accaa07e05bb1a8e3e0896df",
+   "id": "q027",
+   "qtype": "lookup",
+   "question": "What must a matched handle be for offer provenance under Option A?",
+   "rp": "applications/2026-07-01-offer-pathway-design-proposal.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "an operating-system problem",
+   "generation_input_sha256": "d41da02bd26afcc67dceb552ec300a5f3413009ed6115cdb63af692ada92a48d",
+   "id": "q028",
+   "qtype": "lookup",
+   "question": "What did MemGPT frame long-term memory as?",
+   "rp": "applications/2026-07-01-related-work-verified.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "footer_present_unpositioned",
+   "generation_input_sha256": "46aecd3dbc4692ff4f5cd84c9478efb723959dae517ab87b8bfa0f3750c55ee7",
+   "id": "q029",
+   "qtype": "lookup",
+   "question": "What is the diagnostic flag name added to the per-usage record in cir-context-usage.jsonl?",
+   "rp": "applications/2026-07-01-return-funnel-and-footer-root-cause.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "24/21 arms vs ~128/arm needed",
+   "generation_input_sha256": "f903bcc9c652afd0bcc4e4624ae06edbf3c1d5d8eb5bec7741defeac35754179",
+   "id": "q030",
+   "qtype": "lookup",
+   "question": "What arm counts make C1b underpowered relative to what is needed?",
+   "rp": "contribution-strategy-memo.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "(workspace, week)",
+   "generation_input_sha256": "3ad1be9409ef73877461e62261afcd196a2d13fd0209ee7068152f4765741491",
+   "id": "q031",
+   "qtype": "lookup",
+   "question": "What is the primary unit of analysis for C10?",
+   "rp": "corpus/conjectures/c10-structure-debt.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "passive periodic telemetry",
+   "generation_input_sha256": "3282e302ef2066c8add8ed12cf4595642997aa79ae3eedf1387d8c83dc899dcd",
+   "id": "q032",
+   "qtype": "lookup",
+   "question": "What is the effect of closure predicted to be weakest for?",
+   "rp": "corpus/conjectures/c11-measurement-action-closure.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "the unbounded \"maximum intelligence\" wording",
+   "generation_input_sha256": "f966861bb62fdd2b7001801adc030727112cf7951fc5cc5522322f1314cfe326",
+   "id": "q033",
+   "qtype": "lookup",
+   "question": "What does C12 drop from the unbounded wording of the Translation Bottleneck Law?",
+   "rp": "corpus/conjectures/c12-translation-bottleneck.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "score >= 5",
+   "generation_input_sha256": "3af596a9a7dd450aa378d195952f662d2285a408cda95b84d9bc0cbcb9c184a7",
+   "id": "q034",
+   "qtype": "lookup",
+   "question": "Semantic redundancy is scored as high when the score meets what threshold?",
+   "rp": "corpus/conjectures/c13-semantic-redundancy-resilience.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "Measurement contract completeness at event time",
+   "generation_input_sha256": "a5197d37e206ce5acadbeba7d5417172ae966b5f0b9aa9d4b8baed4064e2734e",
+   "id": "q035",
+   "qtype": "lookup",
+   "question": "What is the predeclared predictor for C14's contract completeness scoring?",
+   "rp": "corpus/conjectures/c14-measurement-contract-validity.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "distributed across progressive stages rather than strict",
+   "generation_input_sha256": "d2346b2c1bca2ea6b0d6414fc37ff3f2742e73d77aeffe05ac1bf3b85a27c0fe",
+   "id": "q036",
+   "qtype": "lookup",
+   "question": "What does the initial source-readiness analyzer find about the examples' distribution?",
+   "rp": "corpus/conjectures/c15-compiler-invocation-readiness.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "3",
+   "generation_input_sha256": "aeaee0895cff9355aa17835ff6328d45bcfe681ab1fd227c527715a89f9a6c2e",
+   "id": "q037",
+   "qtype": "lookup",
+   "question": "What is the predeclared predictor score for a typed condition with dependency, trust, precedent, and semantic-coherence evaluation?",
+   "rp": "corpus/conjectures/c16-conditional-activation-selectivity.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "at least 10,000 file-level manifest rows exist",
+   "generation_input_sha256": "a0129079fa6ae3633ebe9ff45063f7d459361a65246ba8eafbeaf52a2e9670fe",
+   "id": "q038",
+   "qtype": "lookup",
+   "question": "What is the minimum number of file-level manifest rows required for C17's gate?",
+   "rp": "corpus/conjectures/c17-schema-portable-cir-processing.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "explicit note, draft, import, highlight, or user-submitted artifact",
+   "generation_input_sha256": "61bf5b7c85fc183ae6ecb04951c77497aa9aba1f2f45ea4f3d43376e6dc6e28d",
+   "id": "q039",
+   "qtype": "lookup",
+   "question": "What score does explicit note, draft, import, highlight, or user-submitted artifact receive?",
+   "rp": "corpus/conjectures/c18-intent-density-capture-advantage.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "maturity dimensions and tension labels are declared before promotion",
+   "generation_input_sha256": "be7651b78c550ce1adf2f4e6e57e5d5beda0c62665f84ca6b9d0c67880f0f48e",
+   "id": "q040",
+   "qtype": "lookup",
+   "question": "What score does maturity dimensions and tension labels declared before promotion correspond to?",
+   "rp": "corpus/conjectures/c19-governed-evolution-stability.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "FNV-1a hash parity of runId",
+   "generation_input_sha256": "347949ccadaa1435552a55fda2b4db9e8bf56632245b0438fbd9b0e62efbd840",
+   "id": "q041",
+   "qtype": "lookup",
+   "question": "What determines arm assignment when MENTU_CIR_RANDOMIZE=1 is set?",
+   "rp": "corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "\u22658 weeks",
+   "generation_input_sha256": "3ba171234ebfbcf88a67b5f207e10db70a292c6726246eea62542aed7e11b6a2",
+   "id": "q042",
+   "qtype": "lookup",
+   "question": "The Accrual gate requires cir-run-outcomes.jsonl to span at least how many weeks before rev. 2 is run",
+   "rp": "corpus/conjectures/c2-friction-to-production.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "at least 1,000 participation opportunities are logged",
+   "generation_input_sha256": "709f5f3c3446c0ede25607f5950c264ea1055310cc80117ef959af134176ea76",
+   "id": "q043",
+   "qtype": "lookup",
+   "question": "at least how many participation opportunities must be logged",
+   "rp": "corpus/conjectures/c20-participatory-alignment-yield.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "dependencies, complements, refinements, translations, tensions",
+   "generation_input_sha256": "9358eb6502bc73d82ad96a451a5033854e90f05b09bb21b3e9d7186268226158",
+   "id": "q044",
+   "qtype": "lookup",
+   "question": "What is the strongest new residue described in the audited files' relationship taxonomy?",
+   "rp": "corpus/conjectures/c21-typed-context-network-yield.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "scoring rules are frozen before outcome modeling",
+   "generation_input_sha256": "51bb12aa80b81dd376282e210b36a0537e882e280187457751506ca0942a21cb",
+   "id": "q045",
+   "qtype": "lookup",
+   "question": "What must be true of scoring rules before outcome modeling under the C22 Gate?",
+   "rp": "corpus/conjectures/c22-operational-surface-debt.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "reviewer `rating` in `[0, 1]`",
+   "generation_input_sha256": "c2a318924246538ae64972bd8aa8eaa4c54b76266685cbb7a63e233b771978b7",
+   "id": "q046",
+   "qtype": "lookup",
+   "question": "What is the primary predictor used in the trust forecast?",
+   "rp": "corpus/conjectures/c23-review-trust-calibration.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0 successes",
+   "generation_input_sha256": "b3ceb7f1b1f42677457af89d31779ca99058d9fa886a046b1279b1dc01793e3c",
+   "id": "q047",
+   "qtype": "lookup",
+   "question": "ane-fortress has run 257 times with what number of successes",
+   "rp": "corpus/conjectures/c24-failure-driven-retirement.md",
+   "set": "unused"
+  },
+  {
+   "answer": "24 injected / 21 withheld",
+   "generation_input_sha256": "fe006ced0775b286516dbf1a933486eee8220e4d198a2751f8f566d4618414fe",
+   "id": "q048",
+   "qtype": "lookup",
+   "question": "How many signals were injected versus withheld in the post-fix feature arms?",
+   "rp": "corpus/conjectures/c25-return-intervention.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0.0222%",
+   "generation_input_sha256": "77bf95487a9548a948a5061861658cf0800ecd90231adbde2a95453d8820fe98",
+   "id": "q049",
+   "qtype": "lookup",
+   "question": "What is the frozen T3 baseline ever-exercised rate cited in P4?",
+   "rp": "corpus/conjectures/c26b-search-reachability-first-order.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "\u226560% of all invocations",
+   "generation_input_sha256": "d9f7688157008ee9620b49a3c1208d29c76e693dca6a430a5c8eb4b2401bed70",
+   "id": "q050",
+   "qtype": "lookup",
+   "question": "the top-5 invoked skills account for what percentage of all invocations",
+   "rp": "corpus/conjectures/c27-resident-set-utilization.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "18,780 non-tool memory-file mentions",
+   "generation_input_sha256": "527a340a3ddd1fca547a1baab556827a118551a34670e594612afddd4a4e450f",
+   "id": "q051",
+   "qtype": "lookup",
+   "question": "How many non-tool memory-file mentions did C28's aftermath generate?",
+   "rp": "corpus/conjectures/c28b-injection-channel-returnability.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "\u226560 days of detector operation or \u2265100 detected contradictions",
+   "generation_input_sha256": "a2fccd8da338ca4c71af5715e771055455189539a3142a1587eb12a37e454404",
+   "id": "q052",
+   "qtype": "lookup",
+   "question": "What is the re-test gate for P2/P3 contradictions?",
+   "rp": "corpus/conjectures/c3-epistemic-entropy.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "sealed Mentu run bundles and canonical plan artifacts",
+   "generation_input_sha256": "c463be4a67d8878bd32856925b77eed72a9798f477b9a4bb46edf045809c8fd4",
+   "id": "q053",
+   "qtype": "lookup",
+   "question": "What is the primary source for the C30 instrument?",
+   "rp": "corpus/conjectures/c30-staged-graph-admission.md",
+   "set": "unused"
+  },
+  {
+   "answer": "byte-identical across arms",
+   "generation_input_sha256": "10d72a6fb866c88c6c8e9b3af08587c179e5bc660ba01d10a917fbd2abf022f5",
+   "id": "q054",
+   "qtype": "lookup",
+   "question": "The content is held how across arms?",
+   "rp": "corpus/conjectures/c31-capability-conditioned-resident-utility.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "the pure guardrail tests",
+   "generation_input_sha256": "b26ee30df67e184f531650d0370f713d1a307ba1e40f95424fd1deed59bd971c",
+   "id": "q055",
+   "qtype": "lookup",
+   "question": "What must future analysis code pass before any C5 verdict is adjudicated?",
+   "rp": "corpus/conjectures/c5-boundary-impedance.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "a state-proportional model against an additive model",
+   "generation_input_sha256": "b5019b48141fd42b48cc6681fa81bae3788ecda96685a8729d9adc89bf80d209",
+   "id": "q056",
+   "qtype": "lookup",
+   "question": "What does the Test section say to compare on mature strata?",
+   "rp": "corpus/conjectures/c6-epistemic-compounding.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "anchor_score >= 3",
+   "generation_input_sha256": "0033aed1369ec986894b0eebdf3cc6787a5af940c17f7550949a42320baeb2fc",
+   "id": "q057",
+   "qtype": "lookup",
+   "question": "Rich handles are defined as anchor_score greater than or equal to what value?",
+   "rp": "corpus/conjectures/c7-handle-mediated-returnability.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0.0%",
+   "generation_input_sha256": "f963186a8a4ef2580aaff5c0f22f3edd7e172c8e9a03f771e57e0c63dac1862c",
+   "id": "q058",
+   "qtype": "lookup",
+   "question": "The manifest identity gate fails at what percentage?",
+   "rp": "corpus/conjectures/c8-coherence-dividend.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "crystallized pattern signal",
+   "generation_input_sha256": "7d6732eca67a4a85faa8c290673ee2f6d0de7f8c6bd074c1433f7840b977c171",
+   "id": "q059",
+   "qtype": "lookup",
+   "question": "What is the primary unit of analysis for C9?",
+   "rp": "corpus/conjectures/c9-pattern-crystallization-utility.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0/54 injected runs recorded any usage",
+   "generation_input_sha256": "23e9e1969c25dd2b63028d716040665e4a9ef4f0087ac35a398f0ebc953279cd",
+   "id": "q060",
+   "qtype": "lookup",
+   "question": "How many injected runs recorded any usage of injected context, out of how many total?",
+   "rp": "corpus/refuted/c1-return-as-intelligence.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "45\u00d7 the frozen T3 organic access baseline",
+   "generation_input_sha256": "f3e8edd9114d44b1f08b007923d376f835d00dc84bcd510da7327c226a9107de",
+   "id": "q061",
+   "qtype": "lookup",
+   "question": "P2 requires the median per-file subsequent-session read rate to be at least how many times the frozen T3 organic access baseline",
+   "rp": "corpus/refuted/c28-promotion-lane-returnability.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "Heavier recipes are modified more slowly after failures than lighter ones.",
+   "generation_input_sha256": "44748c7df206c1cfd2817ac711f19eca6da29527f7a767bd4ad7ddd939c343ac",
+   "id": "q062",
+   "qtype": "lookup",
+   "question": "What does prediction P3 state about heavier recipes?",
+   "rp": "corpus/supported/c4-epistemic-mass.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "(construction_time, freeze_boundary, authoring_method, execution_substrate)",
+   "generation_input_sha256": "3168e05fc4078d1da7bbeafaa1ee12bba1f596e00614f44235177a9e53e6c966",
+   "id": "q063",
+   "qtype": "lookup",
+   "question": "What is the C30 policy vector?",
+   "rp": "docs/BUILD-agent-graph-runtime-paper-v1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "c31-agentbench-pilot-v1",
+   "generation_input_sha256": "e8356cd979b797c63c7feb51400f6667ed76ab09d19c754fadcbf0a17f50750f",
+   "id": "q064",
+   "qtype": "lookup",
+   "question": "What is the pilot selection seed?",
+   "rp": "docs/BUILD-c31-capability-conditioned-resident-utility-v1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "currently 15 at CIRStore.swift:624",
+   "generation_input_sha256": "61b717824c26ccc2cdfc06722ed8ade4538a88fc04ecacc81d760decfd1a9c30",
+   "id": "q065",
+   "qtype": "lookup",
+   "question": "What version does the CIRStore schema currently sit at, per CIRStore.swift:624?",
+   "rp": "docs/BUILD-cir-substrate-hardening-v1.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "gate skips/aborts, judge early-stops, sentinel watch-without-escalation, budget-gated challenge skips",
+   "generation_input_sha256": "c97fb7ce37e66eb7704dc89c44ca8f76fc156501dfeb313060992fbf47fd7a8e",
+   "id": "q066",
+   "qtype": "lookup",
+   "question": "What four types of abstention-shaped events does the first production census include?",
+   "rp": "docs/BUILD-constitutional-silence-paper-v1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "R_k = 1",
+   "generation_input_sha256": "96fc401489aec17fde0dea5f2d69b5d922e8c2d2f8c268105c566d8161d3af3f",
+   "id": "q067",
+   "qtype": "lookup",
+   "question": "What is the epistemic threshold, expressed as an equation?",
+   "rp": "docs/BUILD-epistemics-program-v1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "escalation file, human decides framing",
+   "generation_input_sha256": "efd9d93e306179a2e02297156dc6cfcc1ff0afe5f78266b890e909a2b4a9fb19",
+   "id": "q068",
+   "qtype": "lookup",
+   "question": "What must a re-derived audit number that materially contradicts the canon's claimed number trigger?",
+   "rp": "docs/BUILD-evidence-carrying-execution-paper-v1.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "reported separately at readout; never pooled silently",
+   "generation_input_sha256": "3ee7e74a9187fb9de2e4686a32110773069a2b5d968451581044153b064aabf8",
+   "id": "q069",
+   "qtype": "lookup",
+   "question": "According to the co-intervention marker note, how must steer-derived offers be reported?",
+   "rp": "docs/BUILD-protocol-v22-obligations-v1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "386 consecutive failures with zero successes",
+   "generation_input_sha256": "5a804177517e806d348480a10dc520eefb6a2077c2d55b12e194c914c2dcd905",
+   "id": "q070",
+   "qtype": "lookup",
+   "question": "How many consecutive failures did ane-fortress run with zero successes?",
+   "rp": "docs/BUILD-run-horizon-v1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0.095 relations/signal",
+   "generation_input_sha256": "9666d9ada75e675d8c71d41cd9df510871e1f22b6c1df2eccabd82459727c0b8",
+   "id": "q071",
+   "qtype": "lookup",
+   "question": "What is the measured sparsity of the live relation graph, per the 2026-07-04 census?",
+   "rp": "docs/CONTEXT-parked-and-parallel-papers.md",
+   "set": "unused"
+  },
+  {
+   "answer": "12% at episode level",
+   "generation_input_sha256": "4203fc5db6c970ff53dd9f7062439bf03cb4dd403b22b7016cae98a36d10f5d5",
+   "id": "q072",
+   "qtype": "lookup",
+   "question": "What is the Haiku schema-valid proposal rate at episode level in pilot-v2b?",
+   "rp": "docs/PLAN-hardening-and-retest-2026-08-12.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0b320d9d",
+   "generation_input_sha256": "00ccd4c475fd82b456006026b827e949df313e332de7cf5dfeed3238a85e8d91",
+   "id": "q073",
+   "qtype": "lookup",
+   "question": "What sha256 prefix identifies the pinned .backup snapshot of ~/.mentu/cir.db?",
+   "rp": "docs/escalations/2026-07-04-return-base-rate-B2.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "accurate retrieval",
+   "generation_input_sha256": "d040e83d203793484ed6e9248e897189428c5ad8f9eca324f02e89cf3be8cb78",
+   "id": "q074",
+   "qtype": "lookup",
+   "question": "What does MemoryAgentBench name as an explicit competency?",
+   "rp": "docs/referee/B2-field.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "a true zero, not a measurement gap",
+   "generation_input_sha256": "528bcfe9e92d10981e5d11c62dae13bbd0b1d0c73516ecedf3d3c527c5122578",
+   "id": "q075",
+   "qtype": "lookup",
+   "question": "What does Fig 2b call the pattern non-reuse finding?",
+   "rp": "docs/referee/B2-repro.md",
+   "set": "unused"
+  },
+  {
+   "answer": "the patterns exist and are queryable",
+   "generation_input_sha256": "2b5c9af0c7f1ee3f1d712cd85d09b7a7f8a820bc0c97a94dd97065554795aed5",
+   "id": "q076",
+   "qtype": "lookup",
+   "question": "In F4, besides not being returned into subsequent work, what does the quoted line say is true of crystallized patterns?",
+   "rp": "docs/referee/B2-stats.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "the patterns exist and are queryable",
+   "generation_input_sha256": "674579858407527bb186b0b19d206766c8bb85710db616ff8b7596a31aa39740",
+   "id": "q077",
+   "qtype": "lookup",
+   "question": "What justification does the paper offer for calling pattern non-reuse a \"true zero\"?",
+   "rp": "docs/referee/B2-validity.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "to be inserted at submission",
+   "generation_input_sha256": "3a19c0046e38c01cb53b3a0a93a2e972254e25c073e94f6480bd79072f96f717",
+   "id": "q078",
+   "qtype": "lookup",
+   "question": "What does F7 say the unresolved arXiv identifier for the companion citation is described as?",
+   "rp": "docs/referee/B2v2-field.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "none are content-hash failures",
+   "generation_input_sha256": "489947c823ff9a4c82993a50ee85786dd24b04eba5e7359b23270dcdaee04f1a",
+   "id": "q079",
+   "qtype": "lookup",
+   "question": "What percentage of trust-state rows in the M7 finding are content-hash failures?",
+   "rp": "docs/referee/B2v2-repro.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "RESOLVED (in the paper)",
+   "generation_input_sha256": "07251f9548fcd2903a753c3a0f10f62d314f5d8850b38ef1cd4c3a3880dc20ca",
+   "id": "q080",
+   "qtype": "lookup",
+   "question": "What is the disposition status recorded for finding F9?",
+   "rp": "docs/referee/B2v2-stats.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "access_count > 0",
+   "generation_input_sha256": "d254def5688083342f0947a7164a99a65816719d2c995d6fc33331b9c52c8b80",
+   "id": "q081",
+   "qtype": "lookup",
+   "question": "What operational predicate defines an 'accessed' row in Stage 0?",
+   "rp": "docs/referee/B2v2-validity.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "the schema the 2025 theory had specified on paper",
+   "generation_input_sha256": "fda86319503653f7266ffc57a415ea35fda377ed61923aa0f259e74d4e30695e",
+   "id": "q082",
+   "qtype": "lookup",
+   "question": "The instrument's core record implements what schema, nearly field for field?",
+   "rp": "essays/2026-06-10-when-the-theory-met-its-instrument.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "zero authenticated H safety events",
+   "generation_input_sha256": "460ebf9ff13c16d4e69c687bd4a00184f8e39816c76f6b7612e64125aeb84226",
+   "id": "q083",
+   "qtype": "lookup",
+   "question": "What did the executor's report to the author say, verbatim?",
+   "rp": "essays/2026-08-12-what-the-burned-pilot-taught.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "Atomic unit is the decision, not the artifact",
+   "generation_input_sha256": "26f7ee04ab6311b007a5c976f39373b2d7bf7b38d29a22e971d4b798261c8bc9",
+   "id": "q084",
+   "qtype": "lookup",
+   "question": "What is the strongest contribution, described as 'secretly already the substrate'?",
+   "rp": "external-critique-audit-2026-07-02.md",
+   "set": "unused"
+  },
+  {
+   "answer": "cir_openai-ping_88BFD33E",
+   "generation_input_sha256": "9d56e967c43c4aa44ec4a6d1b9336577e470f497a61fca854a26b04d74020eb5",
+   "id": "q085",
+   "qtype": "lookup",
+   "question": "One injected signal has the body \"CIR_USED: none OPENAI_SMOKE_COMPLETE\" \u2014 what is its signal ID?",
+   "rp": "instruments/2026-06-10-return-loop-diagnosis.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "1/18 post-regime runs",
+   "generation_input_sha256": "ef0c04bf71407cd30b279bca2f8c8f8f5a60bd866b94f9851c0b65c06410ec43",
+   "id": "q086",
+   "qtype": "lookup",
+   "question": "What is the effective randomized-eligible rate stated in the summary?",
+   "rp": "instruments/2026-06-11-c1b-eligibility-accounting.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "the 06-11 note's F1 exact-one overcount",
+   "generation_input_sha256": "c62b395e96b187a1554c74561a3f0504c5980da02f3e4ea6bdf70a724db8abf0",
+   "id": "q087",
+   "qtype": "synthesis",
+   "question": "What prior overcount does the F2 collector's start-time guard close?",
+   "rp": "instruments/2026-06-12-c1b-population-and-filter-change.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "injected 0, withheld 0",
+   "generation_input_sha256": "f2e7f132d87f1f225b6920da53d49346f91cb54aeec86a7cd6257aa24531ba88",
+   "id": "q088",
+   "qtype": "lookup",
+   "question": "Under the revised collector, what will the injected/withheld arm counts read at the next digest?",
+   "rp": "instruments/2026-06-12-c1b-run-class-exclusion.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "same mtime and size",
+   "generation_input_sha256": "8715fbb81ea132cdce9d0042dd43edd132eb02a13970aab5228ac528d76d4bd5",
+   "id": "q089",
+   "qtype": "lookup",
+   "question": "What is the mtime and size of ~/.mentu/cir.db that stayed byte-identical across project + validate + lint + context + suggest-links?",
+   "rp": "instruments/2026-06-13-okf-projection.md",
+   "set": "unused"
+  },
+  {
+   "answer": "C1B_FOOTER_FIX",
+   "generation_input_sha256": "db7eb9fb013308513484df2011f2f93565f6b3d643c0caf61ecc0804beb3256e",
+   "id": "q090",
+   "qtype": "lookup",
+   "question": "What is the new REGIME_BOUNDARY constant name introduced in collect.py?",
+   "rp": "instruments/2026-06-15-c1b-footer-measurement-fix.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "c22.operational_surface_event.v1",
+   "generation_input_sha256": "c45b060989b705e92a271333fa7a2526255721a4283305f46539da112b4d2ff0",
+   "id": "q091",
+   "qtype": "lookup",
+   "question": "What schema does the v1 direct surface-event payload use?",
+   "rp": "instruments/2026-06-19-c22-operational-surface-snapshot.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "MENTU_RUN_ID",
+   "generation_input_sha256": "a9e9b73725d5235719e63ba913dcc638e4b7d52a5fb081fdbdfe3a9a660e6cf1",
+   "id": "q092",
+   "qtype": "lookup",
+   "question": "Which frozen environment variable does SequenceRunner.swift export per-step?",
+   "rp": "instruments/2026-06-19-c22-run-id-capture-bridge.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0..5",
+   "generation_input_sha256": "d6767cccf60b869adf18ed217e040c5a227f00972b1b7539cd7f34b64fdd5ea9",
+   "id": "q093",
+   "qtype": "lookup",
+   "question": "What is the score range for the C22 exposure variable?",
+   "rp": "instruments/2026-06-19-c22-surface-debt-score-v1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "At least 30 strict-clean mixed-boundary runs",
+   "generation_input_sha256": "74a223594c8cdbc18dcbd9dd0e187b3e2fec316faa5332b35f88f126156220e9",
+   "id": "q094",
+   "qtype": "lookup",
+   "question": "What is the primary surface's readiness gate threshold for mixed-boundary runs?",
+   "rp": "instruments/2026-06-19-c5-normalization-design.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "cir_capture_signal",
+   "generation_input_sha256": "6dde88591dbe4770d09b5d71efbaab201605bf7a91a85d34ee686071066e8394",
+   "id": "q095",
+   "qtype": "lookup",
+   "question": "What is the practical capture path for handles when the active surface is metamcp?",
+   "rp": "instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "handle-return lane ranks by confidence instead of gating on it",
+   "generation_input_sha256": "bfea951740fd720a85fc5b992dd2584490e7a44c1d977bf03a6b8d5121e943ae",
+   "id": "q096",
+   "qtype": "lookup",
+   "question": "What does commit 715b35256157f32a610e182469cd00408614d8a0 do according to the ship doc?",
+   "rp": "instruments/2026-07-02-organic-offer-pathway-ship.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "CLOSED (6/150 post-intervention runs at write time)",
+   "generation_input_sha256": "5fbc11eb859476f1b83b2bffed9794b870cef6f69ad17a60b3917d0108ecca46",
+   "id": "q097",
+   "qtype": "lookup",
+   "question": "What is the C25 gate status at write time?",
+   "rp": "instruments/2026-07-06-c25-cointervention-amendment.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "child-lane-cointervention-marker.json",
+   "generation_input_sha256": "761052a54efb41a5b82011a98e3bf2842a061e6f17b4d967faa2a53a7d860927",
+   "id": "q098",
+   "qtype": "lookup",
+   "question": "What is the marker filename for the regime boundary?",
+   "rp": "instruments/2026-07-06-child-lane-instrument.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "the 1,023 unhashed hook-lane rows are grandfathered",
+   "generation_input_sha256": "b9a2bd2502adbf0bdfc21f41ac7d29013b317f3eba2fcff141e17ce21ccc2462",
+   "id": "q099",
+   "qtype": "lookup",
+   "question": "What happens to the 1,023 unhashed hook-lane rows at the lane_cutover marker?",
+   "rp": "instruments/2026-07-06-protocol-v22-regime-boundary-and-impact.md",
+   "set": "unused"
+  },
+  {
+   "answer": "2de327a4cca7b771",
+   "generation_input_sha256": "86a7c9ce399504458904209bd3bd5e420ea570ab630ecda75dc7dfa6240fd672",
+   "id": "q100",
+   "qtype": "lookup",
+   "question": "Under verifier v2, what is the genesis/import anchor's prevHash value?",
+   "rp": "instruments/2026-07-06-return-paper-verifier-v2-rederivation.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "233,918",
+   "generation_input_sha256": "5ae1c13791c62d9fbd56aaf8914698b868fef827da02b7c1e12cf1494f948b85",
+   "id": "q101",
+   "qtype": "lookup",
+   "question": "How many exhaust signals were deleted in the one-time purge executed on 2026-07-08?",
+   "rp": "instruments/2026-07-08-cir-exhaust-purge-regime-note.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "386 consecutive failures, 0 successes",
+   "generation_input_sha256": "1004c738d75e1f5593046996a491997844aa95f6ebe01979390052cb1ac68476",
+   "id": "q102",
+   "qtype": "lookup",
+   "question": "How many consecutive failures did ane-fortress accumulate with 0 successes?",
+   "rp": "instruments/2026-07-14-run-horizon-intervention-preregistration.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "1% of context window",
+   "generation_input_sha256": "35008d1ecf13c8241c999bdacc0cf637ac92b566a40fb370a6026a8557066a56",
+   "id": "q103",
+   "qtype": "lookup",
+   "question": "What is the default value of skillListingBudgetFraction?",
+   "rp": "instruments/2026-07-18-boot-manifest-gauge.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "SSL_CERT_FILE",
+   "generation_input_sha256": "4c7ba4493da72359d046c991fa7ae5321ab891780900f4a24df49e9df0f7e1cf",
+   "id": "q104",
+   "qtype": "lookup",
+   "question": "What is pinned to the frozen CA bundle for every credential-bearing launch?",
+   "rp": "instruments/2026-07-26-agentbench-context-allocation-instrument.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "bin/claude.exe",
+   "generation_input_sha256": "cb264c7b73d4b3e1ebb4f74e65ac7ba8948716e52d903e0a996bb2c373e3b889",
+   "id": "q105",
+   "qtype": "lookup",
+   "question": "What is the declared launcher for Claude Code 2.1.220?",
+   "rp": "instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "status 139 before repository setup",
+   "generation_input_sha256": "548c7a0a2ac3a39a0e99121e5d51f846a88562dd158501658463955d08f6b9aa",
+   "id": "q106",
+   "qtype": "lookup",
+   "question": "What status code did the formal pre-setup version probe exit with?",
+   "rp": "instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "exited with status 128",
+   "generation_input_sha256": "1ec435e6c27dc355623e8a4b93e10a59102d2390a5398740080b4cd432610651",
+   "id": "q107",
+   "qtype": "lookup",
+   "question": "What status code did the future-history sanitation shell exit with?",
+   "rp": "instruments/2026-07-26-c31-pilot-revision-4-history-sanitization.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "fatal: unable to read 5ec33aa586724ebea569a66c88a4fb89f60ca2d7",
+   "generation_input_sha256": "2e69c14f9ab5949804e83f2362bc0efc1ac8af6ec5728a6036542d586a4d2029",
+   "id": "q108",
+   "qtype": "lookup",
+   "question": "During the next reserved task, revision 4's foreground Git repack failed with what error?",
+   "rp": "instruments/2026-07-26-c31-pilot-revision-5-shallow-git-rebuild.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "93e64367d20f175ee6843d6bd72f588b5f01dde6",
+   "generation_input_sha256": "d1fcc432b01645ae764e7efaa8dc4a02c0b08cb45eb7d6a60dc37dcb46c747c1",
+   "id": "q109",
+   "qtype": "lookup",
+   "question": "What was the frozen base hash used in the diagnostic reproduction?",
+   "rp": "instruments/2026-07-26-c31-pilot-revision-6-setup-before-runtime.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "retrain threshold 200",
+   "generation_input_sha256": "596ff9246481f70947deb14c4ba154ae8462d9ef7293d9603c6986e18834a5af",
+   "id": "q110",
+   "qtype": "lookup",
+   "question": "What is the retrain threshold for training_signals adapter corrections?",
+   "rp": "instruments/mentu-instrument.md",
+   "set": "smoke"
+  },
+  {
+   "answer": "an instrument that measures human cognition directly",
+   "generation_input_sha256": "09a9550cf0f2de2ce14c477bda4c5f9644057a1363c4afe7f4248d0754e153d6",
+   "id": "q111",
+   "qtype": "lookup",
+   "question": "What is the readmission condition for the meta-cognitive-architectures series?",
+   "rp": "lineage/exclusions.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "theory-rich and empirically ungrounded",
+   "generation_input_sha256": "5b94a8089bee9349822df3f28f682611c19e936400fc77a136087b1a364168f4",
+   "id": "q112",
+   "qtype": "lookup",
+   "question": "What did the full-corpus review judge the predecessor corpus to be?",
+   "rp": "lineage/from-ese-2025.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "C1b accrual, C3 detector age/count, C2 span",
+   "generation_input_sha256": "b70dbb1fca94438eb5835f57a4faca980a67fedee7f9f4a370371d92d74cab31",
+   "id": "q113",
+   "qtype": "lookup",
+   "question": "What are the four gates checked every Sunday during weekly synthesis",
+   "rp": "observatory/CANON-observation-packet-v0.1.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "8 steps",
+   "generation_input_sha256": "00a5f24b270dd220743c0ad0622b2ca4d78834073bb731d8f05368023a17669c",
+   "id": "q114",
+   "qtype": "lookup",
+   "question": "How many steps did ane-fortress take before crash-failing?",
+   "rp": "observatory/packets/2026-06-10.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "9/9 excluding the zombie",
+   "generation_input_sha256": "b4839ad67ededac5776d84505ec8162255dd4cc75e0247b91a4c2ff27790faaf",
+   "id": "q115",
+   "qtype": "lookup",
+   "question": "What was the success rate for runs excluding the zombie?",
+   "rp": "observatory/packets/2026-06-11.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "Yesterday's \"gate within ~2 days\"",
+   "generation_input_sha256": "b9be593f7e803575d056b7c30af2cc84555cbaf61ee9e1f053e89429526dd1bb",
+   "id": "q116",
+   "qtype": "lookup",
+   "question": "How many total success/detection numbers appear in the phrase describing C3's sprint collapse from yesterday's rate to today's?",
+   "rp": "observatory/packets/2026-06-12.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "improbable (~3.9% two-tailed)",
+   "generation_input_sha256": "cc764add62015ef1340ed77ba1e4411c116da1bdf939198a9a8461b93aec951c",
+   "id": "q117",
+   "qtype": "lookup",
+   "question": "What was the two-tailed probability cited for a fair coin producing a 10:2 injected:withheld split?",
+   "rp": "observatory/packets/2026-06-13.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "+6 organic arms since the 06-13 digest",
+   "generation_input_sha256": "73df3a66f73474cdeb4139c95a46216267c74476e54825b00bcfe99e05568bcb",
+   "id": "q118",
+   "qtype": "lookup",
+   "question": "How many organic arms accrued since the 06-13 digest?",
+   "rp": "observatory/packets/2026-06-14.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "ane-fortress ran 5x today, 0 succeeded",
+   "generation_input_sha256": "f5c111278adecc40f46000871774ab799259a7eb41fca923fae897d11702b2ad",
+   "id": "q119",
+   "qtype": "lookup",
+   "question": "According to the zombie watch, how many times did ane-fortress run today and how many succeeded?",
+   "rp": "observatory/packets/2026-06-16.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "1.00",
+   "generation_input_sha256": "4e279d940981ae5fad46affe36dde7bf8f185e81b55a1a84c7558716ee66d1c7",
+   "id": "q120",
+   "qtype": "lookup",
+   "question": "What is the mean missing_footer_rate for the injected arm's footer health?",
+   "rp": "observatory/packets/2026-06-17.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "STILL FAILING UNFIXED",
+   "generation_input_sha256": "5f4c2b9993e2e371fd5bfc0e418ae3123404a91290b759f5ffc88064aa0bfa45",
+   "id": "q121",
+   "qtype": "lookup",
+   "question": "What phrase describes ane-fortress's status in the Zombie watch line?",
+   "rp": "observatory/packets/2026-06-18.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0.93",
+   "generation_input_sha256": "319686ef086b2397881e3a0926e5795af2a6b4911aebe8d85d2b382596c4650b",
+   "id": "q122",
+   "qtype": "lookup",
+   "question": "What was the mean missing_footer_rate for injected runs?",
+   "rp": "observatory/packets/2026-06-19.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "257 runs / 0 successes / max consecutive-failure streak 257",
+   "generation_input_sha256": "85be3e05c8c249d18fc74bc825eeb07089014794d288de9f52690ddefe804083",
+   "id": "q123",
+   "qtype": "lookup",
+   "question": "What was the lifetime failure record for ane-fortress (runs / successes / max consecutive-failure streak)?",
+   "rp": "observatory/packets/2026-06-20.md",
+   "set": "unused"
+  },
+  {
+   "answer": "ane-fortress ran 2x today, 0 succeeded",
+   "generation_input_sha256": "8ef3f8c5ec2b84de9f7704fa291ce8ac85c38cf564a8134f89079bf5e193f711",
+   "id": "q124",
+   "qtype": "lookup",
+   "question": "What did the Zombie watch line report for ane-fortress today?",
+   "rp": "observatory/packets/2026-06-21.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "max consecutive-failure streak 270",
+   "generation_input_sha256": "3d34ddef1fa483badf95913dab78a45daabe075aeb7d2ef92be918a7646be848",
+   "id": "q125",
+   "qtype": "lookup",
+   "question": "What was the max consecutive-failure streak for ane-fortress recorded on 2026-06-22?",
+   "rp": "observatory/packets/2026-06-22.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "max consecutive-failure streak 279",
+   "generation_input_sha256": "3ff298d10078c99ae2bb6b2d3c2da0fec8d442502695cf1e471a7608a38947ff",
+   "id": "q126",
+   "qtype": "lookup",
+   "question": "What was the max consecutive-failure streak for ane-fortress?",
+   "rp": "observatory/packets/2026-06-23.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "330",
+   "generation_input_sha256": "9b4e85fb94b97d7a018e8a25a5ec361e7beadbda9170f20e1b67c93ae341b45f",
+   "id": "q127",
+   "qtype": "lookup",
+   "question": "What is the max consecutive-failure streak reported for ane-fortress?",
+   "rp": "observatory/packets/2026-06-24.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "06-24T19:33Z",
+   "generation_input_sha256": "4d4266f942e1271824aee221eac519d8273f0b478156c215e91411b935c6b7d3",
+   "id": "q128",
+   "qtype": "lookup",
+   "question": "What is the read-only recount timestamp for run `21e89ce3`?",
+   "rp": "observatory/packets/2026-06-25.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0.80",
+   "generation_input_sha256": "94f3f8635123a4b1f765a84395ca71079ce57f7efa4a4f0baa1999d4160f19e6",
+   "id": "q129",
+   "qtype": "lookup",
+   "question": "What is the mean missing_footer_rate for the C1b injected arm?",
+   "rp": "observatory/packets/2026-06-26.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "decelerated to a TRICKLE",
+   "generation_input_sha256": "7d21aed4b8a281ecf69e1c061977e68958a85481e82e44571d2418493b13c935",
+   "id": "q130",
+   "qtype": "lookup",
+   "question": "How did item 4 of the interpretation describe the zombie runaway's change in cadence?",
+   "rp": "observatory/packets/2026-06-27.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0.80\u21920.73",
+   "generation_input_sha256": "786eb4620976cde7ab2e0ad43dc6d32961e0787f6723d2f9e68409c3bb804387",
+   "id": "q131",
+   "qtype": "synthesis",
+   "question": "What was the mean missing_footer_rate after two more clean emitters were added?",
+   "rp": "observatory/packets/2026-06-28.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "6 inj / 2 wh",
+   "generation_input_sha256": "657d82b8d457b1bd1414f5b70b76eb95a1f109c44c0d1a07bb029ec2b85d9a25",
+   "id": "q132",
+   "qtype": "lookup",
+   "question": "The armed ledger for the recipe is now what split of injected to withheld runs?",
+   "rp": "observatory/packets/2026-06-29.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "386 runs / 0 success / max streak 386",
+   "generation_input_sha256": "05b47f06627e1f432aeaa5d7eb27a48e6e4ad251655d316bf63ee9c701c78707",
+   "id": "q133",
+   "qtype": "lookup",
+   "question": "What was the ledger reading for ane-fortress on 2026-06-30?",
+   "rp": "observatory/packets/2026-06-30.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "mean missing_footer_rate 0.70",
+   "generation_input_sha256": "741e91d179a10b8308a08ce167724588aaaefc26407b7f9a612dbdcb15008c2b",
+   "id": "q134",
+   "qtype": "lookup",
+   "question": "What was the mean missing_footer_rate for the injected arm's footer health check?",
+   "rp": "observatory/packets/2026-07-13.md",
+   "set": "unused"
+  },
+  {
+   "answer": "The return loop is open, not closed.",
+   "generation_input_sha256": "8483f155c7a940bda4e0376383b4824f6172771d7ce0a342703113aa2819c04f",
+   "id": "q135",
+   "qtype": "lookup",
+   "question": "What does finding 1 under 'What this means' say about the return loop?",
+   "rp": "results/2026-06-10-c1-return-as-intelligence.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "median 0.04, share <1h 94.1%",
+   "generation_input_sha256": "9b494659e39821bc8a9a92992275bccd2506e7ed3b96e7df28a9376fc1a4ca74",
+   "id": "q136",
+   "qtype": "lookup",
+   "question": "What was the median close latency in hours for commitments?",
+   "rp": "results/2026-06-10-c2-friction-to-production.md",
+   "set": "unused"
+  },
+  {
+   "answer": "98 of 217,629 signals (0.045%)",
+   "generation_input_sha256": "95cd16b4d2d98649fefe5756d65e4b91dc2666dc4ec03eb67275281f7eef7eed",
+   "id": "q137",
+   "qtype": "lookup",
+   "question": "How many of the 217,629 signals have ever been accessed?",
+   "rp": "results/2026-06-10-c3-epistemic-entropy.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "0.9",
+   "generation_input_sha256": "63e18f1eff19f1bda07dbfd08d190d6dd4db5681b30e98fe357b1a1d58e74ab3",
+   "id": "q138",
+   "qtype": "lookup",
+   "question": "What was the median hours to modification for weight 4\u20136 failing runs?",
+   "rp": "results/2026-06-10-c4-epistemic-mass.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "\u2265500 interactive sessions",
+   "generation_input_sha256": "7cd9b04d764b8aedbb1b0677ce4b5f7de9c73567ee694dadc9a9878a5be39ef0",
+   "id": "q139",
+   "qtype": "lookup",
+   "question": "What does the gate require for interactive sessions?",
+   "rp": "results/2026-07-18-c27-resident-set-utilization.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "ever \u226410% AND median \u226410\u00d7T3",
+   "generation_input_sha256": "2a2fb0d8408d98723922d14920e9062843f645443f1dd477bed97dc02aa6d411",
+   "id": "q140",
+   "qtype": "lookup",
+   "question": "What was the frozen refutation trigger threshold for ever re-read?",
+   "rp": "results/2026-07-18-c28-promotion-lane-returnability.md",
+   "set": "confirmatory"
+  },
+  {
+   "answer": "alpha; more accrual or a larger effect needed",
+   "generation_input_sha256": "60a47732cf5fe1d39bc4eacc49b8ea2de40af1dda0715d753f59971d0d6cc00b",
+   "id": "q141",
+   "qtype": "lookup",
+   "question": "Return rose above baseline but not by the frozen order-of-magnitude margin at what?",
+   "rp": "results/2026-08-12-c25-return-intervention.md",
+   "set": "confirmatory"
+  }
+ ],
+ "shortfall_branch": "full",
+ "skipped_short": [],
+ "snapshot_commit": "cb736542a2bfc96a230e8bb9b605d11ff0b87d86",
+ "unregenerated_at_subceiling": [],
+ "validated": 141
+}

@@ -1,0 +1,33 @@
+{
+ "answer": "\"zero authenticated H safety events\"",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 6653,
+ "cache_read_tokens": 15257,
+ "call_key": "smoke:q083:D#0",
+ "cost_usd": 0.0156367,
+ "duration_s": 4.9,
+ "error_class": null,
+ "gold_rp": "essays/2026-08-12-what-the-burned-pilot-taught.md",
+ "input_tokens": 21920,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 322,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 159,
+ "policy": "D",
+ "qid": "q083",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "smoke",
+ "started_at": 1786669786.076,
+ "tokens_marginal": 6822,
+ "tokens_total": 22079
+}

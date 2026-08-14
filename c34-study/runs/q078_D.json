@@ -1,0 +1,33 @@
+{
+ "answer": "to be inserted at submission",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 7796,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q078:D#0",
+ "cost_usd": 0.0184309,
+ "duration_s": 4.4,
+ "error_class": null,
+ "gold_rp": "docs/referee/B2v2-field.md",
+ "input_tokens": 24045,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 525,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 241,
+ "policy": "D",
+ "qid": "q078",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671096.03,
+ "tokens_marginal": 8047,
+ "tokens_total": 24286
+}

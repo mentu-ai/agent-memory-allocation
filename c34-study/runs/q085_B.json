@@ -1,0 +1,58 @@
+{
+ "answer": "cir_openai-ping_88BFD33E",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 10419,
+ "cache_read_tokens": 87528,
+ "call_key": "confirmatory:q085:B#0",
+ "cost_usd": 0.0316468,
+ "duration_s": 8.2,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-10-return-loop-diagnosis.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-10-return-loop-diagnosis.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-10-return-loop-diagnosis.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "CIR_USED: none OPENAI_SMOKE_COMPLETE",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 97973,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 540,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 406,
+ "policy": "B",
+ "qid": "q085",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-10-return-loop-diagnosis.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "CIR_USED: none OPENAI_SMOKE_COMPLETE",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671167.062,
+ "tokens_marginal": 10851,
+ "tokens_total": 98379
+}

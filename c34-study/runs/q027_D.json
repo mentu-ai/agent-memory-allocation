@@ -1,0 +1,33 @@
+{
+ "answer": "the log is the handle",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12596,
+ "cache_read_tokens": 11078,
+ "call_key": "confirmatory:q027:D#0",
+ "cost_usd": 0.0369698,
+ "duration_s": 25.8,
+ "error_class": null,
+ "gold_rp": "applications/2026-07-01-offer-pathway-design-proposal.md",
+ "input_tokens": 23684,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 400,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 2132,
+ "policy": "D",
+ "qid": "q027",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670531.742,
+ "tokens_marginal": 14738,
+ "tokens_total": 25816
+}

@@ -1,0 +1,18 @@
+{
+ "artifacts": [
+  "call-ledger.jsonl",
+  "call-ledger.jsonl.head.json",
+  "corpus-manifest.json",
+  "corpus-snapshot",
+  "effect-table-2026-08-14.json",
+  "gen-cache",
+  "index-2026-08-13.json",
+  "questions-2026-08-13.json",
+  "reality-probe.json",
+  "rule-R-evaluation-log.json",
+  "runs",
+  "selection-2026-08-13.json",
+  "smoke-audit-2026-08-13.json"
+ ],
+ "note": "Artifacts this study legitimately ships. Used by run_tests.py's leak gate when it runs OUTSIDE a git work tree \u2014 i.e. in the public bundle (finding G-M3-1). Inside the repo, git remains authoritative."
+}

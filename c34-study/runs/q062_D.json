@@ -1,0 +1,33 @@
+{
+ "answer": "Heavier recipes are modified more slowly after failures than lighter ones.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 6195,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q062:D#0",
+ "cost_usd": 0.0151789,
+ "duration_s": 5.2,
+ "error_class": null,
+ "gold_rp": "corpus/supported/c4-epistemic-mass.md",
+ "input_tokens": 22444,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 490,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 231,
+ "policy": "D",
+ "qid": "q062",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670915.28,
+ "tokens_marginal": 6436,
+ "tokens_total": 22675
+}

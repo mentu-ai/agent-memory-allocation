@@ -1,0 +1,68 @@
+{
+ "answer": "escalation file, human decides framing before it enters the draft",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 17575,
+ "cache_read_tokens": 89384,
+ "call_key": "smoke:q068:B#0",
+ "cost_usd": 0.0476394,
+ "duration_s": 12.8,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-evidence-carrying-execution-paper-v1.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/BUILD-evidence-carrying-execution-paper-v1.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/BUILD-evidence-carrying-execution-paper-v1.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "re-derived audit number.*contradicts|audit number.*contradicts|canon.*claimed",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 106985,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 317,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 705,
+ "policy": "B",
+ "qid": "q068",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/BUILD-evidence-carrying-execution-paper-v1.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "re-derived audit number.*contradicts|audit number.*contradicts|canon.*claimed",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  }
+ ],
+ "set": "smoke",
+ "started_at": 1786669726.324,
+ "tokens_marginal": 18306,
+ "tokens_total": 107690
+}

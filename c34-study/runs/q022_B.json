@@ -1,0 +1,58 @@
+{
+ "answer": "a read-only evaluator",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 10483,
+ "cache_read_tokens": 120884,
+ "call_key": "confirmatory:q022:B#0",
+ "cost_usd": 0.0360384,
+ "duration_s": 11.0,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-sequence-review-trust-ledger-audit.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-sequence-review-trust-ledger-audit.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-sequence-review-trust-ledger-audit.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "read model|product primitive",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 131401,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 381,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 590,
+ "policy": "B",
+ "qid": "q022",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-sequence-review-trust-ledger-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "read model|product primitive",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670438.883,
+ "tokens_marginal": 11107,
+ "tokens_total": 131991
+}

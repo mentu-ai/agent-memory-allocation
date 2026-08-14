@@ -1,0 +1,33 @@
+{
+ "answer": "alpha",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 6127,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q141:D#0",
+ "cost_usd": 0.016797899999999998,
+ "duration_s": 8.4,
+ "error_class": null,
+ "gold_rp": "results/2026-08-12-c25-return-intervention.md",
+ "input_tokens": 22376,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 687,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 582,
+ "policy": "D",
+ "qid": "q141",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671937.677,
+ "tokens_marginal": 6719,
+ "tokens_total": 22958
+}

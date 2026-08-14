@@ -1,0 +1,33 @@
+{
+ "answer": "4",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11422,
+ "cache_read_tokens": 11078,
+ "call_key": "confirmatory:q015:D#0",
+ "cost_usd": 0.0255268,
+ "duration_s": 6.1,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-epistemic-nodes-measurement-audit.md",
+ "input_tokens": 22510,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 366,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 313,
+ "policy": "D",
+ "qid": "q015",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670363.794,
+ "tokens_marginal": 11745,
+ "tokens_total": 22823
+}

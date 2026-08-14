@@ -1,0 +1,42 @@
+{
+ "answer": "CIRStore.swift is not present in this directory.",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 17067,
+ "cache_read_tokens": 22342,
+ "call_key": "smoke:q065:C#0",
+ "cost_usd": 0.0378332,
+ "duration_s": 6.5,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-cir-substrate-hardening-v1.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": null,
+  "located": false,
+  "read_count": 0,
+  "reads": [],
+  "searches": [],
+  "zero_read": true
+ },
+ "input_tokens": 39419,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 314,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 291,
+ "policy": "C",
+ "qid": "q065",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "smoke",
+ "started_at": 1786669715.084,
+ "tokens_marginal": 17368,
+ "tokens_total": 39710
+}

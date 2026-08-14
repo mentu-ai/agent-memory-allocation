@@ -1,0 +1,52 @@
+{
+ "answer": "The document reports 41/44 (93%) success overall on 2026-06-28, with ane-fortress (the zombie) contributing 0/2 of those successes; excluding the zombie, this yields 41/42 non-zombie runs successful, which is not explicitly stated as a single percentage in the exact wording.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 37142,
+ "cache_read_tokens": 204108,
+ "call_key": "confirmatory:q115:C#0",
+ "cost_usd": 0.1287068,
+ "duration_s": 91.4,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-11.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-22.md",
+  "located": false,
+  "read_count": 4,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-22.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-26.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 241292,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 626,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 6794,
+ "policy": "C",
+ "qid": "q115",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-22.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-24.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-26.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671537.215,
+ "tokens_marginal": 43978,
+ "tokens_total": 248086
+}

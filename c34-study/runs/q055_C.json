@@ -1,0 +1,46 @@
+{
+ "answer": "Future analysis code must pass the pure guardrail tests in `analyses/c5-boundary-impedance/` before any C5 verdict is adjudicated.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18193,
+ "cache_read_tokens": 61806,
+ "call_key": "confirmatory:q055:C#0",
+ "cost_usd": 0.0445196,
+ "duration_s": 8.2,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c5-boundary-impedance.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c5-boundary-impedance.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c5-boundary-impedance.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 80017,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 469,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 387,
+ "policy": "C",
+ "qid": "q055",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c5-boundary-impedance.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670834.561,
+ "tokens_marginal": 18598,
+ "tokens_total": 80404
+}

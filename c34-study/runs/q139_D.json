@@ -1,0 +1,33 @@
+{
+ "answer": "The gate requires \u2265500 interactive sessions.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 6527,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q139:D#0",
+ "cost_usd": 0.0153029,
+ "duration_s": 4.9,
+ "error_class": null,
+ "gold_rp": "results/2026-07-18-c27-resident-set-utilization.md",
+ "input_tokens": 22776,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 681,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 123,
+ "policy": "D",
+ "qid": "q139",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671912.585,
+ "tokens_marginal": 6660,
+ "tokens_total": 22899
+}

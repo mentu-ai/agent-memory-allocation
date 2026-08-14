@@ -1,0 +1,78 @@
+{
+ "answer": "The real shipped set is `cites, extends, contradicts, refines, synthesizes, supports, questions, corrects`",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12628,
+ "cache_read_tokens": 123403,
+ "call_key": "confirmatory:q006:B#0",
+ "cost_usd": 0.0414503,
+ "duration_s": 12.5,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-13-research-section-audit.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-research-section-audit.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-research-section-audit.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "cognitive-infrastructure",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "relationship enum",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 136065,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 344,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 764,
+ "policy": "B",
+ "qid": "q006",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-research-section-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "cognitive-infrastructure",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "relationship enum",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670227.977,
+ "tokens_marginal": 13426,
+ "tokens_total": 136829
+}

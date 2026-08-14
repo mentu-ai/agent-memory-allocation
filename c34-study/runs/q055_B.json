@@ -1,0 +1,60 @@
+{
+ "answer": "the pure guardrail tests in `analyses/c5-boundary-impedance/`",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 10538,
+ "cache_read_tokens": 153266,
+ "call_key": "confirmatory:q055:B#0",
+ "cost_usd": 0.0396696,
+ "duration_s": 13.2,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c5-boundary-impedance.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/README.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/README.md",
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c5-boundary-impedance.md"
+  ],
+  "searches": [
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "C5",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 163846,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 468,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 645,
+ "policy": "B",
+ "qid": "q055",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/README.md",
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c5-boundary-impedance.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "C5",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670829.184,
+ "tokens_marginal": 11225,
+ "tokens_total": 164491
+}

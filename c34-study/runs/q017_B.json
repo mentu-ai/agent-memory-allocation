@@ -1,0 +1,80 @@
+{
+ "answer": "run rows with participation-adjacent terms: `judge` 11, `approval` 5, `contract` 4, `review` 3",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12215,
+ "cache_read_tokens": 123718,
+ "call_key": "confirmatory:q017:B#0",
+ "cost_usd": 0.0405158,
+ "duration_s": 12.0,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-foundations-participatory-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/README.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/README.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-foundations-participatory-audit.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "run outcome rows.*participation",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "participation-adjacent",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 135967,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 370,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 736,
+ "policy": "B",
+ "qid": "q017",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/README.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-foundations-participatory-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "run outcome rows.*participation",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "participation-adjacent",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670393.104,
+ "tokens_marginal": 12985,
+ "tokens_total": 136703
+}

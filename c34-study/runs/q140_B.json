@@ -1,0 +1,88 @@
+{
+ "answer": "ever \u226410%",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12468,
+ "cache_read_tokens": 192163,
+ "call_key": "confirmatory:q140:B#0",
+ "cost_usd": 0.05002730000000001,
+ "duration_s": 17.9,
+ "error_class": null,
+ "gold_rp": "results/2026-07-18-c28-promotion-lane-returnability.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c28-promotion-lane-returnability.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c28-promotion-lane-returnability.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "refutation trigger threshold.*ever re-read|ever re-read.*refutation trigger threshold",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "frozen refutation trigger",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "ever re-read",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 204681,
+ "input_uncached": 50,
+ "is_error": false,
+ "ledger_position": 685,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 1165,
+ "policy": "B",
+ "qid": "q140",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c28-promotion-lane-returnability.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "refutation trigger threshold.*ever re-read|ever re-read.*refutation trigger threshold",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "frozen refutation trigger",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "ever re-read",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671917.517,
+ "tokens_marginal": 13683,
+ "tokens_total": 205846
+}

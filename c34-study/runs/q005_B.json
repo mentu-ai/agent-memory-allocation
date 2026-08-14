@@ -1,0 +1,68 @@
+{
+ "answer": "Measured 2026-06-13: 1621 core / 893 adapter non-blank LOC = **64% core**",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12712,
+ "cache_read_tokens": 123597,
+ "call_key": "confirmatory:q005:B#0",
+ "cost_usd": 0.041517700000000005,
+ "duration_s": 13.1,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-13-policy-harness-release-claims.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-policy-harness-release-claims.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-policy-harness-release-claims.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "core.*adapter.*LOC|LOC.*core.*adapter|non-blank.*LOC",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 136343,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 343,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 740,
+ "policy": "B",
+ "qid": "q005",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-policy-harness-release-claims.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "core.*adapter.*LOC|LOC.*core.*adapter|non-blank.*LOC",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670220.011,
+ "tokens_marginal": 13486,
+ "tokens_total": 137083
+}

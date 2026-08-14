@@ -1,0 +1,33 @@
+{
+ "answer": "At least 30 strict-clean mixed-boundary runs, or at least 100 strict-clean exposed opportunities in each boundary class across at least 10 mixed-boundary runs.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 7671,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q094:D#0",
+ "cost_usd": 0.0185709,
+ "duration_s": 5.8,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-c5-normalization-design.md",
+ "input_tokens": 23920,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 565,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 319,
+ "policy": "D",
+ "qid": "q094",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671282.828,
+ "tokens_marginal": 8000,
+ "tokens_total": 24239
+}

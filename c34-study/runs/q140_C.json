@@ -1,0 +1,46 @@
+{
+ "answer": "The frozen refutation trigger threshold for ever re-read was \u226410% (AND median \u226410\u00d7T3, which equals 0.222%).",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18702,
+ "cache_read_tokens": 61803,
+ "call_key": "confirmatory:q140:C#0",
+ "cost_usd": 0.046252299999999996,
+ "duration_s": 9.6,
+ "error_class": null,
+ "gold_rp": "results/2026-07-18-c28-promotion-lane-returnability.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c28-promotion-lane-returnability.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c28-promotion-lane-returnability.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 80523,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 684,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 530,
+ "policy": "C",
+ "qid": "q140",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c28-promotion-lane-returnability.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671920.505,
+ "tokens_marginal": 19250,
+ "tokens_total": 81053
+}

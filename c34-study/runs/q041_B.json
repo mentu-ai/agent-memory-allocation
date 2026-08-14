@@ -1,0 +1,58 @@
+{
+ "answer": "per-run arms",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 13884,
+ "cache_read_tokens": 87518,
+ "call_key": "confirmatory:q041:B#0",
+ "cost_usd": 0.0388908,
+ "duration_s": 10.0,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "MENTU_CIR_RANDOMIZE",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 101428,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 430,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 469,
+ "policy": "B",
+ "qid": "q041",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "MENTU_CIR_RANDOMIZE",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670661.896,
+ "tokens_marginal": 14379,
+ "tokens_total": 101897
+}

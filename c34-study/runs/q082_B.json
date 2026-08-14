@@ -1,0 +1,68 @@
+{
+ "answer": "the Epistemic Signal Schema",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 14489,
+ "cache_read_tokens": 88131,
+ "call_key": "confirmatory:q082:B#0",
+ "cost_usd": 0.0406971,
+ "duration_s": 12.1,
+ "error_class": null,
+ "gold_rp": "essays/2026-06-10-when-the-theory-met-its-instrument.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "instruments/**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "core record.*schema",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 102646,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 536,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 576,
+ "policy": "B",
+ "qid": "q082",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "instruments/**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "core record.*schema",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671152.799,
+ "tokens_marginal": 15091,
+ "tokens_total": 103222
+}

@@ -1,0 +1,68 @@
+{
+ "answer": "scoring rules are frozen before outcome modeling",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 13773,
+ "cache_read_tokens": 87528,
+ "call_key": "confirmatory:q045:B#0",
+ "cost_usd": 0.040502800000000005,
+ "duration_s": 10.1,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c22-operational-surface-debt.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c22-operational-surface-debt.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c22-operational-surface-debt.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "C22 Gate",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 103170,
+ "input_uncached": 1869,
+ "is_error": false,
+ "ledger_position": 445,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 467,
+ "policy": "B",
+ "qid": "q045",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c22-operational-surface-debt.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "C22 Gate",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670725.315,
+ "tokens_marginal": 16109,
+ "tokens_total": 103637
+}

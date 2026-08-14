@@ -1,0 +1,68 @@
+{
+ "answer": "`cir_capture_signal` is now the practical capture path for these handles when the active surface is `metamcp`, including Crawlio/LARCS-style handle snapshots.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11142,
+ "cache_read_tokens": 153797,
+ "call_key": "confirmatory:q095:B#0",
+ "cost_usd": 0.04127570000000001,
+ "duration_s": 13.3,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-general-epistemic-telemetry-handles.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "metamcp.*capture.*path|capture.*path.*metamcp",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "metamcp",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 164981,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 566,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 714,
+ "policy": "B",
+ "qid": "q095",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-general-epistemic-telemetry-handles.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "metamcp.*capture.*path|capture.*path.*metamcp",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "metamcp",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671285.193,
+ "tokens_marginal": 11898,
+ "tokens_total": 165695
+}

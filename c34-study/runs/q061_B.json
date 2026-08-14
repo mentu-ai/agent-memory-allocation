@@ -1,0 +1,98 @@
+{
+ "answer": "\u226545\u00d7",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 14039,
+ "cache_read_tokens": 230227,
+ "call_key": "confirmatory:q061:B#0",
+ "cost_usd": 0.0559837,
+ "duration_s": 16.8,
+ "error_class": null,
+ "gold_rp": "corpus/refuted/c28-promotion-lane-returnability.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/refuted/c28-promotion-lane-returnability.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/refuted/c28-promotion-lane-returnability.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "P2.*median per-file.*subsequent-session.*read rate|P2.*T3 organic access baseline",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "P2",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "median per-file.*subsequent-session.*read rate",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "T3 organic access baseline",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 244324,
+ "input_uncached": 58,
+ "is_error": false,
+ "ledger_position": 487,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 7,
+ "output_tokens": 965,
+ "policy": "B",
+ "qid": "q061",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/refuted/c28-promotion-lane-returnability.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "P2.*median per-file.*subsequent-session.*read rate|P2.*T3 organic access baseline",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "P2",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "median per-file.*subsequent-session.*read rate",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "T3 organic access baseline",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670890.047,
+ "tokens_marginal": 15062,
+ "tokens_total": 245289
+}

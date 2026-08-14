@@ -1,0 +1,48 @@
+{
+ "answer": "62.5%",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20605,
+ "cache_read_tokens": 61806,
+ "call_key": "confirmatory:q050:C#0",
+ "cost_usd": 0.0513236,
+ "duration_s": 12.1,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c27-resident-set-utilization.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c27-resident-set-utilization.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c27-resident-set-utilization.md",
+   "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c27-resident-set-utilization.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 82429,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 457,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 783,
+ "policy": "C",
+ "qid": "q050",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c27-resident-set-utilization.md",
+  "/private/tmp/claude-501/c34-sandbox/results/2026-07-18-c27-resident-set-utilization.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670783.122,
+ "tokens_marginal": 21406,
+ "tokens_total": 83212
+}

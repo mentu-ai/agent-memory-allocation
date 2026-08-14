@@ -1,0 +1,289 @@
+% Agent-memory-allocation paper — bibliography (from the cross-camp seed)
+% 2026-07-22: the paper's 8 numbered references are source-verified (arXiv
+% abstract pages; publisher/index records for Howard 1966 and Weitzman 1979).
+% Remaining non-numbered positioning entries keep seed status — verify any
+% before promoting it to load-bearing use.
+
+
+% ===== Camp 1: Context engineering / management =====
+@misc{mei2025contexteng,
+  title = {A Survey of Context Engineering for Large Language Models},
+  author = {Mei, Lingrui and Yao, Jiayu and Ge, Yuyao and others},
+  year = {2025},
+  eprint = {2507.13334},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CL},
+  note = {Framing anchor; 1400+ papers surveyed},
+}
+
+@inproceedings{zhang2026ace,
+  title = {Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models},
+  author = {Zhang, Qizheng and Hu, Changran and Upasani, Shubhangi and others},
+  year = {2026},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  eprint = {2510.04618},
+  archivePrefix = {arXiv},
+  note = {Nearest-rival; evolving playbook, brevity bias + context collapse},
+}
+
+@misc{mason2026demandpaging,
+  title = {The Missing Memory Hierarchy: Demand Paging for LLM Context Windows},
+  author = {Mason, Tony},
+  year = {2026},
+  eprint = {2603.09023},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.OS},
+  note = {Prior-art risk; Pichay proxy, 21.8pct structural waste, retrieval handles},
+}
+
+@misc{zhang2025memos,
+  title = {MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language Models},
+  author = {Li, Zhiyu and others},
+  year = {2025},
+  eprint = {2505.22101},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{contextasatool2026,
+  title = {Context as a Tool: Context Management for Long-Horizon SWE-Agents},
+  author = {{Context-as-a-Tool authors}},
+  year = {2026},
+  booktitle = {Findings of the Association for Computational Linguistics (ACL)},
+  eprint = {2512.22087},
+  archivePrefix = {arXiv},
+}
+
+
+% ===== Camp 2: Retrieval granularity & hierarchical retrieval =====
+@inproceedings{sarthi2024raptor,
+  title = {RAPTOR: Recursive Abstractive Processing for Tree-Organized Retrieval},
+  author = {Sarthi, Parth and Abdullah, Salman and Tuli, Aditi and others},
+  year = {2024},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  eprint = {2401.18059},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{asai2024selfrag,
+  title = {Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection},
+  author = {Asai, Akari and Wu, Zeqiu and Wang, Yizhong and Sil, Avirup and Hajishirzi, Hannaneh},
+  year = {2024},
+  booktitle = {International Conference on Learning Representations (ICLR)},
+  eprint = {2310.11511},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{jiang2023flare,
+  title = {Active Retrieval Augmented Generation},
+  author = {Jiang, Zhengbao and Xu, Frank F. and Gao, Luyu and others},
+  year = {2023},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  eprint = {2305.06983},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{chen2024densex,
+  title = {Dense X Retrieval: What Retrieval Granularity Should We Use?},
+  author = {Chen, Tong and Wang, Hongwei and Chen, Sihao and others},
+  year = {2024},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  eprint = {2312.06648},
+  archivePrefix = {arXiv},
+}
+
+@misc{gao2023ragsurvey,
+  title = {Retrieval-Augmented Generation for Large Language Models: A Survey},
+  author = {Gao, Yunfan and Xiong, Yun and Gao, Xinyu and others},
+  year = {2023},
+  eprint = {2312.10997},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{lewis2020rag,
+  title = {Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks},
+  author = {Lewis, Patrick and Perez, Ethan and Piktus, Aleksandra and others},
+  year = {2020},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  eprint = {2005.11401},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{karpukhin2020dpr,
+  title = {Dense Passage Retrieval for Open-Domain Question Answering},
+  author = {Karpukhin, Vladimir and Oguz, Barlas and Min, Sewon and others},
+  year = {2020},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  eprint = {2004.04906},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{jiang2023llmlingua,
+  title = {LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models},
+  author = {Jiang, Huiqiang and Wu, Qianhui and Lin, Chin-Yew and Yang, Yuqing and Qiu, Lili},
+  year = {2023},
+  booktitle = {Empirical Methods in Natural Language Processing (EMNLP)},
+  eprint = {2310.05736},
+  archivePrefix = {arXiv},
+}
+
+
+% ===== Camp 3: Agent memory / cognitive architectures =====
+@misc{packer2023memgpt,
+  title = {MemGPT: Towards LLMs as Operating Systems},
+  author = {Packer, Charles and Wooders, Sarah and Lin, Kevin and Fang, Vivian and Patil, Shishir G. and Stoica, Ion and Gonzalez, Joseph E.},
+  year = {2023},
+  eprint = {2310.08560},
+  archivePrefix = {arXiv},
+}
+
+@article{sumers2024coala,
+  title = {Cognitive Architectures for Language Agents},
+  author = {Sumers, Theodore R. and Yao, Shunyu and Narasimhan, Karthik and Griffiths, Thomas L.},
+  year = {2024},
+  journal = {Transactions on Machine Learning Research (TMLR)},
+  eprint = {2309.02427},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{gutierrez2024hipporag,
+  title = {HippoRAG: Neurobiologically Inspired Long-Term Memory for Large Language Models},
+  author = {Guti{\'e}rrez, Bernal Jim{\'e}nez and Shu, Yiheng and Gu, Yu and others},
+  year = {2024},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  eprint = {2405.14831},
+  archivePrefix = {arXiv},
+}
+
+@misc{xu2025amem,
+  title = {A-MEM: Agentic Memory for LLM Agents},
+  author = {Xu, Wujiang and Liang, Zujie and Mei, Kai and others},
+  year = {2025},
+  eprint = {2502.12110},
+  archivePrefix = {arXiv},
+}
+
+@inproceedings{park2023genagents,
+  title = {Generative Agents: Interactive Simulacra of Human Behavior},
+  author = {Park, Joon Sung and O'Brien, Joseph C. and Cai, Carrie J. and others},
+  year = {2023},
+  booktitle = {ACM Symposium on User Interface Software and Technology (UIST)},
+  eprint = {2304.03442},
+  archivePrefix = {arXiv},
+}
+
+@article{liu2024lostmiddle,
+  title = {Lost in the Middle: How Language Models Use Long Contexts},
+  author = {Liu, Nelson F. and Lin, Kevin and Hewitt, John and others},
+  year = {2024},
+  journal = {Transactions of the Association for Computational Linguistics (TACL)},
+  eprint = {2307.03172},
+  archivePrefix = {arXiv},
+}
+
+
+% ===== Camp 4: Content-addressed storage & provenance =====
+@techreport{w3c2013provdm,
+  title = {{PROV-DM}: The {PROV} Data Model},
+  author = {Moreau, Luc and Missier, Paolo and others},
+  year = {2013},
+  institution = {World Wide Web Consortium (W3C)},
+  note = {W3C Recommendation},
+}
+
+@techreport{w3c2013provo,
+  title = {{PROV-O}: The {PROV} Ontology},
+  author = {Lebo, Timothy and Sahoo, Satya and McGuinness, Deborah and others},
+  year = {2013},
+  institution = {World Wide Web Consortium (W3C)},
+  note = {W3C Recommendation},
+}
+
+@misc{benet2014ipfs,
+  title = {{IPFS} -- Content Addressed, Versioned, {P2P} File System},
+  author = {Benet, Juan},
+  year = {2014},
+  eprint = {1407.3561},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.NI},
+}
+
+@article{singh2018decisionprov,
+  title = {Decision Provenance: Harnessing Data Flow for Accountable Systems},
+  author = {Singh, Jatinder and Cobbe, Jennifer and Norval, Chris},
+  year = {2019},
+  journal = {IEEE Access},
+  volume = {7},
+  note = {Enforcement-at-runtime provenance},
+}
+
+@inproceedings{pasquier2018wholesys,
+  title = {Runtime Analysis of Whole-System Provenance},
+  author = {Pasquier, Thomas and Han, Xueyuan and Moyer, Thomas and others},
+  year = {2018},
+  booktitle = {ACM SIGSAC Conference on Computer and Communications Security (CCS)},
+}
+
+@article{goble2020fairworkflows,
+  title = {{FAIR} Computational Workflows},
+  author = {Goble, Carole and Cohen-Boulakia, Sarah and Soiland-Reyes, Stian and others},
+  year = {2020},
+  journal = {Data Intelligence},
+  volume = {2},
+  number = {1--2},
+}
+
+
+% ===== Camp 5: Verifiable / reproducible execution (ECX sibling) =====
+@misc{dionysopoulos2024provalgebra,
+  title = {Provenance Algebra for Deterministic {AI} Execution: Replay Semantics for Stochastic Program Generators},
+  author = {Dionysopoulos, Theodoros},
+  year = {2024},
+  howpublished = {Zenodo},
+  doi = {10.5281/zenodo.20457667},
+  note = {ECX sibling; hash-chained replay-verify},
+}
+
+% ===== Formal lineage (verified 2026-07-22) =====
+@article{howard1966voi,
+  title = {Information Value Theory},
+  author = {Howard, Ronald A.},
+  year = {1966},
+  journal = {IEEE Transactions on Systems Science and Cybernetics},
+  volume = {SSC-2},
+  number = {1},
+  pages = {22--26},
+  doi = {10.1109/TSSC.1966.300074},
+}
+
+@article{weitzman1979pandora,
+  title = {Optimal Search for the Best Alternative},
+  author = {Weitzman, Martin L.},
+  year = {1979},
+  journal = {Econometrica},
+  volume = {47},
+  number = {3},
+  pages = {641--654},
+}
+
+% ===== Agent context-file / configured-tier (added 2026-07-23; source-verified) =====
+@misc{chatlatanagulchai2025agentreadmes,
+  title = {Agent READMEs: An Empirical Study of Context Files for Agentic Coding},
+  author = {Chatlatanagulchai, Worawalan and Li, Hao and Kashiwa, Yutaro and Reid, Brittany and Thonglek, Kundjanasith and Leelaprute, Pattara and Rungsawang, Arnon and Manaskasemsak, Bundit and Adams, Bram and Hassan, Ahmed E. and Iida, Hajimu},
+  year = {2025}, eprint = {2511.12884}, archivePrefix = {arXiv},
+}
+@misc{gloaguen2026evaluating,
+  title = {Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?},
+  author = {Gloaguen, Thibaud and M{\"u}ndler, Niels and M{\"u}ller, Mark and Raychev, Veselin and Vechev, Martin},
+  year = {2026}, eprint = {2602.11988}, archivePrefix = {arXiv},
+  note = {Convergent with C27: boot-resident context files often unhelpful at >20% added cost},
+}
+@misc{yuan2026diagnosing,
+  title = {Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory},
+  author = {Yuan, Boqin and Su, Yue and Yao, Kun},
+  year = {2026}, eprint = {2603.02473}, archivePrefix = {arXiv},
+}
+@misc{long2026memtrace,
+  title = {MemTrace: Probing What Final Accuracy Misses in Long-Term Memory},
+  author = {Long, Xianxuan and Chen, Zhikai and Zeng, Shenglai and Wang, Shouren and Guo, Kai and Tang, Jiliang},
+  year = {2026}, eprint = {2606.17328}, archivePrefix = {arXiv},
+}

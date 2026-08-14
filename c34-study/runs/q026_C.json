@@ -1,0 +1,46 @@
+{
+ "answer": "The documented `compute_hash` in `protocol/spec/LEDGER.md` reproduced **0 of 11,106** engine-written hashes on the checked-in ledger.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 21259,
+ "cache_read_tokens": 61810,
+ "call_key": "confirmatory:q026:C#0",
+ "cost_usd": 0.051976999999999995,
+ "duration_s": 11.8,
+ "error_class": null,
+ "gold_rp": "applications/2026-07-01-issue-register.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-issue-register.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-issue-register.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 83087,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 395,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 652,
+ "policy": "C",
+ "qid": "q026",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-issue-register.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670519.914,
+ "tokens_marginal": 21929,
+ "tokens_total": 83739
+}

@@ -1,0 +1,56 @@
+{
+ "answer": "Item 1 in the Tier 1 reading order is \"Attention-decay scheduling\" \u2192 daemon (temporal executor + schedule tick), and it is the one the zombie pays for daily.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 41685,
+ "cache_read_tokens": 353249,
+ "call_key": "confirmatory:q003:C#0",
+ "cost_usd": 0.12838190000000002,
+ "duration_s": 28.9,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-10-spine-applications-map.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/BUILD-epistemics-program-v1.md",
+  "located": true,
+  "read_count": 6,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/BUILD-epistemics-program-v1.md",
+   "/private/tmp/claude-501/c34-sandbox/README.md",
+   "/private/tmp/claude-501/c34-sandbox/AGENTS.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/CANON-observation-packet-v0.1.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-10-spine-applications-map.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 395046,
+ "input_uncached": 112,
+ "is_error": false,
+ "ledger_position": 339,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 1915,
+ "policy": "C",
+ "qid": "q003",
+ "qtype": "synthesis",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/BUILD-epistemics-program-v1.md",
+  "/private/tmp/claude-501/c34-sandbox/README.md",
+  "/private/tmp/claude-501/c34-sandbox/AGENTS.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/CANON-observation-packet-v0.1.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-10-spine-applications-map.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670191.063,
+ "tokens_marginal": 43712,
+ "tokens_total": 396961
+}

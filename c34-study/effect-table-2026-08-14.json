@@ -1,0 +1,574 @@
+{
+ "adjudicated_set": "confirmatory",
+ "answerer": "claude-haiku-4-5-20251001",
+ "conjecture": "c34-public-curation-vs-search-replication",
+ "contamination_findings": [],
+ "failed_predictions": [
+  "P4"
+ ],
+ "floors": {
+  "hydration_records_complete": true,
+  "one_resolved_identity_per_pinned_model": true,
+  "scored_ge_100_each_BCD": true,
+  "scored_per_policy": {
+   "B": 120,
+   "C": 120,
+   "D": 120
+  }
+ },
+ "generator": "claude-sonnet-5",
+ "headline": {
+  "P1_accuracy_parity": {
+   "acc_B": 0.6333,
+   "acc_C": 0.5083,
+   "margin_pp": 12.5,
+   "pass": true
+  },
+  "P3prime_wrong_stop_tax": {
+   "operator": ">= (ties pass)",
+   "pass": true,
+   "wrong_stop_rate_B": 0.1833,
+   "wrong_stop_rate_C": 0.3417
+  },
+  "P5_localization_advantage": {
+   "P5a_pass": true,
+   "P5b_min_denominator": 20,
+   "P5b_pass": true,
+   "P5b_pooled_non_hydrated": {
+    "denominator": 75,
+    "numerator": 63,
+    "status": "observed",
+    "value": 0.84
+   },
+   "P5b_status": "adjudicating",
+   "localization_rate_B": 0.75,
+   "localization_rate_C": 0.625,
+   "pass": true
+  }
+ },
+ "instrument_insufficient_causes": [],
+ "instrument_insufficient_detail": {
+  "manifest_files": 141
+ },
+ "non_adjudicating": {
+  "P2_on_marginal_not_adjudicated": {
+   "marginal_B": 1989121,
+   "marginal_C": 2941951,
+   "ratio_B_over_C": 0.676,
+   "would_pass": true
+  },
+  "P4_adjudicated_ratios_marginal": {
+   "ratio_B_over_D": 1.843,
+   "ratio_C_over_D": 2.727
+  },
+  "P4_on_totals_not_adjudicated": {
+   "ratio_B_over_D": 7.56,
+   "ratio_C_over_D": 5.824,
+   "total_B": 21990673,
+   "total_C": 16943195,
+   "total_D": 2908991,
+   "would_pass": true
+  },
+  "accuracy_B_vs_C_fisher_exact_p": 0.06764,
+  "c29_asymmetric_P3": {
+   "b_wrong_answer_rate": 0.3667,
+   "c_wrong_stop_rate": 0.3417,
+   "note": "C29's frozen P3 as originally written \u2014 C's wrong-stop RATE against B's wrong-ANSWER rate, a subset against a superset. Retained for comparability; deviation D-2 adjudicates on the symmetric form instead.",
+   "would_pass": false
+  },
+  "c_authoring_cost": {
+   "authoring_tokens": 3945524,
+   "per_question": 32879.4,
+   "total_amortized": 20888719,
+   "total_unamortized": 16943195
+  },
+  "error_rates": {
+   "B": {
+    "denominator": 120,
+    "numerator": 44,
+    "status": "observed",
+    "value": 0.3667
+   },
+   "C": {
+    "denominator": 120,
+    "numerator": 59,
+    "status": "observed",
+    "value": 0.4917
+   },
+   "D": {
+    "denominator": 120,
+    "numerator": 24,
+    "status": "observed",
+    "value": 0.2
+   }
+  },
+  "first_read_precision": {
+   "B": {
+    "denominator": 120,
+    "numerator": 64,
+    "status": "observed",
+    "value": 0.5333
+   },
+   "C": {
+    "denominator": 120,
+    "numerator": 50,
+    "status": "observed",
+    "value": 0.4167
+   }
+  },
+  "qtype": {
+   "accuracy": {
+    "B": {
+     "lookup": {
+      "denominator": 117,
+      "numerator": 75,
+      "status": "observed",
+      "value": 0.641
+     },
+     "synthesis": {
+      "denominator": 3,
+      "numerator": 1,
+      "status": "observed",
+      "value": 0.333
+     }
+    },
+    "C": {
+     "lookup": {
+      "denominator": 117,
+      "numerator": 60,
+      "status": "observed",
+      "value": 0.513
+     },
+     "synthesis": {
+      "denominator": 3,
+      "numerator": 1,
+      "status": "observed",
+      "value": 0.333
+     }
+    },
+    "D": {
+     "lookup": {
+      "denominator": 117,
+      "numerator": 95,
+      "status": "observed",
+      "value": 0.812
+     },
+     "synthesis": {
+      "denominator": 3,
+      "numerator": 1,
+      "status": "observed",
+      "value": 0.333
+     }
+    }
+   },
+   "split": {
+    "lookup": 117,
+    "synthesis": 3
+   }
+  },
+  "question_set_annotations": {
+   "index_leak": {
+    "conditions": {
+     "q014": [
+      "own_digest_contains_gold"
+     ],
+     "q101": [
+      "own_digest_contains_gold"
+     ],
+     "q127": [
+      "own_digest_contains_gold"
+     ]
+    },
+    "n": 3,
+    "qids": [
+     "q014",
+     "q101",
+     "q127"
+    ]
+   },
+   "outside_generation_slice": {
+    "conditions": {
+     "q131": [
+      "gold_beyond_generation_slice"
+     ]
+    },
+    "n": 1,
+    "qids": [
+     "q131"
+    ]
+   },
+   "scoring_degenerate": {
+    "conditions": {
+     "q014": [
+      "F1_corpus_ubiquity",
+      "F2_cross_answer_collision",
+      "F3_length_floor"
+     ],
+     "q023": [
+      "F1_corpus_ubiquity",
+      "F2_cross_answer_collision",
+      "F3_length_floor"
+     ],
+     "q037": [
+      "F1_corpus_ubiquity",
+      "F2_cross_answer_collision",
+      "F3_length_floor"
+     ],
+     "q058": [
+      "F2_cross_answer_collision"
+     ],
+     "q076": [
+      "F2_cross_answer_collision"
+     ],
+     "q077": [
+      "F2_cross_answer_collision"
+     ],
+     "q129": [
+      "F2_cross_answer_collision"
+     ],
+     "q138": [
+      "F2_cross_answer_collision"
+     ]
+    },
+    "n": 8,
+    "qids": [
+     "q014",
+     "q023",
+     "q037",
+     "q058",
+     "q076",
+     "q077",
+     "q129",
+     "q138"
+    ]
+   }
+  },
+  "sensitivity_note": "Correction v4 H4. Both rows re-run the identical computation over a subset and are non-adjudicating. The verdict is the primary computation on the full confirmatory set; a row that disagrees is a reported finding, not a tiebreak. `outside_generation_slice` is a provenance annotation and excludes nothing (v4 H3).",
+  "sensitivity_rows": [
+   {
+    "accuracy": {
+     "B": 0.6161,
+     "C": 0.5
+    },
+    "accuracy_delta_vs_primary": {
+     "B": -0.0172,
+     "C": -0.0083
+    },
+    "adjudicating": false,
+    "denominator": 112,
+    "disagrees_with_primary": false,
+    "excluded_n": 8,
+    "excluded_qids": [
+     "q014",
+     "q023",
+     "q037",
+     "q058",
+     "q076",
+     "q077",
+     "q129",
+     "q138"
+    ],
+    "label": "excluding_scoring_degenerate",
+    "localization_rate": {
+     "B": 0.7411,
+     "C": 0.6339
+    },
+    "note": "non-adjudicating; the verdict is the primary computation on the full confirmatory set. A disagreement here is a reported finding, never a tiebreak and never a threshold change.",
+    "p5b_pooled_non_hydrated": {
+     "denominator": 70,
+     "numerator": 59,
+     "status": "observed",
+     "value": 0.8429
+    },
+    "p5b_status": "adjudicating_in_primary_only",
+    "predictions": {
+     "P1": true,
+     "P2": true,
+     "P3prime": true,
+     "P4": false,
+     "P5": true
+    },
+    "predictions_flipped": [],
+    "predictions_primary": {
+     "P1": true,
+     "P2": true,
+     "P3prime": true,
+     "P4": false,
+     "P5": true
+    },
+    "scored_per_policy": {
+     "B": 112,
+     "C": 112,
+     "D": 112
+    },
+    "wrong_stop_rate": {
+     "B": 0.1875,
+     "C": 0.3393
+    }
+   },
+   {
+    "accuracy": {
+     "B": 0.6325,
+     "C": 0.4957
+    },
+    "accuracy_delta_vs_primary": {
+     "B": -0.0008,
+     "C": -0.0126
+    },
+    "adjudicating": false,
+    "denominator": 117,
+    "disagrees_with_primary": false,
+    "excluded_n": 3,
+    "excluded_qids": [
+     "q014",
+     "q101",
+     "q127"
+    ],
+    "label": "excluding_index_leak",
+    "localization_rate": {
+     "B": 0.7521,
+     "C": 0.6154
+    },
+    "note": "non-adjudicating; the verdict is the primary computation on the full confirmatory set. A disagreement here is a reported finding, never a tiebreak and never a threshold change.",
+    "p5b_pooled_non_hydrated": {
+     "denominator": 74,
+     "numerator": 62,
+     "status": "observed",
+     "value": 0.8378
+    },
+    "p5b_status": "adjudicating_in_primary_only",
+    "predictions": {
+     "P1": true,
+     "P2": true,
+     "P3prime": true,
+     "P4": false,
+     "P5": true
+    },
+    "predictions_flipped": [],
+    "predictions_primary": {
+     "P1": true,
+     "P2": true,
+     "P3prime": true,
+     "P4": false,
+     "P5": true
+    },
+    "scored_per_policy": {
+     "B": 117,
+     "C": 117,
+     "D": 117
+    },
+    "wrong_stop_rate": {
+     "B": 0.1795,
+     "C": 0.3504
+    }
+   }
+  ],
+  "stop_decomposition": {
+   "B": {
+    "mis_routed_rate": {
+     "denominator": 120,
+     "numerator": 20,
+     "status": "observed",
+     "value": 0.1667
+    },
+    "non_hydrated_rate": {
+     "denominator": 120,
+     "numerator": 30,
+     "status": "observed",
+     "value": 0.25
+    },
+    "true_stop_rate": {
+     "denominator": 120,
+     "numerator": 2,
+     "status": "observed",
+     "value": 0.0167
+    }
+   },
+   "C": {
+    "mis_routed_rate": {
+     "denominator": 120,
+     "numerator": 38,
+     "status": "observed",
+     "value": 0.3167
+    },
+    "non_hydrated_rate": {
+     "denominator": 120,
+     "numerator": 45,
+     "status": "observed",
+     "value": 0.375
+    },
+    "true_stop_rate": {
+     "denominator": 120,
+     "numerator": 3,
+     "status": "observed",
+     "value": 0.025
+    }
+   }
+  },
+  "token_profligate_check_B_gt_5x_C": false
+ },
+ "per_policy": {
+  "B": {
+   "accuracy": {
+    "denominator": 120,
+    "numerator": 76,
+    "status": "observed",
+    "value": 0.6333
+   },
+   "error_classes": [],
+   "error_qids": [],
+   "error_rate": {
+    "denominator": 120,
+    "numerator": 44,
+    "status": "observed",
+    "value": 0.3667
+   },
+   "errors": 0,
+   "first_read_precision": {
+    "denominator": 120,
+    "numerator": 64,
+    "status": "observed",
+    "value": 0.5333
+   },
+   "localization_rate": {
+    "denominator": 120,
+    "numerator": 90,
+    "status": "observed",
+    "value": 0.75
+   },
+   "mis_routed_rate": {
+    "denominator": 120,
+    "numerator": 20,
+    "status": "observed",
+    "value": 0.1667
+   },
+   "missing_hydration_qids": [],
+   "model_identity_drift_qids": [],
+   "non_hydrated_rate": {
+    "denominator": 120,
+    "numerator": 30,
+    "status": "observed",
+    "value": 0.25
+   },
+   "scored": 120,
+   "tokens_marginal": 1989121,
+   "tokens_marginal_per_q": 16576.0,
+   "tokens_total": 21990673,
+   "tokens_total_per_q": 183255.6,
+   "true_stop_rate": {
+    "denominator": 120,
+    "numerator": 2,
+    "status": "observed",
+    "value": 0.0167
+   },
+   "wrong_stop_rate": {
+    "denominator": 120,
+    "numerator": 22,
+    "status": "observed",
+    "value": 0.1833
+   }
+  },
+  "C": {
+   "accuracy": {
+    "denominator": 120,
+    "numerator": 61,
+    "status": "observed",
+    "value": 0.5083
+   },
+   "authoring_tokens": 3945524,
+   "authoring_tokens_per_q": 32879.4,
+   "error_classes": [],
+   "error_qids": [],
+   "error_rate": {
+    "denominator": 120,
+    "numerator": 59,
+    "status": "observed",
+    "value": 0.4917
+   },
+   "errors": 0,
+   "first_read_precision": {
+    "denominator": 120,
+    "numerator": 50,
+    "status": "observed",
+    "value": 0.4167
+   },
+   "localization_rate": {
+    "denominator": 120,
+    "numerator": 75,
+    "status": "observed",
+    "value": 0.625
+   },
+   "mis_routed_rate": {
+    "denominator": 120,
+    "numerator": 38,
+    "status": "observed",
+    "value": 0.3167
+   },
+   "missing_hydration_qids": [],
+   "model_identity_drift_qids": [],
+   "non_hydrated_rate": {
+    "denominator": 120,
+    "numerator": 45,
+    "status": "observed",
+    "value": 0.375
+   },
+   "scored": 120,
+   "tokens_marginal": 2941951,
+   "tokens_marginal_per_q": 24516.3,
+   "tokens_total": 16943195,
+   "tokens_total_amortized": 20888719,
+   "tokens_total_per_q": 141193.3,
+   "tokens_total_unamortized": 16943195,
+   "true_stop_rate": {
+    "denominator": 120,
+    "numerator": 3,
+    "status": "observed",
+    "value": 0.025
+   },
+   "wrong_stop_rate": {
+    "denominator": 120,
+    "numerator": 41,
+    "status": "observed",
+    "value": 0.3417
+   }
+  },
+  "D": {
+   "accuracy": {
+    "denominator": 120,
+    "numerator": 96,
+    "status": "observed",
+    "value": 0.8
+   },
+   "error_classes": [],
+   "error_qids": [],
+   "error_rate": {
+    "denominator": 120,
+    "numerator": 24,
+    "status": "observed",
+    "value": 0.2
+   },
+   "errors": 0,
+   "model_identity_drift_qids": [],
+   "scored": 120,
+   "tokens_marginal": 1079014,
+   "tokens_marginal_per_q": 8991.8,
+   "tokens_total": 2908991,
+   "tokens_total_per_q": 24241.6
+  }
+ },
+ "predictions": {
+  "P1_accuracy_parity": true,
+  "P2_token_order_totals": true,
+  "P3prime_symmetric_wrong_stop": true,
+  "P4_headroom_marginal_tokens": false,
+  "P5_localization_advantage": true
+ },
+ "questions_confirmatory": 120,
+ "records_adjudicated": 360,
+ "records_barred": 30,
+ "refutation_check": false,
+ "snapshot_commit": "cb736542a2bfc96a230e8bb9b605d11ff0b87d86",
+ "verdict": "revised",
+ "verdict_bearing": true,
+ "verdict_reason": "headroom_not_established_on_marginal_tokens"
+}

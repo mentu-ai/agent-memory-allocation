@@ -1,0 +1,88 @@
+{
+ "answer": "At least 30 strict-clean mixed-boundary runs, or at least 100 strict-clean exposed opportunities in each boundary class across at least 10 mixed-boundary runs.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11929,
+ "cache_read_tokens": 120244,
+ "call_key": "confirmatory:q094:B#0",
+ "cost_usd": 0.040596400000000005,
+ "duration_s": 14.0,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-c5-normalization-design.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c5-normalization-design.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c5-normalization-design.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "readiness gate.*mixed-boundary|mixed-boundary.*readiness gate",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "primary surface.*readiness gate|readiness gate.*primary surface",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "readiness gate threshold",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "mixed-boundary",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 132207,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 563,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 936,
+ "policy": "B",
+ "qid": "q094",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c5-normalization-design.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "readiness gate.*mixed-boundary|mixed-boundary.*readiness gate",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "primary surface.*readiness gate|readiness gate.*primary surface",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "readiness gate threshold",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "mixed-boundary",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671268.845,
+ "tokens_marginal": 12899,
+ "tokens_total": 133143
+}

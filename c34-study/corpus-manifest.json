@@ -1,0 +1,712 @@
+{
+ "bytes": 1162998,
+ "entries": [
+  {
+   "path": "AGENTS.md",
+   "sha256": "7195b14d172325e988ccd4abea86c54c29c720c4e60c26e1c5654c02c139a8f9",
+   "size": 2389
+  },
+  {
+   "path": "CLAUDE.md",
+   "sha256": "f2c8084faf5975e3081e0dcfa06e7ec85ec1d05f1c38a7956f5b410a49e36082",
+   "size": 2390
+  },
+  {
+   "path": "applications/2026-06-10-spine-applications-map.md",
+   "sha256": "bd9beabd44300f1c11a6b993e73f69c5a77eb62c36bce321dd447b127f5d80c3",
+   "size": 7251
+  },
+  {
+   "path": "applications/2026-06-13-okf-projection-of-the-corpus.md",
+   "sha256": "023e4c3a0656a81392e396054b4600080c06a01f534443bec4ac8ee8280ce5dd",
+   "size": 3493
+  },
+  {
+   "path": "applications/2026-06-13-policy-harness-release-claims.md",
+   "sha256": "8bab1013f0615177eb4a4c461d7523da878afc1b41498a22f725ef694250e8c7",
+   "size": 6539
+  },
+  {
+   "path": "applications/2026-06-13-research-section-audit.md",
+   "sha256": "09c9ba15c757350d6e7a7b54193c46c121c037edd072faa35e8d75230a5526c7",
+   "size": 6559
+  },
+  {
+   "path": "applications/2026-06-19-archived-references-audit.md",
+   "sha256": "7613471a958a0ce5a6d7cad82cf6831ff885b51a2169bc6c958f630e1715335b",
+   "size": 3885
+  },
+  {
+   "path": "applications/2026-06-19-constitutional-engine-audit.md",
+   "sha256": "e9b3f88746e0deb6bd063cbf170589e9ecdccb284bef47b7073a63f45e313e6d",
+   "size": 3740
+  },
+  {
+   "path": "applications/2026-06-19-context-network-recursive-audit.md",
+   "sha256": "9eb101a750db1f7773b0ee3fb0b3d44402fa1d18760fb7be3beec68c67fa64fe",
+   "size": 4163
+  },
+  {
+   "path": "applications/2026-06-19-core-concepts-frameworks-audit.md",
+   "sha256": "df4f87030a667322d988f0d48a837ed934085fb13b41d2bf85e8732596d54efe",
+   "size": 3058
+  },
+  {
+   "path": "applications/2026-06-19-engine-governance-maturity-audit.md",
+   "sha256": "f48c1f297059bfcf2d72ebcffbd571aacdbe67eac12d0d2d77c66fa76d196635",
+   "size": 4213
+  },
+  {
+   "path": "applications/2026-06-19-engineering-operational-surface-audit.md",
+   "sha256": "aff24f66742d6544bf36cf9fa432be87f3b3a7a9f505365008fb660e8cff7216",
+   "size": 7158
+  },
+  {
+   "path": "applications/2026-06-19-epistemic-computer-audit.md",
+   "sha256": "29465fa3477c51684e92663c21932e79060ed27f112065a95470122a08f3ba92",
+   "size": 3906
+  },
+  {
+   "path": "applications/2026-06-19-epistemic-matter-compiler-audit.md",
+   "sha256": "742255bac1f22375f5a5ae090ce7e4614f0db952c6c99973856eb911bb12f19e",
+   "size": 3497
+  },
+  {
+   "path": "applications/2026-06-19-epistemic-nodes-measurement-audit.md",
+   "sha256": "5847f0a5f1727ef4270187c33562e7c250a5aa9fb7cd5da54218c8e86e8f0612",
+   "size": 3483
+  },
+  {
+   "path": "applications/2026-06-19-foundational-ideas-audit.md",
+   "sha256": "c93216280e6f80c87071026a36c8dbab50d1cb0743807ee174ce9dfa30e1e2aa",
+   "size": 3092
+  },
+  {
+   "path": "applications/2026-06-19-foundations-participatory-audit.md",
+   "sha256": "a5aab8b91d94bee289729f877ad96009ac6a9899faefa09ab83223c820142124",
+   "size": 4157
+  },
+  {
+   "path": "applications/2026-06-19-legacy-corpus-salvage-audit.md",
+   "sha256": "8766735717de8e33e322d70b9a1b755bb4006dc04730bc5b7bc37ac2cb6acea5",
+   "size": 11406
+  },
+  {
+   "path": "applications/2026-06-19-mentu-finder-lacs-audit.md",
+   "sha256": "d20ebc644da2a77f343281258d797254a4bf34135b335ba4ab6963180a53a3bc",
+   "size": 3549
+  },
+  {
+   "path": "applications/2026-06-19-orchestration-laws-positions-audit.md",
+   "sha256": "455efb697eb9fa6b527e61821b2263c4de6e6f2f874ef522b10fb81ec410127b",
+   "size": 3269
+  },
+  {
+   "path": "applications/2026-06-19-science-corpus-audit.md",
+   "sha256": "794272c17b19ce8aca015d58f63c1ed06cb2a57cd78f1c1a66ff913ad60b7ace",
+   "size": 3818
+  },
+  {
+   "path": "applications/2026-06-19-sequence-review-trust-ledger-audit.md",
+   "sha256": "b2c420b10477d88c4dd0029f6165272f8c6259151628d0dfdcc92cc96d57fd50",
+   "size": 3605
+  },
+  {
+   "path": "applications/2026-06-19-tri-layer-participatory-architecture-audit.md",
+   "sha256": "74b89267d0f09cdd3967b7c0ddd1c722c5d90964fbbd494db2a2e2f71893bf76",
+   "size": 3775
+  },
+  {
+   "path": "applications/2026-06-20-publication-readiness-audit.md",
+   "sha256": "63fbdc0031857f58b8a1df859401405f837b01a64b0dc5817c280d1632ad6897",
+   "size": 12440
+  },
+  {
+   "path": "applications/2026-07-01-capture-contracts-c7-c23.md",
+   "sha256": "64b757f3ac33c1bc04f1d059b9c79762ea2451f19d22b3de2384187cb0202b0e",
+   "size": 37452
+  },
+  {
+   "path": "applications/2026-07-01-issue-register.md",
+   "sha256": "eaaa5185036d4b98efddbb0d7035d8767e71884c453a7551f7f2f8cadc46ca3d",
+   "size": 11280
+  },
+  {
+   "path": "applications/2026-07-01-offer-pathway-design-proposal.md",
+   "sha256": "5963b5dd022a819496f53b1f5be63ce0d95de826e5875e8deb59df2bed6ef7da",
+   "size": 8382
+  },
+  {
+   "path": "applications/2026-07-01-related-work-verified.md",
+   "sha256": "b0490e36b8cdf6764d3922c9d2a7a4955ab3bde68f7a44cec73d381d60d0f7a2",
+   "size": 8567
+  },
+  {
+   "path": "applications/2026-07-01-return-funnel-and-footer-root-cause.md",
+   "sha256": "f9416c55af7206fda8e79da285734577d9201c736f2807f70f2513365595c424",
+   "size": 8207
+  },
+  {
+   "path": "contribution-strategy-memo.md",
+   "sha256": "edd3f5f38705be7dfb3a1b2e183c67e696707047bf2e631aca0db2ec5cca29aa",
+   "size": 7769
+  },
+  {
+   "path": "corpus/conjectures/c10-structure-debt.md",
+   "sha256": "c85c1602881c446f42f1a295190aec9772b3c6c6a33d3a51ac18df46b9844b84",
+   "size": 5896
+  },
+  {
+   "path": "corpus/conjectures/c11-measurement-action-closure.md",
+   "sha256": "975134808b922d6912faa9d0057af1c645bdd7d715395de7e5e7aab70d2cce6a",
+   "size": 5618
+  },
+  {
+   "path": "corpus/conjectures/c12-translation-bottleneck.md",
+   "sha256": "0d7846da1e257a180be50d470cf4596d085198b07f37731623ae0dce43983329",
+   "size": 5389
+  },
+  {
+   "path": "corpus/conjectures/c13-semantic-redundancy-resilience.md",
+   "sha256": "25e4abcdcbf4fdb1e2a1914d3d5f412c1e1dcc9c45b9699df7b6e56717657830",
+   "size": 5789
+  },
+  {
+   "path": "corpus/conjectures/c14-measurement-contract-validity.md",
+   "sha256": "2995f91f49f9474b71d416cdb45371a87b02a2e1ab36551fc8c9346f26233e19",
+   "size": 6858
+  },
+  {
+   "path": "corpus/conjectures/c15-compiler-invocation-readiness.md",
+   "sha256": "fd4dd6a341cfb713257d1ebc53cc95d45b489e20ad8f21ef7547c0b850a63c67",
+   "size": 7274
+  },
+  {
+   "path": "corpus/conjectures/c16-conditional-activation-selectivity.md",
+   "sha256": "44452c2777727781517e818cc3262cb1772dea8c0fb20410e4304edc45c951f0",
+   "size": 7268
+  },
+  {
+   "path": "corpus/conjectures/c17-schema-portable-cir-processing.md",
+   "sha256": "416712834e81c883fa73696fa3107eb4cce6311577c48ccec9e86a5713ea72b3",
+   "size": 6671
+  },
+  {
+   "path": "corpus/conjectures/c18-intent-density-capture-advantage.md",
+   "sha256": "517add23bd7459e0af393c93aa3c6cb3442e0935fc72ebb499d10594e655fb71",
+   "size": 7835
+  },
+  {
+   "path": "corpus/conjectures/c19-governed-evolution-stability.md",
+   "sha256": "3a718f99386f9c20c215b8a0aa3b3f9f90c9df0bfe2c15dd35d17d017406bd81",
+   "size": 7863
+  },
+  {
+   "path": "corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+   "sha256": "68d5a6c6c62921bbf3da5ba622cfd27fa6ddf7d358b04439478a58df108a83a9",
+   "size": 8528
+  },
+  {
+   "path": "corpus/conjectures/c2-friction-to-production.md",
+   "sha256": "ec0a629d9b0b457e8782402c118587d05f7848a6a620ed02a9839a745c1da521",
+   "size": 5037
+  },
+  {
+   "path": "corpus/conjectures/c20-participatory-alignment-yield.md",
+   "sha256": "e86ec42e2ea924ecc16f5d7814185319de532c45ef4d661ada0e0025738be8fb",
+   "size": 7976
+  },
+  {
+   "path": "corpus/conjectures/c21-typed-context-network-yield.md",
+   "sha256": "ee30981f719a761273632c9e9201556338e65617b7c0fa0e6f43ee985396eb73",
+   "size": 7337
+  },
+  {
+   "path": "corpus/conjectures/c22-operational-surface-debt.md",
+   "sha256": "7830bf0ef652971c1a872ac98f6330d13c16f192b9df52a3a75fc1e8b490b1e5",
+   "size": 11169
+  },
+  {
+   "path": "corpus/conjectures/c23-review-trust-calibration.md",
+   "sha256": "cbc64247b7c6aebb18dce0fc62bde72874817c5b2ee5a0f374edcb3d83be3f4b",
+   "size": 6034
+  },
+  {
+   "path": "corpus/conjectures/c24-failure-driven-retirement.md",
+   "sha256": "15ebc89168eddbca8d7f3ac876b05c4d65216ccc710b1dd147316da26426a4ae",
+   "size": 10067
+  },
+  {
+   "path": "corpus/conjectures/c25-return-intervention.md",
+   "sha256": "d849c5cbcf9680376c87ccdc5e636f7147d08bf9db7a3133a1d3af1a5a2d7aa9",
+   "size": 11070
+  },
+  {
+   "path": "corpus/conjectures/c26b-search-reachability-first-order.md",
+   "sha256": "be3db222a72dabd17047e87fb0df5ed4b4b75f95393492f667d692fc57597a33",
+   "size": 7230
+  },
+  {
+   "path": "corpus/conjectures/c27-resident-set-utilization.md",
+   "sha256": "4fc6831cf96d8ec2d31eacfa04eac3651d209107f5057cc974706628091c970f",
+   "size": 5283
+  },
+  {
+   "path": "corpus/conjectures/c28b-injection-channel-returnability.md",
+   "sha256": "1e9e8b3066156ec3528b61ef7595e8cff772e464aac7850b207b766cd1c3e26c",
+   "size": 7347
+  },
+  {
+   "path": "corpus/conjectures/c3-epistemic-entropy.md",
+   "sha256": "1396646f775e7ce223ce08695dbef61838ed04c9f7dbfd67f727454fd0838f3a",
+   "size": 4713
+  },
+  {
+   "path": "corpus/conjectures/c30-staged-graph-admission.md",
+   "sha256": "f58f71b3f7a5cd8a1061165ff61744ef2d62891d71af1c0b854ee986aa3bbb8d",
+   "size": 8600
+  },
+  {
+   "path": "corpus/conjectures/c31-capability-conditioned-resident-utility.md",
+   "sha256": "40a7019a2253d09aad373ac07f3690ffe94a4af005096a269a67b688b06aa00a",
+   "size": 6279
+  },
+  {
+   "path": "corpus/conjectures/c5-boundary-impedance.md",
+   "sha256": "643f24e84dc7b97655d4115bcb4f5affcc49dc8d6c954057dc1104e7ee38fcb3",
+   "size": 2569
+  },
+  {
+   "path": "corpus/conjectures/c6-epistemic-compounding.md",
+   "sha256": "1d53a856527760dc1cac6a6c6d184d5d43baf5fb3d934ca66c59ba973fcf74de",
+   "size": 5956
+  },
+  {
+   "path": "corpus/conjectures/c7-handle-mediated-returnability.md",
+   "sha256": "7566978286c264c3cc2270ea33857fcb69526b27909b0f1c5b1dc3a7d08397dc",
+   "size": 8573
+  },
+  {
+   "path": "corpus/conjectures/c8-coherence-dividend.md",
+   "sha256": "2870d42df9e1095a213ab95f854f61abae7b08f56550d38e89a5da46d1679f6b",
+   "size": 6272
+  },
+  {
+   "path": "corpus/conjectures/c9-pattern-crystallization-utility.md",
+   "sha256": "edca6d3c7b67c580dc9c14420574440695ba520563b9346988131f838156d97e",
+   "size": 5981
+  },
+  {
+   "path": "corpus/refuted/c1-return-as-intelligence.md",
+   "sha256": "314973c80b91e70bb123f601af630615aa5e8087f5bffdb56529ee84f266a87d",
+   "size": 3901
+  },
+  {
+   "path": "corpus/refuted/c28-promotion-lane-returnability.md",
+   "sha256": "d5202ee333428510abe0ef731075b0754ef58f1dd1f48a60012d4f2036fc3491",
+   "size": 5513
+  },
+  {
+   "path": "corpus/supported/c4-epistemic-mass.md",
+   "sha256": "9ff2138f11288b4a1f2a4d084c0156395c92f104a3fe5beea31f4d45a2325bf5",
+   "size": 3032
+  },
+  {
+   "path": "docs/BUILD-agent-graph-runtime-paper-v1.md",
+   "sha256": "fd69734edb0b5b606bd5143c3a95b2785b26d8717d5b4f38fe4ce8de0baff8ce",
+   "size": 9963
+  },
+  {
+   "path": "docs/BUILD-c31-capability-conditioned-resident-utility-v1.md",
+   "sha256": "e57d914d1f69e211706ff55beadbe15adf6fe6781bd9daf9ac959e968fedf0b7",
+   "size": 12604
+  },
+  {
+   "path": "docs/BUILD-cir-substrate-hardening-v1.md",
+   "sha256": "779a575927f343a82fd5c3f64a13d628096e9c532d6bb4c7efa038db1ff72edc",
+   "size": 25229
+  },
+  {
+   "path": "docs/BUILD-constitutional-silence-paper-v1.md",
+   "sha256": "fd8532d6b3e71c7c1b00f0f458e0ca9edc925f01ab951e92c5f7b874d1263eca",
+   "size": 19716
+  },
+  {
+   "path": "docs/BUILD-epistemics-program-v1.md",
+   "sha256": "9e36415350c4f028d4101196a957988118c37f7fb5cdc640e9c182f312d6dc4a",
+   "size": 41607
+  },
+  {
+   "path": "docs/BUILD-evidence-carrying-execution-paper-v1.md",
+   "sha256": "66b9da79d662e17ddcf65cb5c559d954ed1fb910fa39de5983288c983d089dfb",
+   "size": 21385
+  },
+  {
+   "path": "docs/BUILD-protocol-v22-obligations-v1.md",
+   "sha256": "a1dad7322c46c4518426bf13b36883aff955c91301ba3ae6fccefd006495ed5b",
+   "size": 16462
+  },
+  {
+   "path": "docs/BUILD-run-horizon-v1.md",
+   "sha256": "8be6d86774bc762810a0580fff2de1c7b7ed0cd5cf765ccb4748de55abbe71d6",
+   "size": 13761
+  },
+  {
+   "path": "docs/CONTEXT-parked-and-parallel-papers.md",
+   "sha256": "bfb680792bf17217fb530da6429230607417523e997e78202759de216212fe40",
+   "size": 10775
+  },
+  {
+   "path": "docs/PLAN-hardening-and-retest-2026-08-12.md",
+   "sha256": "09e22ca5baf33a407635c672ad04ae4d92749e48ca578b3fd5397f65ee8e3209",
+   "size": 5101
+  },
+  {
+   "path": "docs/escalations/2026-07-04-return-base-rate-B2.md",
+   "sha256": "8b258b106ede061a6de061c0e6c70fbc161a296308178d2702d72a2d07c6e557",
+   "size": 16062
+  },
+  {
+   "path": "docs/referee/B2-field.md",
+   "sha256": "1a0df27955a7353dedc87d4a9ad828fb9b7d6f823e2d54d1d4c15f4aeb5eaeb8",
+   "size": 13032
+  },
+  {
+   "path": "docs/referee/B2-repro.md",
+   "sha256": "fe2c130553d83a9bb72c8be6c3190b5e19d93609e92aeddb7602d5d115b19406",
+   "size": 23336
+  },
+  {
+   "path": "docs/referee/B2-stats.md",
+   "sha256": "9a37af55eca4b6d133e9b139df4273916a55c93d3bb91e008de5fdb047a2d2bf",
+   "size": 23180
+  },
+  {
+   "path": "docs/referee/B2-validity.md",
+   "sha256": "6a19435751269b5e8d6acccfa7d740747da5aacd06fdfe32bbef679d7b07055a",
+   "size": 18059
+  },
+  {
+   "path": "docs/referee/B2v2-field.md",
+   "sha256": "f99a2e0308028ece7d1e780c5270565445281d2fa7499d6e6dcfe9cf523e5ced",
+   "size": 9669
+  },
+  {
+   "path": "docs/referee/B2v2-repro.md",
+   "sha256": "22331e9ffa4c558554366a928103fc5547957aaccf5313b8de24838c0fa92c2f",
+   "size": 19505
+  },
+  {
+   "path": "docs/referee/B2v2-stats.md",
+   "sha256": "f5bad88b62d3cfc667bee8fc5553a35adee412e8b2eb9ae8ae4c0ab762119a83",
+   "size": 16733
+  },
+  {
+   "path": "docs/referee/B2v2-validity.md",
+   "sha256": "dbd866b6a9548965b965b44fec22362f7d910745b69ee729cd0ce1f9bf8fc6bb",
+   "size": 16931
+  },
+  {
+   "path": "essays/2026-06-10-when-the-theory-met-its-instrument.md",
+   "sha256": "e05e55952c5806573b86b326c426c1f5ceaad7d0b1495f67cce2329052b9824b",
+   "size": 7174
+  },
+  {
+   "path": "essays/2026-08-12-what-the-burned-pilot-taught.md",
+   "sha256": "81e6474ef5bab278ef742e9194645b2cd13b74d1c3eeaa19b02d6061399ab1a7",
+   "size": 5699
+  },
+  {
+   "path": "external-critique-audit-2026-07-02.md",
+   "sha256": "41b0a0ebcbe3ed7971c7c762abf1f287384e46f31647af839ddf2daf2b3a9059",
+   "size": 7426
+  },
+  {
+   "path": "instruments/2026-06-10-return-loop-diagnosis.md",
+   "sha256": "32284b3b9e76985e778f6dc4c27b67e17de16f56b1db067caafb588b197651fb",
+   "size": 5295
+  },
+  {
+   "path": "instruments/2026-06-11-c1b-eligibility-accounting.md",
+   "sha256": "7e203ad59c24f878cf8a98cf820b69d6aaa2d93f849b039faf3e419f7195e060",
+   "size": 4545
+  },
+  {
+   "path": "instruments/2026-06-12-c1b-population-and-filter-change.md",
+   "sha256": "cde3172ec4bd2184d490752f00451bf30827fc1402317f13e25267efe280a682",
+   "size": 6467
+  },
+  {
+   "path": "instruments/2026-06-12-c1b-run-class-exclusion.md",
+   "sha256": "f6b67b2d9ee0d70b5fb34a0717b3bbde9d16bcb58d84351ca42ac6de56439752",
+   "size": 5710
+  },
+  {
+   "path": "instruments/2026-06-13-okf-projection.md",
+   "sha256": "17983a00fa8ca55021b0bea34ceecf35769cfc22a76595ee09a11daeca49f267",
+   "size": 3415
+  },
+  {
+   "path": "instruments/2026-06-15-c1b-footer-measurement-fix.md",
+   "sha256": "ad2ad649992a002810652d7570343d0f4d0f902cfaef6f14ce586f50d0040a5f",
+   "size": 7993
+  },
+  {
+   "path": "instruments/2026-06-19-c22-operational-surface-snapshot.md",
+   "sha256": "be93a691f759deeabd3673319d74ab296729ae1c55432bf086ad1aa686097476",
+   "size": 6776
+  },
+  {
+   "path": "instruments/2026-06-19-c22-run-id-capture-bridge.md",
+   "sha256": "83a00fcb6b67ab91f2e146681299a49d2fadf7f6a173be8aa20b375475e935e8",
+   "size": 2911
+  },
+  {
+   "path": "instruments/2026-06-19-c22-surface-debt-score-v1.md",
+   "sha256": "353159594e9a1034e83fbe71e07060a1d5b8250566a0816c7ccb49e8b708b742",
+   "size": 3705
+  },
+  {
+   "path": "instruments/2026-06-19-c5-normalization-design.md",
+   "sha256": "950ba94d9424a9a150ee3b94db56504849e0a7dddb9bd16cf2fe039e9230cb69",
+   "size": 8923
+  },
+  {
+   "path": "instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+   "sha256": "04d8169a7cf8004944a82fdc57e689bf1f1e91c1ebd0e81ac9b1f3ff67649432",
+   "size": 4812
+  },
+  {
+   "path": "instruments/2026-07-02-organic-offer-pathway-ship.md",
+   "sha256": "12d96da9e6074d11d9a268c2166d8617fa911ec359e533c6ed7b685495641bc4",
+   "size": 8855
+  },
+  {
+   "path": "instruments/2026-07-06-c25-cointervention-amendment.md",
+   "sha256": "65b0e348bacbed80954f2a4bc82a8d3423ebcddd3b057cafbaa59415880c08fc",
+   "size": 3606
+  },
+  {
+   "path": "instruments/2026-07-06-child-lane-instrument.md",
+   "sha256": "6be6a94c6a09e5c2c729bb55e8312c01eca4447080f23b551f9ec68671a586e3",
+   "size": 4159
+  },
+  {
+   "path": "instruments/2026-07-06-protocol-v22-regime-boundary-and-impact.md",
+   "sha256": "0878827571dd658fd556bd85824e3ffdb8fb1c674daaadc2eb4ef8e1e423c3ed",
+   "size": 9391
+  },
+  {
+   "path": "instruments/2026-07-06-return-paper-verifier-v2-rederivation.md",
+   "sha256": "30e31f63bf2f3707b1af443e38c0feb2f956c5c21c6314d72a6b336926a5eb92",
+   "size": 4103
+  },
+  {
+   "path": "instruments/2026-07-08-cir-exhaust-purge-regime-note.md",
+   "sha256": "56831ea29e4d9015d960d3421b8358dda7f379f510cb0a1f4e5f2d37499f1aca",
+   "size": 4945
+  },
+  {
+   "path": "instruments/2026-07-14-run-horizon-intervention-preregistration.md",
+   "sha256": "e7d13c9b1fa7bcd30fdb21b472846e9b62fd16da533802c3e6032ecf020b6fc9",
+   "size": 5298
+  },
+  {
+   "path": "instruments/2026-07-18-boot-manifest-gauge.md",
+   "sha256": "22d5f6ec4b49847b7fae505cc112f721d4e6e1dbddadb9fed518ab184b2812c5",
+   "size": 3617
+  },
+  {
+   "path": "instruments/2026-07-26-agentbench-context-allocation-instrument.md",
+   "sha256": "0fb57e446be762b6835e3a050c4cdf1c7484e1dec8c014364c684249de7d206c",
+   "size": 12638
+  },
+  {
+   "path": "instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+   "sha256": "c782eb5d91461f32c935e99a98f7eefe1f543ae36bf2916063f2a06478bcb004",
+   "size": 2530
+  },
+  {
+   "path": "instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md",
+   "sha256": "3b1b31227492fac3632db9c19f4e20d19bfdff33834a01ab8a8e6379b63c2200",
+   "size": 3244
+  },
+  {
+   "path": "instruments/2026-07-26-c31-pilot-revision-4-history-sanitization.md",
+   "sha256": "f9a141e67000d72bf02927c5c38c746761eb1ee4dbdbef6965a19e3250c4f044",
+   "size": 3846
+  },
+  {
+   "path": "instruments/2026-07-26-c31-pilot-revision-5-shallow-git-rebuild.md",
+   "sha256": "115f1921a5b99b34ec2be32040b91d5958e2cf968f786a5612c2d6956169597e",
+   "size": 5426
+  },
+  {
+   "path": "instruments/2026-07-26-c31-pilot-revision-6-setup-before-runtime.md",
+   "sha256": "9a81435dbe6fb6892abf5533c04b2ddea1437084f7a3c11c3eefafebf85afe19",
+   "size": 5504
+  },
+  {
+   "path": "instruments/mentu-instrument.md",
+   "sha256": "559a9057884ae1ce05ba9d1b751f6c8821a34285a8c094d4bc4216118c1ca9c6",
+   "size": 14467
+  },
+  {
+   "path": "lineage/exclusions.md",
+   "sha256": "e15be1ef2a4dbe7b910c77b8bdc970d9c93f98514d3b8f69e7a97b9e588651c0",
+   "size": 7139
+  },
+  {
+   "path": "lineage/from-ese-2025.md",
+   "sha256": "b475db6fa1b07fec73a073e5b1fb31481b84c354f50473d26b3e2e928540ed83",
+   "size": 15947
+  },
+  {
+   "path": "observatory/CANON-observation-packet-v0.1.md",
+   "sha256": "391e9eb89f0407027b54d563850b6ffc3da305de819ddd4cdcd7ea0382c88db4",
+   "size": 3464
+  },
+  {
+   "path": "observatory/packets/2026-06-10.md",
+   "sha256": "d046f07e6cafaf6de65ce83e3298ce635ab93e0567ec22624c47c03962462c25",
+   "size": 3085
+  },
+  {
+   "path": "observatory/packets/2026-06-11.md",
+   "sha256": "a5b15074111638da223641dd293af10625e381804a54b8a2ebbda94c324e6cc2",
+   "size": 4344
+  },
+  {
+   "path": "observatory/packets/2026-06-12.md",
+   "sha256": "7b50a8c12bc0f6cd92e88d325fec2090e2582940d15f7c290ff7b3692fe78349",
+   "size": 6339
+  },
+  {
+   "path": "observatory/packets/2026-06-13.md",
+   "sha256": "22a3a93570502748fc199f7ebe30f1e15fcc9a3a27ae651e14254b6534a9b872",
+   "size": 5760
+  },
+  {
+   "path": "observatory/packets/2026-06-14.md",
+   "sha256": "9ad33f61590078973be6052bfe7d0c72a4b5410188a55ca36d69ae2f9afe0f7d",
+   "size": 9738
+  },
+  {
+   "path": "observatory/packets/2026-06-16.md",
+   "sha256": "988094442cdace7502c2104a81087c983982b9a4f5e4871f923475a5de49aa6e",
+   "size": 6173
+  },
+  {
+   "path": "observatory/packets/2026-06-17.md",
+   "sha256": "434621a65719ad77c5c5b0ded60608cce4a1530663c8e0094c6b58c789fb460b",
+   "size": 8757
+  },
+  {
+   "path": "observatory/packets/2026-06-18.md",
+   "sha256": "66d3a9dad154d6fdabe509a22edf5c121eaf4ed893b56a8d9d70b4f2b3db5dae",
+   "size": 9516
+  },
+  {
+   "path": "observatory/packets/2026-06-19.md",
+   "sha256": "042deee031f7e57adb5c2b69ef72769d3608d94fdfefefbd128eb354917efa5d",
+   "size": 10835
+  },
+  {
+   "path": "observatory/packets/2026-06-20.md",
+   "sha256": "09a74bbb77133b7348e6c7efd0e8a479288e48e1cee37d26d814d88fe3f6dbd5",
+   "size": 7767
+  },
+  {
+   "path": "observatory/packets/2026-06-21.md",
+   "sha256": "4b00d3508bae6f27b8c961d58a23d8a9d945009719d6863f187bc5bb8c1f90d9",
+   "size": 10079
+  },
+  {
+   "path": "observatory/packets/2026-06-22.md",
+   "sha256": "62bf645576b38411ea5bc0c88bb872b2040c10151c3b35c1aa35d88c3137d737",
+   "size": 7820
+  },
+  {
+   "path": "observatory/packets/2026-06-23.md",
+   "sha256": "9c9704cb86953d763c000a19c492924a0602864c3518cea943cf41645aa37bea",
+   "size": 9170
+  },
+  {
+   "path": "observatory/packets/2026-06-24.md",
+   "sha256": "2cb1b531ff6834553c380aa7628e26e8ea1d3cb33cef76728be55db72bb1b9a7",
+   "size": 8989
+  },
+  {
+   "path": "observatory/packets/2026-06-25.md",
+   "sha256": "0f807a4a2e24dd69a7641c3ada9b80000846ddacb18340507c86f68b3fea09ac",
+   "size": 10513
+  },
+  {
+   "path": "observatory/packets/2026-06-26.md",
+   "sha256": "e16d28ba12913c2759fc43ee9073de86f132d329183c3082183c280f82579d76",
+   "size": 12480
+  },
+  {
+   "path": "observatory/packets/2026-06-27.md",
+   "sha256": "95ba64e59fe43053508782584cf81c95e401022da8c640bd8100b27b5dbd7344",
+   "size": 10673
+  },
+  {
+   "path": "observatory/packets/2026-06-28.md",
+   "sha256": "bdf96af4335d8c49b32d281a32f72ac4586aab3e1f3692ff3ca5327dae8e67be",
+   "size": 13969
+  },
+  {
+   "path": "observatory/packets/2026-06-29.md",
+   "sha256": "d66d5627481209b332a34987f870d45ed0dcd23c7e23f6fe43da6b3325f6f8ef",
+   "size": 10556
+  },
+  {
+   "path": "observatory/packets/2026-06-30.md",
+   "sha256": "b5a0fcd4ca49b889e6b97d1f840b234d2922ad32299240648b3de778ba005588",
+   "size": 7611
+  },
+  {
+   "path": "observatory/packets/2026-07-13.md",
+   "sha256": "8267e848eaea57205fe34bd2629f9014e9ab0bd9edcca7c89f73993e2058115d",
+   "size": 13648
+  },
+  {
+   "path": "results/2026-06-10-c1-return-as-intelligence.md",
+   "sha256": "086839997541b61da8b9c69db993e45859a5cb3aa79a95cec4173781dcc4f185",
+   "size": 7293
+  },
+  {
+   "path": "results/2026-06-10-c2-friction-to-production.md",
+   "sha256": "5a87763acd2fec71382a373081be8a9d74d01b8a3ee5f6ac69643547b500b308",
+   "size": 4720
+  },
+  {
+   "path": "results/2026-06-10-c3-epistemic-entropy.md",
+   "sha256": "057521a9590a9d20092b31c3e1c00897fda471418439d617ca41a4b9a1a04771",
+   "size": 4627
+  },
+  {
+   "path": "results/2026-06-10-c4-epistemic-mass.md",
+   "sha256": "2c573e97f440484d30f376da97473b3e553bd0d394f07e0cf37dfa8cd21d0aec",
+   "size": 4429
+  },
+  {
+   "path": "results/2026-07-18-c27-resident-set-utilization.md",
+   "sha256": "ce541f660b2a47c668e105b40b2f4f1b70ae24701614c9e7bae47961ccb7b0ec",
+   "size": 4033
+  },
+  {
+   "path": "results/2026-07-18-c28-promotion-lane-returnability.md",
+   "sha256": "5a99dcd8abae2f873c81d4de00f0e97a58449caa85b53c67511f35811be10382",
+   "size": 4072
+  },
+  {
+   "path": "results/2026-08-12-c25-return-intervention.md",
+   "sha256": "46ed84b6871cba929765d9989643c781329e1e8d8983a7f3c3235809abceecf3",
+   "size": 2442
+  }
+ ],
+ "files": 141,
+ "snapshot_commit": "cb736542a2bfc96a230e8bb9b605d11ff0b87d86"
+}

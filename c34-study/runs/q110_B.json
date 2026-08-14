@@ -1,0 +1,68 @@
+{
+ "answer": "retrain threshold 200",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 15655,
+ "cache_read_tokens": 122985,
+ "call_key": "smoke:q110:B#0",
+ "cost_usd": 0.046297500000000005,
+ "duration_s": 12.1,
+ "error_class": null,
+ "gold_rp": "instruments/mentu-instrument.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "retrain threshold",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 138674,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 327,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 531,
+ "policy": "B",
+ "qid": "q110",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "retrain threshold",
+   "tool": "Grep"
+  }
+ ],
+ "set": "smoke",
+ "started_at": 1786669797.491,
+ "tokens_marginal": 16220,
+ "tokens_total": 139205
+}

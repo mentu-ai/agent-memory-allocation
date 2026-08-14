@@ -1,0 +1,46 @@
+{
+ "answer": "The document lists six governance-like CIR kinds and their counts (not seven): `recipe_version` 5,767; `correction.judge` 630; `correction` 215; `step_contract` 111; `semantic_gate_eval` 104; `correction.perceive` 85. Recipe_version leads at 5,767.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 19176,
+ "cache_read_tokens": 61813,
+ "call_key": "confirmatory:q011:C#0",
+ "cost_usd": 0.0507713,
+ "duration_s": 23.0,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-engine-governance-maturity-audit.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-engine-governance-maturity-audit.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-engine-governance-maturity-audit.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 81007,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 358,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 1244,
+ "policy": "C",
+ "qid": "q011",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-engine-governance-maturity-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670282.309,
+ "tokens_marginal": 20438,
+ "tokens_total": 82251
+}

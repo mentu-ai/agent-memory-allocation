@@ -1,0 +1,88 @@
+{
+ "answer": "STILL FAILING UNFIXED",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 13792,
+ "cache_read_tokens": 194893,
+ "call_key": "confirmatory:q121:B#0",
+ "cost_usd": 0.051513300000000005,
+ "duration_s": 15.1,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-18.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-10.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-10.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "ane-fortress",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "Zombie watch",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "Zombie watch.*ane-fortress|ane-fortress.*Zombie watch",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 208735,
+ "input_uncached": 50,
+ "is_error": false,
+ "ledger_position": 635,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 878,
+ "policy": "B",
+ "qid": "q121",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-10.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "ane-fortress",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "Zombie watch",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "Zombie watch.*ane-fortress|ane-fortress.*Zombie watch",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671681.28,
+ "tokens_marginal": 14720,
+ "tokens_total": 209613
+}

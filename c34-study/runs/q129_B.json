@@ -1,0 +1,102 @@
+{
+ "answer": "0.70",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 24009,
+ "cache_read_tokens": 321959,
+ "call_key": "confirmatory:q129:B#0",
+ "cost_usd": 0.0876579,
+ "duration_s": 25.2,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-26.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+  "located": false,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-15-c1b-footer-measurement-fix.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "corpus/supported/**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "missing_footer_rate|mean.*mfr|mfr.*0\\.",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "results/**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "C1b|c1b.*injected.*mean|injected.*missing_footer",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 346042,
+ "input_uncached": 74,
+ "is_error": false,
+ "ledger_position": 659,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 9,
+ "output_tokens": 1474,
+ "policy": "B",
+ "qid": "q129",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-15-c1b-footer-measurement-fix.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "corpus/supported/**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "missing_footer_rate|mean.*mfr|mfr.*0\\.",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "results/**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "C1b|c1b.*injected.*mean|injected.*missing_footer",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671788.559,
+ "tokens_marginal": 25557,
+ "tokens_total": 347516
+}

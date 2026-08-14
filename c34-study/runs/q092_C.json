@@ -1,0 +1,52 @@
+{
+ "answer": "`MENTU_ADVERSARIAL_EVIDENCE`",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 37734,
+ "cache_read_tokens": 210616,
+ "call_key": "confirmatory:q092:C#0",
+ "cost_usd": 0.1165516,
+ "duration_s": 61.4,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-c22-run-id-capture-bridge.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/BUILD-protocol-v22-obligations-v1.md",
+  "located": false,
+  "read_count": 4,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/BUILD-protocol-v22-obligations-v1.md",
+   "/private/tmp/claude-501/c34-sandbox/paper/evidence-carrying-execution/formal/invariant-spec.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/BUILD-evidence-carrying-execution-paper-v1.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 248392,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 569,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 3996,
+ "policy": "C",
+ "qid": "q092",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/BUILD-protocol-v22-obligations-v1.md",
+  "/private/tmp/claude-501/c34-sandbox/paper/evidence-carrying-execution/formal/invariant-spec.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/BUILD-evidence-carrying-execution-paper-v1.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671247.907,
+ "tokens_marginal": 41772,
+ "tokens_total": 252388
+}

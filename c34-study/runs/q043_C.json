@@ -1,0 +1,46 @@
+{
+ "answer": "at least 1,000 participation opportunities are logged, including skipped/defaulted opportunities",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 19834,
+ "cache_read_tokens": 61798,
+ "call_key": "confirmatory:q043:C#0",
+ "cost_usd": 0.048085800000000005,
+ "duration_s": 9.3,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c20-participatory-alignment-yield.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c20-participatory-alignment-yield.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c20-participatory-alignment-yield.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 81650,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 438,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 444,
+ "policy": "C",
+ "qid": "q043",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c20-participatory-alignment-yield.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670690.981,
+ "tokens_marginal": 20296,
+ "tokens_total": 82094
+}

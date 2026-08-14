@@ -1,0 +1,42 @@
+{
+ "answer": "Commit with a descriptive message ending in the Claude trailer.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12308,
+ "cache_read_tokens": 19510,
+ "call_key": "confirmatory:q001:B#0",
+ "cost_usd": 0.027736999999999998,
+ "duration_s": 7.9,
+ "error_class": null,
+ "gold_rp": "AGENTS.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": null,
+  "located": false,
+  "read_count": 0,
+  "reads": [],
+  "searches": [],
+  "zero_read": true
+ },
+ "input_tokens": 31828,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 331,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 232,
+ "policy": "B",
+ "qid": "q001",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670170.163,
+ "tokens_marginal": 12550,
+ "tokens_total": 32060
+}

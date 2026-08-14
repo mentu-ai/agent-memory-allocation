@@ -1,0 +1,46 @@
+{
+ "answer": "MemGPT framed long-term memory as an operating-system problem, paging information in and out of a bounded context window under the model's own control.",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 19883,
+ "cache_read_tokens": 61742,
+ "call_key": "smoke:q028:C#0",
+ "cost_usd": 0.0485632,
+ "duration_s": 9.9,
+ "error_class": null,
+ "gold_rp": "applications/2026-07-01-related-work-verified.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-related-work-verified.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-related-work-verified.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 81643,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 310,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 521,
+ "policy": "C",
+ "qid": "q028",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-related-work-verified.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "smoke",
+ "started_at": 1786669688.792,
+ "tokens_marginal": 20422,
+ "tokens_total": 82164
+}

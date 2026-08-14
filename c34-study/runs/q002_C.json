@@ -1,0 +1,46 @@
+{
+ "answer": "Corrections cannot be edited into frozen frontmatter fields. The exact wording is: \"**Never edit**: frozen frontmatter fields (claim, predictions, falsification criteria, `verdict`, `result`), anything in `results/`, `corpus/supported/`, or `corpus/refuted/`. Corrections go in new dated documents.\"",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18398,
+ "cache_read_tokens": 61811,
+ "call_key": "confirmatory:q002:C#0",
+ "cost_usd": 0.047215099999999996,
+ "duration_s": 15.6,
+ "error_class": null,
+ "gold_rp": "CLAUDE.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/CLAUDE.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/CLAUDE.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 80227,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 335,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 844,
+ "policy": "C",
+ "qid": "q002",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/CLAUDE.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670178.107,
+ "tokens_marginal": 19260,
+ "tokens_total": 81071
+}

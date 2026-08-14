@@ -1,0 +1,58 @@
+{
+ "answer": "~3.9% two-tailed",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11549,
+ "cache_read_tokens": 120924,
+ "call_key": "confirmatory:q117:B#0",
+ "cost_usd": 0.0379244,
+ "duration_s": 10.5,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-13.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-13.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-13.md"
+  ],
+  "searches": [
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "10:2.*injected.*withheld|fair coin.*10:2",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 132507,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 622,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 540,
+ "policy": "B",
+ "qid": "q117",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-13.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "10:2.*injected.*withheld|fair coin.*10:2",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671576.197,
+ "tokens_marginal": 12123,
+ "tokens_total": 133047
+}

@@ -1,0 +1,48 @@
+{
+ "answer": "`cir_capture_signal` is now the practical capture path for these handles when the active surface is `metamcp`, including Crawlio/LARCS-style handle snapshots.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 24633,
+ "cache_read_tokens": 61805,
+ "call_key": "confirmatory:q095:C#0",
+ "cost_usd": 0.0597595,
+ "duration_s": 15.8,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 86456,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 567,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 859,
+ "policy": "C",
+ "qid": "q095",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-general-epistemic-telemetry-handles.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671288.652,
+ "tokens_marginal": 25510,
+ "tokens_total": 87315
+}

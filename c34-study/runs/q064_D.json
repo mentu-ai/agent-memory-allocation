@@ -1,0 +1,33 @@
+{
+ "answer": "c31-agentbench-pilot-v1",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 8525,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q064:D#0",
+ "cost_usd": 0.0193839,
+ "duration_s": 4.9,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-c31-capability-conditioned-resident-utility-v1.md",
+ "input_tokens": 24774,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 495,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 140,
+ "policy": "D",
+ "qid": "q064",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670935.216,
+ "tokens_marginal": 8675,
+ "tokens_total": 24914
+}

@@ -1,0 +1,33 @@
+{
+ "answer": "The document does not specify four gates. It explicitly mentions only three gates checked every Sunday: C1b accrual, C3 detector age/count, and C2 span.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 6258,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q113:D#0",
+ "cost_usd": 0.0184199,
+ "duration_s": 10.7,
+ "error_class": null,
+ "gold_rp": "observatory/CANON-observation-packet-v0.1.md",
+ "input_tokens": 22507,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 612,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 854,
+ "policy": "D",
+ "qid": "q113",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671476.0,
+ "tokens_marginal": 7122,
+ "tokens_total": 23361
+}

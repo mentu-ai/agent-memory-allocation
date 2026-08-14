@@ -1,0 +1,27 @@
+{
+ "answerer": {
+  "answer": "OK",
+  "call_key": "probe:answerer",
+  "error_class": null,
+  "identity_matches_pin": true,
+  "input_tokens_nonzero": true,
+  "is_error": false,
+  "model_identities": [
+   "claude-haiku-4-5-20251001"
+  ],
+  "model_requested": "claude-haiku-4-5-20251001"
+ },
+ "generator": {
+  "answer": "OK",
+  "call_key": "probe:generator",
+  "error_class": null,
+  "identity_matches_pin": true,
+  "input_tokens_nonzero": true,
+  "is_error": false,
+  "model_identities": [
+   "claude-sonnet-5"
+  ],
+  "model_requested": "claude-sonnet-5"
+ },
+ "probe_passed": true
+}

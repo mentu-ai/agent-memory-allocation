@@ -1,0 +1,52 @@
+{
+ "answer": "4",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 24543,
+ "cache_read_tokens": 150645,
+ "call_key": "confirmatory:q015:C#0",
+ "cost_usd": 0.07374450000000002,
+ "duration_s": 30.9,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-epistemic-nodes-measurement-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c23-review-trust-calibration.md",
+  "located": true,
+  "read_count": 4,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c23-review-trust-calibration.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-sequence-review-trust-ledger-audit.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-engine-governance-maturity-audit.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-nodes-measurement-audit.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 175222,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 367,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 1912,
+ "policy": "C",
+ "qid": "q015",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c23-review-trust-calibration.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-sequence-review-trust-ledger-audit.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-engine-governance-maturity-audit.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-nodes-measurement-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670355.141,
+ "tokens_marginal": 26489,
+ "tokens_total": 177134
+}

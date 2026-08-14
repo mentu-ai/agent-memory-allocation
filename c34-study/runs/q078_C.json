@@ -1,0 +1,46 @@
+{
+ "answer": "The unresolved arXiv identifier for the companion citation is described as \"to be inserted at submission\".",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20451,
+ "cache_read_tokens": 61811,
+ "call_key": "confirmatory:q078:C#0",
+ "cost_usd": 0.0511761,
+ "duration_s": 16.5,
+ "error_class": null,
+ "gold_rp": "docs/referee/B2v2-field.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-field.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-field.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 82280,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 527,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 815,
+ "policy": "C",
+ "qid": "q078",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-field.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671093.563,
+ "tokens_marginal": 21284,
+ "tokens_total": 83095
+}

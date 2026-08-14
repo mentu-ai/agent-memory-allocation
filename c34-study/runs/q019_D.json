@@ -1,0 +1,33 @@
+{
+ "answer": "67,956",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11601,
+ "cache_read_tokens": 11078,
+ "call_key": "confirmatory:q019:D#0",
+ "cost_usd": 0.0253798,
+ "duration_s": 5.5,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-mentu-finder-lacs-audit.md",
+ "input_tokens": 22689,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 378,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 212,
+ "policy": "D",
+ "qid": "q019",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670433.341,
+ "tokens_marginal": 11823,
+ "tokens_total": 22901
+}

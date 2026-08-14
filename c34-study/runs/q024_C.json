@@ -1,0 +1,48 @@
+{
+ "answer": "45 post-footer-fix randomized C1b rows exist for C12 as of the latest observation packet (2026-07-13), falling short of the gate requirement of 300 rows.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 26129,
+ "cache_read_tokens": 150655,
+ "call_key": "confirmatory:q024:C#0",
+ "cost_usd": 0.0814975,
+ "duration_s": 42.0,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-20-publication-readiness-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c12-translation-bottleneck.md",
+  "located": false,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c12-translation-bottleneck.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 176818,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 391,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 2828,
+ "policy": "C",
+ "qid": "q024",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c12-translation-bottleneck.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670477.908,
+ "tokens_marginal": 28991,
+ "tokens_total": 179646
+}

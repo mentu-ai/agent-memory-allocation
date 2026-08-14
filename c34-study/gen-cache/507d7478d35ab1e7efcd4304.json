@@ -1,0 +1,1 @@
+{"bucket": "digest", "key": "digest:instruments/2026-07-18-boot-manifest-gauge.md", "value": {"digest": "Per-session gauge of resident config (T0 content, T1 pointers) via SessionStart hook; measures only, no thresholds, forward-only from 2026-07-18.", "tokens": 26213, "cost_usd": 0.0402486, "input_sha256": "35008d1ecf13c8241c999bdacc0cf637ac92b566a40fb370a6026a8557066a56"}}

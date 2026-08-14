@@ -1,0 +1,98 @@
+{
+ "answer": "24 inj / 21 wh",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 16990,
+ "cache_read_tokens": 233392,
+ "call_key": "confirmatory:q132:B#0",
+ "cost_usd": 0.06411220000000001,
+ "duration_s": 21.1,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-29.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "armed ledger",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "armed ledger",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "observatory/packets/2026-07*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "observatory/packets/2026-08*.md",
+    "tool": "Glob"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 250440,
+ "input_uncached": 58,
+ "is_error": false,
+ "ledger_position": 666,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 1347,
+ "policy": "B",
+ "qid": "q132",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "armed ledger",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "armed ledger",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "observatory/packets/2026-07*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "observatory/packets/2026-08*.md",
+   "tool": "Glob"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671843.243,
+ "tokens_marginal": 18395,
+ "tokens_total": 251787
+}

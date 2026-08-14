@@ -1,0 +1,68 @@
+{
+ "answer": "fix(cir): handle-return lane ranks by confidence instead of gating on it",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 13522,
+ "cache_read_tokens": 123362,
+ "call_key": "confirmatory:q096:B#0",
+ "cost_usd": 0.042004200000000005,
+ "duration_s": 11.7,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-02-organic-offer-pathway-ship.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-02-organic-offer-pathway-ship.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-02-organic-offer-pathway-ship.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "715b35256157f32a610e182469cd00408614d8a0",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 136918,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 571,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 518,
+ "policy": "B",
+ "qid": "q096",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-02-organic-offer-pathway-ship.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "715b35256157f32a610e182469cd00408614d8a0",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671304.454,
+ "tokens_marginal": 14074,
+ "tokens_total": 137436
+}

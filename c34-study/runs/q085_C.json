@@ -1,0 +1,52 @@
+{
+ "answer": "cir_openai-ping_88BFD33E",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 32622,
+ "cache_read_tokens": 214493,
+ "call_key": "confirmatory:q085:C#0",
+ "cost_usd": 0.09522030000000001,
+ "duration_s": 28.6,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-10-return-loop-diagnosis.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-17.md",
+  "located": true,
+  "read_count": 4,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-17.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-18.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-10-return-loop-diagnosis.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 247157,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 545,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 1697,
+ "policy": "C",
+ "qid": "q085",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-17.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-18.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/mentu-instrument.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-10-return-loop-diagnosis.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671172.233,
+ "tokens_marginal": 34361,
+ "tokens_total": 248854
+}

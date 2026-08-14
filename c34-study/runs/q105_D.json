@@ -1,0 +1,33 @@
+{
+ "answer": "`bin/claude.exe`",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 6019,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q105:D#0",
+ "cost_usd": 0.0151769,
+ "duration_s": 5.4,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+ "input_tokens": 22268,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 592,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 301,
+ "policy": "D",
+ "qid": "q105",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671390.958,
+ "tokens_marginal": 6330,
+ "tokens_total": 22569
+}

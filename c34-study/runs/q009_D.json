@@ -1,0 +1,33 @@
+{
+ "answer": "41,226",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 10638,
+ "cache_read_tokens": 11078,
+ "call_key": "smoke:q009:D#0",
+ "cost_usd": 0.0229888,
+ "duration_s": 5.8,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-context-network-recursive-audit.md",
+ "input_tokens": 21726,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 300,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 119,
+ "policy": "D",
+ "qid": "q009",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "smoke",
+ "started_at": 1786669622.349,
+ "tokens_marginal": 10767,
+ "tokens_total": 21845
+}

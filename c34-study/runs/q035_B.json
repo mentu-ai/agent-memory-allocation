@@ -1,0 +1,68 @@
+{
+ "answer": "Measurement contract completeness at event time. One point for each component above.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11084,
+ "cache_read_tokens": 87898,
+ "call_key": "confirmatory:q035:B#0",
+ "cost_usd": 0.0337938,
+ "duration_s": 9.5,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c14-measurement-contract-validity.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c14-measurement-contract-validity.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c14-measurement-contract-validity.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "C14",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*C14*",
+    "tool": "Glob"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 99008,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 417,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 562,
+ "policy": "B",
+ "qid": "q035",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c14-measurement-contract-validity.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "C14",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*C14*",
+   "tool": "Glob"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670601.608,
+ "tokens_marginal": 11672,
+ "tokens_total": 99570
+}

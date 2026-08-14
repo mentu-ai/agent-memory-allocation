@@ -1,0 +1,90 @@
+{
+ "answer": "an instrument that measures human cognition directly (consented human task/attention telemetry with a defined schema)",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20243,
+ "cache_read_tokens": 234948,
+ "call_key": "confirmatory:q111:B#0",
+ "cost_usd": 0.0695288,
+ "duration_s": 17.3,
+ "error_class": null,
+ "gold_rp": "lineage/exclusions.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md",
+   "/private/tmp/claude-501/c34-sandbox/lineage/exclusions.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "meta-cognitive-architectures",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "readmission condition",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "readmission",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 255249,
+ "input_uncached": 58,
+ "is_error": false,
+ "ledger_position": 606,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 7,
+ "output_tokens": 1098,
+ "policy": "B",
+ "qid": "q111",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md",
+  "/private/tmp/claude-501/c34-sandbox/lineage/exclusions.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "meta-cognitive-architectures",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "readmission condition",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "readmission",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671444.07,
+ "tokens_marginal": 21399,
+ "tokens_total": 256347
+}

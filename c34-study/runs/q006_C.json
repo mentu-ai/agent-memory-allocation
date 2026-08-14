@@ -1,0 +1,46 @@
+{
+ "answer": "the real shipped set (`cites, extends, contradicts, refines, synthesizes, supports, questions, corrects`)",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20333,
+ "cache_read_tokens": 102203,
+ "call_key": "confirmatory:q006:C#0",
+ "cost_usd": 0.0558223,
+ "duration_s": 14.3,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-13-research-section-audit.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-research-section-audit.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-research-section-audit.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 122562,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 346,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 982,
+ "policy": "C",
+ "qid": "q006",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-13-research-section-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670233.153,
+ "tokens_marginal": 21341,
+ "tokens_total": 123544
+}

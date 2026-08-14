@@ -1,0 +1,80 @@
+{
+ "answer": "0b320d9d3d66\u2026",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 17323,
+ "cache_read_tokens": 188683,
+ "call_key": "confirmatory:q073:B#0",
+ "cost_usd": 0.059804300000000005,
+ "duration_s": 22.4,
+ "error_class": null,
+ "gold_rp": "docs/escalations/2026-07-04-return-base-rate-B2.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/README.md",
+  "located": false,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/README.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-repro.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "sha256.*backup|backup.*sha256|cir\\.db.*backup",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "pinned.*backup|backup.*snapshot|\\.backup",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 206056,
+ "input_uncached": 50,
+ "is_error": false,
+ "ledger_position": 514,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 1248,
+ "policy": "B",
+ "qid": "q073",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/README.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-repro.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "sha256.*backup|backup.*sha256|cir\\.db.*backup",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "pinned.*backup|backup.*snapshot|\\.backup",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671016.353,
+ "tokens_marginal": 18621,
+ "tokens_total": 207304
+}

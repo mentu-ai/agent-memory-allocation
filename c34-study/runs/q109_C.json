@@ -1,0 +1,48 @@
+{
+ "answer": "The frozen base hash used in the diagnostic reproduction is `d138a1cd06eb7d6a1a0b678683b63e7f4f028403befda3241f9f9cb7ea22e5b3`, the sha256 hash of the pinned prefix (first 12,129 lines) of the ledger from the 2026-06-28 cut.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 20912,
+ "cache_read_tokens": 184088,
+ "call_key": "confirmatory:q109:C#0",
+ "cost_usd": 0.0679598,
+ "duration_s": 25.3,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-26-c31-pilot-revision-6-setup-before-runtime.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-01-issue-register.md",
+  "located": false,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-01-issue-register.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-06-return-paper-verifier-v2-rederivation.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 205042,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 605,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 1537,
+ "policy": "C",
+ "qid": "q109",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-01-issue-register.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-06-return-paper-verifier-v2-rederivation.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671432.77,
+ "tokens_marginal": 22491,
+ "tokens_total": 206579
+}

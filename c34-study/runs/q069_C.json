@@ -1,0 +1,46 @@
+{
+ "answer": "Steer-derived offers are reported separately, never pooled into P1/P2.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18588,
+ "cache_read_tokens": 61808,
+ "call_key": "confirmatory:q069:C#0",
+ "cost_usd": 0.04512480000000001,
+ "duration_s": 7.9,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-protocol-v22-obligations-v1.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-06-c25-cointervention-amendment.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-06-c25-cointervention-amendment.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 80414,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 503,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 350,
+ "policy": "C",
+ "qid": "q069",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-06-c25-cointervention-amendment.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670980.437,
+ "tokens_marginal": 18956,
+ "tokens_total": 80764
+}

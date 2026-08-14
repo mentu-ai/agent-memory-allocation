@@ -1,0 +1,46 @@
+{
+ "answer": "6,214",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18533,
+ "cache_read_tokens": 61805,
+ "call_key": "confirmatory:q010:C#0",
+ "cost_usd": 0.046129500000000004,
+ "duration_s": 10.5,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-core-concepts-frameworks-audit.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-core-concepts-frameworks-audit.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-core-concepts-frameworks-audit.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 80356,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 355,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 573,
+ "policy": "C",
+ "qid": "q010",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-core-concepts-frameworks-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670271.833,
+ "tokens_marginal": 19124,
+ "tokens_total": 80929
+}

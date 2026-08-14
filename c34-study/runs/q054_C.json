@@ -1,0 +1,46 @@
+{
+ "answer": "Within-recipe randomization \u2014 for every eligible run, a recorded coin flip decides injection; the flip, not operator choice, determines the arm. This is operationalized as `MENTU_CIR_RANDOMIZE=1` which assigns arms by FNV-1a hash parity of runId (deterministic, stateless).",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 21018,
+ "cache_read_tokens": 61797,
+ "call_key": "confirmatory:q054:C#0",
+ "cost_usd": 0.0542187,
+ "duration_s": 20.7,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c31-capability-conditioned-resident-utility.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 82833,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 467,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 1197,
+ "policy": "C",
+ "qid": "q054",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670821.551,
+ "tokens_marginal": 22233,
+ "tokens_total": 84030
+}

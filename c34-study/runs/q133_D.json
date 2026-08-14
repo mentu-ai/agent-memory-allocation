@@ -1,0 +1,33 @@
+{
+ "answer": "386/0/None",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 8034,
+ "cache_read_tokens": 16239,
+ "call_key": "confirmatory:q133:D#0",
+ "cost_usd": 0.0201169,
+ "duration_s": 7.9,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-30.md",
+ "input_tokens": 24283,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 670,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 483,
+ "policy": "D",
+ "qid": "q133",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671871.724,
+ "tokens_marginal": 8527,
+ "tokens_total": 24766
+}

@@ -1,0 +1,68 @@
+{
+ "answer": "Under the revised collector, tomorrow's digest will read approximately: arms: injected 0, withheld 0",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 12614,
+ "cache_read_tokens": 89499,
+ "call_key": "confirmatory:q088:B#0",
+ "cost_usd": 0.037153900000000004,
+ "duration_s": 10.5,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-12-c1b-run-class-exclusion.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-run-class-exclusion.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-run-class-exclusion.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "revised collector|injected/withheld arm counts|next digest",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 102139,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 549,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 590,
+ "policy": "B",
+ "qid": "q088",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-12-c1b-run-class-exclusion.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "revised collector|injected/withheld arm counts|next digest",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671207.574,
+ "tokens_marginal": 13230,
+ "tokens_total": 102729
+}

@@ -1,0 +1,33 @@
+{
+ "answer": "Item 1 is Attention-decay scheduling, and it pays for the zombie's daily cost.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11590,
+ "cache_read_tokens": 11078,
+ "call_key": "confirmatory:q003:D#0",
+ "cost_usd": 0.0318528,
+ "duration_s": 18.1,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-10-spine-applications-map.md",
+ "input_tokens": 22678,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 337,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 1511,
+ "policy": "D",
+ "qid": "q003",
+ "qtype": "synthesis",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670193.704,
+ "tokens_marginal": 13111,
+ "tokens_total": 24189
+}

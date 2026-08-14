@@ -1,0 +1,90 @@
+{
+ "answer": "MENTU_RUN_ID",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 13226,
+ "cache_read_tokens": 153888,
+ "call_key": "confirmatory:q092:B#0",
+ "cost_usd": 0.0475038,
+ "duration_s": 14.0,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-19-c22-run-id-capture-bridge.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-run-id-capture-bridge.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "SequenceRunner",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.swift",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "environment variable|export.*per.step|per-step",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 169032,
+ "input_uncached": 1918,
+ "is_error": false,
+ "ledger_position": 559,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 7,
+ "output_tokens": 749,
+ "policy": "B",
+ "qid": "q092",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-19-c22-run-id-capture-bridge.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "SequenceRunner",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.swift",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "environment variable|export.*per.step|per-step",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671244.649,
+ "tokens_marginal": 15893,
+ "tokens_total": 169781
+}

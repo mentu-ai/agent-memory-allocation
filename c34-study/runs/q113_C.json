@@ -1,0 +1,52 @@
+{
+ "answer": "The document does not specify a fixed \"four gates\" checked every Sunday. Instead, weekly syntheses check all currently active gated conjectures, which varies by week. As of the later weeks shown, the standard gates checked are: **C1b, C2 rev.2, C3 (contradiction re-test), and C24**, with C6 riding on C2's gate completion.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 34974,
+ "cache_read_tokens": 334278,
+ "call_key": "confirmatory:q113:C#0",
+ "cost_usd": 0.1265568,
+ "duration_s": 65.7,
+ "error_class": null,
+ "gold_rp": "observatory/CANON-observation-packet-v0.1.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/README.md",
+  "located": false,
+  "read_count": 4,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/README.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-14.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-21.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 369318,
+ "input_uncached": 66,
+ "is_error": false,
+ "ledger_position": 616,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 4623,
+ "policy": "C",
+ "qid": "q113",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/README.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-14.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-21.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671471.544,
+ "tokens_marginal": 39663,
+ "tokens_total": 373941
+}

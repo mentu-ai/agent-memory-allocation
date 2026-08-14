@@ -1,0 +1,48 @@
+{
+ "answer": "The formal pre-setup version probe exited with status 139 before repository setup.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18914,
+ "cache_read_tokens": 61803,
+ "call_key": "confirmatory:q106:C#0",
+ "cost_usd": 0.0502333,
+ "duration_s": 17.3,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 81782,
+ "input_uncached": 1065,
+ "is_error": false,
+ "ledger_position": 596,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 1032,
+ "policy": "C",
+ "qid": "q106",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-2-runtime-layout.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-07-26-c31-pilot-revision-3-native-arm64-runtime.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671396.406,
+ "tokens_marginal": 21011,
+ "tokens_total": 82814
+}

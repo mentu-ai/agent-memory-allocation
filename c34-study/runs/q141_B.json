@@ -1,0 +1,68 @@
+{
+ "answer": "alpha",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11552,
+ "cache_read_tokens": 123436,
+ "call_key": "confirmatory:q141:B#0",
+ "cost_usd": 0.0385366,
+ "duration_s": 13.1,
+ "error_class": null,
+ "gold_rp": "results/2026-08-12-c25-return-intervention.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/results/2026-08-12-c25-return-intervention.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/results/2026-08-12-c25-return-intervention.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*.md",
+    "tool": "Glob"
+   },
+   {
+    "path": "",
+    "pattern": "rose above baseline but not by the frozen order-of-magnitude margin",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 135022,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 687,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 611,
+ "policy": "B",
+ "qid": "q141",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/results/2026-08-12-c25-return-intervention.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*.md",
+   "tool": "Glob"
+  },
+  {
+   "path": "",
+   "pattern": "rose above baseline but not by the frozen order-of-magnitude margin",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671930.107,
+ "tokens_marginal": 12197,
+ "tokens_total": 135633
+}

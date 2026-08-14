@@ -1,0 +1,46 @@
+{
+ "answer": "measurement-like CIR signals: 8774",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 23901,
+ "cache_read_tokens": 57671,
+ "call_key": "smoke:q009:C#0",
+ "cost_usd": 0.0631471,
+ "duration_s": 30.3,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-context-network-recursive-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-nodes-measurement-audit.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-nodes-measurement-audit.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 81590,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 301,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 1912,
+ "policy": "C",
+ "qid": "q009",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-nodes-measurement-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "smoke",
+ "started_at": 1786669622.346,
+ "tokens_marginal": 25831,
+ "tokens_total": 83502
+}

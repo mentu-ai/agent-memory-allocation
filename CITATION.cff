@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Agent Memory Allocation: Tiers and Policies of Effective Agent Memory"
+authors:
+  - family-names: Azarang
+    given-names: Rashid
+    orcid: "https://orcid.org/0009-0008-5528-4246"
+    affiliation: "Independent Researcher, San Pedro Garza García, Nuevo León, Mexico"
+date-released: "2026-08-14"
+doi: "10.5281/zenodo.21938413"
+url: "https://rashidazarang.com/research/agent-memory-allocation"
+repository-artifact: "https://zenodo.org/records/21938413"
+license: CC-BY-4.0
+type: article
+keywords:
+  - agent memory
+  - context engineering
+  - LLM agents
+  - retrieval
+  - progressive disclosure
+  - pre-registration

@@ -1,0 +1,48 @@
+{
+ "answer": "~3.9% two-tailed",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 22743,
+ "cache_read_tokens": 61817,
+ "call_key": "confirmatory:q117:C#0",
+ "cost_usd": 0.05503569999999999,
+ "duration_s": 11.0,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-13.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-13.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-13.md",
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 84578,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 625,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 670,
+ "policy": "C",
+ "qid": "q117",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-13.md",
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671586.698,
+ "tokens_marginal": 23431,
+ "tokens_total": 85248
+}

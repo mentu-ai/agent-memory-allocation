@@ -1,0 +1,46 @@
+{
+ "answer": "148",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 27986,
+ "cache_read_tokens": 61808,
+ "call_key": "confirmatory:q008:C#0",
+ "cost_usd": 0.0665608,
+ "duration_s": 16.7,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-constitutional-engine-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md",
+  "located": false,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 89812,
+ "input_uncached": 18,
+ "is_error": false,
+ "ledger_position": 353,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 878,
+ "policy": "C",
+ "qid": "q008",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-capture-contracts-c7-c23.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670257.29,
+ "tokens_marginal": 28882,
+ "tokens_total": 90690
+}

@@ -1,0 +1,58 @@
+{
+ "answer": "1/18 post-regime runs",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 10100,
+ "cache_read_tokens": 87444,
+ "call_key": "confirmatory:q086:B#0",
+ "cost_usd": 0.030535400000000004,
+ "duration_s": 7.9,
+ "error_class": null,
+ "gold_rp": "instruments/2026-06-11-c1b-eligibility-accounting.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-11-c1b-eligibility-accounting.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-11-c1b-eligibility-accounting.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "effective randomized-eligible rate",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 97570,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 542,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 313,
+ "policy": "B",
+ "qid": "q086",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-11-c1b-eligibility-accounting.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "effective randomized-eligible rate",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671175.247,
+ "tokens_marginal": 10439,
+ "tokens_total": 97883
+}

@@ -1,0 +1,50 @@
+{
+ "answer": "0.73",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 30030,
+ "cache_read_tokens": 197203,
+ "call_key": "confirmatory:q131:C#0",
+ "cost_usd": 0.08989230000000001,
+ "duration_s": 34.1,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-28.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-return-funnel-and-footer-root-cause.md",
+  "located": true,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-return-funnel-and-footer-root-cause.md",
+   "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-15-c1b-footer-measurement-fix.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 227275,
+ "input_uncached": 42,
+ "is_error": false,
+ "ledger_position": 667,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 2014,
+ "policy": "C",
+ "qid": "q131",
+ "qtype": "synthesis",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-return-funnel-and-footer-root-cause.md",
+  "/private/tmp/claude-501/c34-sandbox/instruments/2026-06-15-c1b-footer-measurement-fix.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-06-28.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786671835.178,
+ "tokens_marginal": 32086,
+ "tokens_total": 229289
+}

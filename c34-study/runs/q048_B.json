@@ -1,0 +1,62 @@
+{
+ "answer": "24 / 21",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 18928,
+ "cache_read_tokens": 120845,
+ "call_key": "confirmatory:q048:B#0",
+ "cost_usd": 0.0536445,
+ "duration_s": 12.2,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c25-return-intervention.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c25-return-intervention.md",
+  "located": true,
+  "read_count": 3,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c25-return-intervention.md",
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-return-funnel-and-footer-root-cause.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "post-fix feature arms|signals.*injected.*withheld|injected.*withheld.*signals",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 139807,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 451,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 734,
+ "policy": "B",
+ "qid": "q048",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c25-return-intervention.md",
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c1b-return-as-intelligence-randomized.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-07-01-return-funnel-and-footer-root-cause.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "post-fix feature arms|signals.*injected.*withheld|injected.*withheld.*signals",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670744.294,
+ "tokens_marginal": 19696,
+ "tokens_total": 140541
+}

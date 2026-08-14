@@ -1,0 +1,33 @@
+{
+ "answer": "1% of context window",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 6286,
+ "cache_read_tokens": 15257,
+ "call_key": "smoke:q103:D#0",
+ "cost_usd": 0.015427699999999999,
+ "duration_s": 5.2,
+ "error_class": null,
+ "gold_rp": "instruments/2026-07-18-boot-manifest-gauge.md",
+ "input_tokens": 21553,
+ "input_uncached": 10,
+ "is_error": false,
+ "ledger_position": 325,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 264,
+ "policy": "D",
+ "qid": "q103",
+ "qtype": "lookup",
+ "reads": [],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "smoke",
+ "started_at": 1786669793.461,
+ "tokens_marginal": 6560,
+ "tokens_total": 21817
+}

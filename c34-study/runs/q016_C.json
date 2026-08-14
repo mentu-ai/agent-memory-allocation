@@ -1,0 +1,48 @@
+{
+ "answer": "0.0%",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 21374,
+ "cache_read_tokens": 103324,
+ "call_key": "confirmatory:q016:C#0",
+ "cost_usd": 0.059441400000000005,
+ "duration_s": 21.8,
+ "error_class": null,
+ "gold_rp": "applications/2026-06-19-foundational-ideas-audit.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-matter-compiler-audit.md",
+  "located": false,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-matter-compiler-audit.md",
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c8-coherence-dividend.md"
+  ],
+  "searches": [],
+  "zero_read": false
+ },
+ "input_tokens": 124724,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 371,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 1267,
+ "policy": "C",
+ "qid": "q016",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-epistemic-matter-compiler-audit.md",
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c8-coherence-dividend.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [],
+ "set": "confirmatory",
+ "started_at": 1786670386.085,
+ "tokens_marginal": 22667,
+ "tokens_total": 125991
+}

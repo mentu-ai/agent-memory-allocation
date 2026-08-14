@@ -1,0 +1,110 @@
+{
+ "answer": "According to the zombie watch, `ane-fortress` has run **257 times with 0 successes**",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 22249,
+ "cache_read_tokens": 633588,
+ "call_key": "confirmatory:q119:B#0",
+ "cost_usd": 0.12195479999999999,
+ "duration_s": 42.2,
+ "error_class": null,
+ "gold_rp": "observatory/packets/2026-06-16.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c24-failure-driven-retirement.md",
+  "located": false,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c24-failure-driven-retirement.md",
+   "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/*zombie*",
+    "tool": "Glob"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "zombie",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "zombie watch",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "ane-fortress.*run.*times?.*success",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox/results/2026-08-12-c25-return-intervention.md",
+    "pattern": "zombie watch",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "ane-fortress",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 655975,
+ "input_uncached": 138,
+ "is_error": false,
+ "ledger_position": 632,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 17,
+ "output_tokens": 2792,
+ "policy": "B",
+ "qid": "q119",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c24-failure-driven-retirement.md",
+  "/private/tmp/claude-501/c34-sandbox/observatory/packets/2026-07-13.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/*zombie*",
+   "tool": "Glob"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "zombie",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "zombie watch",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "ane-fortress.*run.*times?.*success",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox/results/2026-08-12-c25-return-intervention.md",
+   "pattern": "zombie watch",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "ane-fortress",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671634.619,
+ "tokens_marginal": 25179,
+ "tokens_total": 658767
+}

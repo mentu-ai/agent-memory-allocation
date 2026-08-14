@@ -1,0 +1,94 @@
+{
+ "answer": "A row is marked as 'accessed' in Stage 0 when `access_count > 0` \u2014 a recorded access against the row in the operational store, written by the engine independent of any model output.",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 33159,
+ "cache_read_tokens": 448033,
+ "call_key": "confirmatory:q081:B#0",
+ "cost_usd": 0.12088130000000001,
+ "duration_s": 31.5,
+ "error_class": null,
+ "gold_rp": "docs/referee/B2v2-validity.md",
+ "hydration": {
+  "first_read_is_gold": false,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-validity.md",
+  "located": false,
+  "read_count": 4,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-validity.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-stats.md",
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c25-return-intervention.md",
+   "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-repro.md"
+  ],
+  "searches": [
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "accessed.*Stage 0|Stage 0.*accessed",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "operational predicate.*accessed|accessed.*operational predicate",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "accessed.*predicate|predicate.*accessed|operational.*accessed",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox/paper",
+    "pattern": "access_count > 0",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 481282,
+ "input_uncached": 90,
+ "is_error": false,
+ "ledger_position": 535,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 11,
+ "output_tokens": 1934,
+ "policy": "B",
+ "qid": "q081",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-validity.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2-stats.md",
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c25-return-intervention.md",
+  "/private/tmp/claude-501/c34-sandbox/docs/referee/B2v2-repro.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "accessed.*Stage 0|Stage 0.*accessed",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "operational predicate.*accessed|accessed.*operational predicate",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "accessed.*predicate|predicate.*accessed|operational.*accessed",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox/paper",
+   "pattern": "access_count > 0",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671129.866,
+ "tokens_marginal": 35183,
+ "tokens_total": 483216
+}

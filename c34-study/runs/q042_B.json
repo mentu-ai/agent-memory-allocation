@@ -1,0 +1,68 @@
+{
+ "answer": "\u22658 weeks",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 11569,
+ "cache_read_tokens": 88748,
+ "call_key": "confirmatory:q042:B#0",
+ "cost_usd": 0.0350088,
+ "duration_s": 10.0,
+ "error_class": null,
+ "gold_rp": "corpus/conjectures/c2-friction-to-production.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c2-friction-to-production.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c2-friction-to-production.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "Accrual gate",
+    "tool": "Grep"
+   },
+   {
+    "path": "",
+    "pattern": "cir-run-outcomes.jsonl",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 100343,
+ "input_uncached": 26,
+ "is_error": false,
+ "ledger_position": 434,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 594,
+ "policy": "B",
+ "qid": "q042",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/corpus/conjectures/c2-friction-to-production.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "Accrual gate",
+   "tool": "Grep"
+  },
+  {
+   "path": "",
+   "pattern": "cir-run-outcomes.jsonl",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786670674.584,
+ "tokens_marginal": 12189,
+ "tokens_total": 100937
+}

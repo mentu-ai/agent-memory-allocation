@@ -1,0 +1,78 @@
+{
+ "answer": "15",
+ "barred_from_adjudication": true,
+ "budget_bucket": "smoke",
+ "cache_creation_tokens": 19743,
+ "cache_read_tokens": 219589,
+ "call_key": "smoke:q065:B#0",
+ "cost_usd": 0.0662779,
+ "duration_s": 17.3,
+ "error_class": null,
+ "gold_rp": "docs/BUILD-cir-substrate-hardening-v1.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/docs/BUILD-cir-substrate-hardening-v1.md",
+  "located": true,
+  "read_count": 1,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/docs/BUILD-cir-substrate-hardening-v1.md"
+  ],
+  "searches": [
+   {
+    "path": "",
+    "pattern": "**/CIRStore.swift",
+    "tool": "Glob"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "CIRStore",
+    "tool": "Grep"
+   },
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "schema|version|624",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 239390,
+ "input_uncached": 58,
+ "is_error": false,
+ "ledger_position": 315,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 7,
+ "output_tokens": 955,
+ "policy": "B",
+ "qid": "q065",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/docs/BUILD-cir-substrate-hardening-v1.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "",
+   "pattern": "**/CIRStore.swift",
+   "tool": "Glob"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "CIRStore",
+   "tool": "Grep"
+  },
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "schema|version|624",
+   "tool": "Grep"
+  }
+ ],
+ "set": "smoke",
+ "started_at": 1786669709.049,
+ "tokens_marginal": 20756,
+ "tokens_total": 240345
+}

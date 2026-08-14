@@ -1,0 +1,60 @@
+{
+ "answer": "theory-rich and empirically ungrounded",
+ "barred_from_adjudication": false,
+ "budget_bucket": "confirmatory",
+ "cache_creation_tokens": 15159,
+ "cache_read_tokens": 120698,
+ "call_key": "confirmatory:q112:B#0",
+ "cost_usd": 0.0459718,
+ "duration_s": 14.6,
+ "error_class": null,
+ "gold_rp": "lineage/from-ese-2025.md",
+ "hydration": {
+  "first_read_is_gold": true,
+  "first_read_path": "/private/tmp/claude-501/c34-sandbox/lineage/from-ese-2025.md",
+  "located": true,
+  "read_count": 2,
+  "reads": [
+   "/private/tmp/claude-501/c34-sandbox/lineage/from-ese-2025.md",
+   "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-archived-references-audit.md"
+  ],
+  "searches": [
+   {
+    "path": "/private/tmp/claude-501/c34-sandbox",
+    "pattern": "full-corpus review|predecessor corpus",
+    "tool": "Grep"
+   }
+  ],
+  "zero_read": false
+ },
+ "input_tokens": 135891,
+ "input_uncached": 34,
+ "is_error": false,
+ "ledger_position": 611,
+ "model_identities": [
+  "claude-haiku-4-5-20251001"
+ ],
+ "model_requested": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 710,
+ "policy": "B",
+ "qid": "q112",
+ "qtype": "lookup",
+ "reads": [
+  "/private/tmp/claude-501/c34-sandbox/lineage/from-ese-2025.md",
+  "/private/tmp/claude-501/c34-sandbox/applications/2026-06-19-archived-references-audit.md"
+ ],
+ "retry_of_class": null,
+ "saw_assistant": true,
+ "searches": [
+  {
+   "path": "/private/tmp/claude-501/c34-sandbox",
+   "pattern": "full-corpus review|predecessor corpus",
+   "tool": "Grep"
+  }
+ ],
+ "set": "confirmatory",
+ "started_at": 1786671461.419,
+ "tokens_marginal": 15903,
+ "tokens_total": 136601
+}
