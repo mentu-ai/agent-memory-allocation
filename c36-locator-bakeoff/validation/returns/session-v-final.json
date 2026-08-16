@@ -1,0 +1,191 @@
+{
+ "protocol": "operon-c36-v1/session-v",
+ "recomputation": [
+  {
+   "claim": "n = 115 confirmatory questions",
+   "recomputed": "115 per arm (L0/L1/L2/L4), ids unique and identical across arms; every localization record carries set=confirmatory",
+   "matches": true,
+   "method": "len() and set-equality over localization.jsonl grouped by arm; cross-checked against questions-c36.json ids"
+  },
+  {
+   "claim": "P1 L2 - L0 localization = +13.9 pp (85.2% vs 71.3%)",
+   "recomputed": "+13.913 pp (85.2174% vs 71.3043%)",
+   "matches": true,
+   "method": "mean of `located` over the 115 confirmatory records of each arm; exact float match to adjudication-c36.json"
+  },
+  {
+   "claim": "P2 L2 - L1 = -7.8 pp (85.2% vs 93.0%)",
+   "recomputed": "-7.826 pp (85.2174% vs 93.0435%)",
+   "matches": true,
+   "method": "same measure on the L1 arm"
+  },
+  {
+   "claim": "P3 Spanish-gold subset n = 0, underpowered",
+   "recomputed": "n = 0",
+   "matches": true,
+   "method": "spanish-gold-c36.json is the empty list; no confirmatory rp falls in it, so the n>=25 guard fires"
+  },
+  {
+   "claim": "P4 median cold index build = 193.7 ms",
+   "recomputed": "193.7 ms",
+   "matches": true,
+   "method": "statistics.median of metrics-c36.json cold_build_ms [191.2, 192.9, 193.7, 194.8, 194.8]"
+  },
+  {
+   "claim": "P4 median added per-query wall time = +147.4 ms",
+   "recomputed": "+147.5 ms (difference of per-arm medians) or +148.2 ms (median of the 115 paired per-question differences); mean of paired differences +148.78 ms",
+   "matches": false,
+   "method": "medians of wall_ms per arm from localization.jsonl (L2 256.2, L0 108.7) and paired L2-L0 differences per question id; no estimator I tried (median of diffs, diff of medians, mean, median_low/high, trimmed) yields 147.4"
+  },
+  {
+   "claim": "P5 downstream accuracy +5.2 pp (43.5% vs 38.3%)",
+   "recomputed": "+5.217 pp (43.4783% = 50/115 vs 38.2609% = 44/115)",
+   "matches": true,
+   "method": "boundary rule reimplemented from the scoring.py docstring prose (whitespace-fold + lower normalization, \\w+ tokenization, contiguous token-subsequence test); scoring.py never imported. Reimplementation agrees with all 230 recorded per-record `score.boundary` fields with zero disagreements, and is invariant across three tokenizer variants"
+  },
+  {
+   "claim": "C34 descriptive rule 42.6% / 38.3%",
+   "recomputed": "42.6087% (49/115) / 38.2609% (44/115)",
+   "matches": true,
+   "method": "normalized substring containment reimplemented from prose; agrees with all 230 recorded `score.c34` fields"
+  },
+  {
+   "claim": "both scoring rules agree within 0.9 pp",
+   "recomputed": "max divergence 0.870 pp (L2); exactly one discordant record, q044 (gold 'strength, and context dependency' vs answer 'strength and context dependency': boundary true, c34 false)",
+   "matches": true,
+   "method": "per-arm rule difference plus per-record discordance scan"
+  },
+  {
+   "claim": "L0 localization @8/@3/@1 = 71.3% / 60.9% / 43.5%",
+   "recomputed": "71.3043 / 60.8696 / 43.4783",
+   "matches": true,
+   "method": "means of located, located_top3, located_top1"
+  },
+  {
+   "claim": "L1 localization @8/@3/@1 = 93.0% / 84.3% / 65.2%",
+   "recomputed": "93.0435 / 84.3478 / 65.2174",
+   "matches": true,
+   "method": "same"
+  },
+  {
+   "claim": "L2 localization @8/@3/@1 = 85.2% / 73.0% / 53.9%",
+   "recomputed": "85.2174 / 73.0435 / 53.9130",
+   "matches": true,
+   "method": "same"
+  },
+  {
+   "claim": "L4 localization @8/@3/@1 = 89.6% / 76.5% / 55.7%",
+   "recomputed": "89.5652 / 76.5217 / 55.6522",
+   "matches": true,
+   "method": "same"
+  },
+  {
+   "claim": "L1 cuts L0's miss rate from 28.7% to 7.0%",
+   "recomputed": "28.6957% -> 6.9565%",
+   "matches": true,
+   "method": "100 minus recomputed @8 per arm"
+  },
+  {
+   "claim": "our BM25 adds +3.4 pp over off-the-shelf FTS5",
+   "recomputed": "+3.478 pp (93.0435 - 89.5652)",
+   "matches": true,
+   "method": "arm @8 difference; note this contrast is not paired-significant (exact McNemar, 5 vs 1 discordant, p = 0.219)"
+  },
+  {
+   "claim": "accuracy conditional on locating: 53.7% (L0) / 50.0% (L2)",
+   "recomputed": "53.6585% (44/82) / 50.0000% (49/98)",
+   "matches": true,
+   "method": "boundary hits among p5 records with located=true; denominators 82 and 98 confirmed against localization.jsonl"
+  },
+  {
+   "claim": "accuracy without locating: 0.0% / 5.9%",
+   "recomputed": "0.0000% (0/33) / 5.8824% (1/17)",
+   "matches": true,
+   "method": "boundary hits among located=false; the single L2 case is q001, gold 'frozen before analysis' recovered without the gold document in the hit list"
+  },
+  {
+   "claim": "P4 margins are 77x on build and 3.4x on query",
+   "recomputed": "77.4x (15000/193.7) and 3.39x (500/147.4); using my recomputed 148.2 ms the query margin is 3.37x",
+   "matches": true,
+   "method": "threshold divided by measured value; the 147.4-vs-148.2 discrepancy is immaterial to the bound"
+  },
+  {
+   "claim": "gate rejections: length 75, failable-multidoc 59, verbatim 46, non-degenerate 45, failable-in-question 2; provider errors 0",
+   "recomputed": "identical counts, 227 total gate flag events over 146 failed candidate evaluations (1.555 flags per failure, arithmetically consistent with multi-gate failures); the log has no provider_errors key, consistent with a count of 0 under the generator's increment-on-error logic",
+   "matches": true,
+   "method": "sum over generation-log gates; failures derived as sum(attempts-1) over accepted plus sum(attempts) over excluded documents"
+  },
+  {
+   "claim": "115 accepted from 141 documents, 26 excluded and counted",
+   "recomputed": "115 + 26 = 141; all 26 excluded documents sit at attempt 3; question ids map exactly onto the sorted-corpus enumeration with gaps precisely at the 26 excluded positions",
+   "matches": true,
+   "method": "reconstructed the generator's q{index:03d} numbering over sorted(accepted rp union excluded rp) and compared to the shipped ids"
+  },
+  {
+   "claim": "the frozen split rule assigns all 115 to confirmatory and none to smoke",
+   "recomputed": "identical: reimplementing sha256(salt + id) ascending ordering with the frozen salts and taking the first 120 / next-salt 10 reproduces every question's set field with zero mismatches",
+   "matches": true,
+   "method": "independent reimplementation of salted_order; 0/115 disagreements"
+  },
+  {
+   "claim": "verdict: revised",
+   "recomputed": "revised",
+   "matches": true,
+   "method": "frozen falsification mapping applied to my own values: P1 delta +13.913 > 0 so not refuted; P1 pass, P2 fail, so the supported conjunction fails; therefore revised"
+  }
+ ],
+ "verdict_check": {
+  "mapping_applied": "Conjecture falsification criteria: refuted if (L2-L0) <= 0.0 pp; supported if P1 and P2 and P4 all pass AND P3 passes or is underpowered AND P5 passes; revised otherwise. My recomputed values: L2-L0 = +13.913 pp (not refuted); P1 = pass (13.913 >= 5.0); P2 = fail (85.2174 < 93.0435); P3 = underpowered (n = 0 < 25, not adjudicated); P4 = pass (193.7 <= 15000 and added query 147.4 recorded / 148.2 recomputed, both <= 500); P5 = pass (+5.217 >= 0.0). P1 passes with an adjudicated secondary failing, so the mapping yields revised. adjudicate_c36.py transcribes all five frozen thresholds faithfully (P1_MIN_PP 5.0, P3_MIN_PP 8.0, P3_MIN_N 25, P4_BUILD_MS 15000, P4_QUERY_MS 500) and its branch order matches the conjecture's clause order; its assertion that L0 and L2 share a denominator holds (115 = 115).",
+  "verdict_follows": true
+ },
+ "defects": [
+  {
+   "class": "CLAIM_MISMATCH",
+   "detail": "P4's added per-query figure (147.4 ms) is not reproducible from localization.jsonl under any estimator I tested. The difference of per-arm medians is 147.5 ms (L2 256.2 - L0 108.7, both of which reproduce exactly from the raw wall_ms) and the median of the 115 paired per-question differences is 148.2 ms. metrics-c36.json states added_ms_L2_vs_L0_median = 147.4 alongside per_query_ms_median values that internally imply 147.5. The label 'median' is also ambiguous between the two estimators, which differ by 0.7 ms here. Immaterial to P4 (the threshold is 500 ms, a 3.4x margin) and to the verdict, but it is a number in the results table that does not come out of the records.",
+   "severity": "minor"
+  },
+  {
+   "class": "DISCLOSURE_GAP",
+   "detail": "The registration's \u00a75 measures list is not fully delivered and the shortfall is nowhere disclosed. 'Marginal tokens' per arm appears in no record (the p5 records carry prompt_chars and read_events, no token fields); 'peak RSS' for index build is absent from metrics-c36.json; and the 'cross-language subset' measurement \u2014 which registration \u00a72 explicitly says can fire the D3 trigger for a successor \u2014 is neither computed nor recorded as not-computed. The results document discloses the P3 emptiness and the 115-vs-120 denominator but is silent on these three registered measures.",
+   "severity": "material"
+  },
+  {
+   "class": "DISCLOSURE_GAP",
+   "detail": "The results document reports arm differences with no uncertainty statement of any kind, on a paired design where it is cheap. My exact McNemar tests on the paired records: P1 (L2 vs L0) 17 vs 1 discordant, p = 0.00014; P2 (L2 vs L1) 2 vs 11, p = 0.0225; L1 vs L0 28 vs 3, p < 1e-5. But the document's narrative claim 3, that the implementation 'adds a real but modest margin' over FTS5 (+3.4 pp), rests on 5 vs 1 discordant pairs, p = 0.219 \u2014 the one headline comparison that the records do not support as distinguishable from noise, asserted as 'real' without qualification. Likewise P5's +5.2 pp is 14 vs 8 discordant, p = 0.286; the document calls it a PASS (which it is, the threshold is directional \u0394 >= 0) but the surrounding prose treats it as an established gain.",
+   "severity": "material"
+  },
+  {
+   "class": "DISCLOSURE_GAP",
+   "detail": "The results document's claim 4 states the downstream accuracy gain 'is fully accounted for by localization'. Decomposing the +5.217 pp into a localization component (+7.47 pp, from 82/115 to 98/115 located at L0's conditional rates) and a conditional-accuracy component (-2.25 pp, since accuracy given located FALLS from 53.66% to 50.00%) shows the gain is localization-driven and partly offset by a conditional-accuracy decline. 'Fully accounted for' understates that L2's answering is worse on the documents it does locate. The document reports both conditional numbers honestly one sentence earlier, so this is an interpretive overreach rather than a hidden number.",
+   "severity": "minor"
+  },
+  {
+   "class": "DISCLOSURE_GAP",
+   "detail": "The premature-adjudication incident is disclosed in prose but is not checkable from the attached records: no discarded output, no run log, and no timestamp field exists in any attached artifact, so the '95/115 L2 records present' detail and the claim that no verdict was recorded from it can be neither confirmed nor contradicted by me. What I can confirm is the state the disclosure implies for the final run: p5-L0.jsonl and p5-L2.jsonl each hold exactly 115 unique ids covering the full question set. I also confirm the disclosure's self-criticism is accurate \u2014 adjudicate_c36.py asserts equal L0/L2 denominators for localization but applies no completeness assertion to the P5 denominators, so it would have silently produced a P5 number from 95 records.",
+   "severity": "minor"
+  },
+  {
+   "class": "RECORD_INCONSISTENCY",
+   "detail": "Two accepted questions (q105, q106) share the identical gold string 'Claude Code 2.1.220' while pointing at different gold documents. This does not violate the failable-multidoc gate as implemented (that gate counts occurrences across corpus bodies, at most 2), but it means a correct answer for one is a correct answer for the other, so the scoring rule cannot distinguish which document was reached for those two items. Effect on the reported numbers is at most 2/115 and does not move any threshold.",
+   "severity": "minor"
+  },
+  {
+   "class": "INSTRUMENT_CONTRADICTION",
+   "detail": "The L2 hit lists are not reconstructible from the L0 and L1 hit lists in the records. Only 22/115 L2 lists are subsets of L0 union L1 (top-8 truncated), and RRF(k=60) recomputed over the truncated legs reproduces the L2 set for 0/115 questions. This is expected if the navigator fuses full ranked lists internally and only the top-8 of each leg was recorded, so it is not evidence of an error \u2014 but it does mean the fusion arm, the study's primary arm, cannot be audited against its own legs from the shipped records. The retirement of RRF is therefore adjudicated on outcome only, with the mechanism unverifiable from the artifacts. I note the records are internally coherent on the point that matters: there is no question where the gold sits in both legs' top-8 yet is missing from the fused top-8.",
+   "severity": "material"
+  }
+ ],
+ "unverifiable_boundaries": [
+  "The corpus snapshot itself is not attached. I cannot verify the 141-document manifest sha256 61b8d90b...f2a9b, the snapshot commit cb736542..., or that any file matched its pin at run time.",
+  "The `verbatim` generation gate is uncheckable without the corpus: I cannot confirm that any accepted gold is an exact contiguous substring of its document body. I verified only the three corpus-independent gates on the accepted set (length 3-15 counted: 0 violations, range 3-11 words; non-degenerate: 0 violations; failable-in-question under my own boundary reimplementation: 0 violations). The failable-multidoc gate is likewise uncheckable without corpus bodies.",
+  "The P3 subset rule cannot be verified. spanish-gold-c36.json is empty; whether the snapshot truly carries no `lang: es` frontmatter tag is a claim about a corpus I cannot see.",
+  "The mentu-navigator build (commit e405604476198aa760a9d36fcbae4b8f91116f30), the fts5_adapter used for L4, and run_arms.py are not attached. I cannot verify the arms were produced by the pinned code, that the D4 contract (k=8, 240-char snippets) held identically across arms, or that the retriever flags map to the arms as documented. I verified only the downstream invariant that every record has exactly 8 hits.",
+  "The C34 byte pins (harness_lib.py, generate_questions.py) and the imported Q_PROMPT, GEN_INPUT_CHARS and RETRY_NOTE are not attached; the 'same instrument family' hash claim is unchecked.",
+  "The gen-cache/ candidate cache is not attached, so gate decisions are not replayable by me; I verified the log's internal arithmetic (227 flag events over 146 failed evaluations) but cannot re-derive a single gate decision.",
+  "Model identity and answering conditions are unverifiable: no record carries a model id, timestamp, or provider response metadata, so 'claude-sonnet-5' generator / 'claude-haiku-4-5-20251001' answerer, the one-call-per-question policy, and the 6,000-char truncation are taken on the documents' word. prompt_chars (32,179-48,900) and read_events (uniformly 8) are consistent with a hydrate-all policy over 8 documents but do not establish it.",
+  "Commit-level claims \u2014 freeze 706ccc6, registration 8604a09, and the assertion that the freeze commit preceded generation \u2014 cannot be checked without repository access; the ordering of the three corrections relative to the runs rests entirely on the documents' own dating.",
+  "The machine record (macOS 26.3, arm64, node v22.22.3, python 3.14.6) and the 5 cold-build timings are self-reported inside metrics-c36.json with no independent trace; wall_ms values are likewise unattributable to a specific execution.",
+  "The premature-adjudication incident: no artifact records it, so both the incident's extent and its remediation are unfalsifiable from the attached set."
+ ],
+ "overall": "validated-with-findings"
+}

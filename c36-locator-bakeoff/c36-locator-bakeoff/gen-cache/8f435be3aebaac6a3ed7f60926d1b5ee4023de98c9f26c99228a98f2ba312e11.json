@@ -1,0 +1,1 @@
+{"question": "What does Mentu emit at sequence start as part of the follow-up instrumentation?", "answer": "an `operational_surface_snapshot` signal at sequence start", "qtype": "lookup"}

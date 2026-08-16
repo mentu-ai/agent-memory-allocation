@@ -1,0 +1,1 @@
+{"question": "What command did Qodo's frozen setup run that installed the declared Python libraries?", "answer": "apt-get install -y python3 python3-pip python3-venv", "qtype": "lookup"}

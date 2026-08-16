@@ -1,0 +1,1 @@
+{"question": "What is the minimum number of strict-clean mixed-boundary runs required by the readiness gate?", "answer": "At least 30 strict-clean mixed-boundary runs", "qtype": "lookup"}

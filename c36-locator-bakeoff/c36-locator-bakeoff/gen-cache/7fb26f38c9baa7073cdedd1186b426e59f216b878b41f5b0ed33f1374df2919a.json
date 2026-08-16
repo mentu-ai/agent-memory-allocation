@@ -1,0 +1,1 @@
+{"question": "What is the daemon's launchd plist env var prefix that kept the daemon's own loop off cir.db?", "answer": "MENTU_DISABLE_CIR*", "qtype": "lookup"}

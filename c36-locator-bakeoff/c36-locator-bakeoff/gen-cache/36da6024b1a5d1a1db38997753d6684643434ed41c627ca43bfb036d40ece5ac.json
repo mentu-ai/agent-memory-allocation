@@ -1,0 +1,1 @@
+{"question": "What is the score threshold for high redundancy in the C13 predeclared predictor?", "answer": "score >= 5", "qtype": "lookup"}

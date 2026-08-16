@@ -1,0 +1,1 @@
+{"question": "How many of the engine-written hashes did the documented compute_hash in LEDGER.md reproduce on the checked-in ledger?", "answer": "0 of 11,106 engine-written hashes", "qtype": "lookup"}

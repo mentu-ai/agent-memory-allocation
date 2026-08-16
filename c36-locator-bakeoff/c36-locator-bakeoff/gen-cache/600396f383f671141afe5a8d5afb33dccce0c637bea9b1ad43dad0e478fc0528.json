@@ -1,0 +1,1 @@
+{"question": "What does the audit say SequenceHistoryWriter in mentu-engine currently is?", "answer": "a logger stub, not the canonical append-only sequence history writer", "qtype": "lookup"}

@@ -1,0 +1,1 @@
+{"question": "What is the retrain threshold for training_signals in Neon Postgres?", "answer": "adapter corrections; retrain threshold 200", "qtype": "lookup"}

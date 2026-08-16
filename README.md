@@ -8,6 +8,20 @@ concept DOI
 [10.5281/zenodo.21938412](https://doi.org/10.5281/zenodo.21938412)
 resolves to the current version.
 
+## Companion study (2026-08-16)
+
+**Finding More, Fusing Less: A Pre-Registered Locator Bake-off for AI
+Agents** — DOI
+[10.5281/zenodo.21969901](https://doi.org/10.5281/zenodo.21969901),
+mirrored here under [`c36-locator-bakeoff/`](c36-locator-bakeoff/).
+It tests the constructive converse of this paper: whether the search
+arm's own miss ceiling is reducible by ranked retrieval. Verdict:
+**revised** — BM25 beat exact search by +21.7 pp on localization, but
+the pre-registered fusion prediction failed (-7.8 pp vs BM25-alone) and
+the shipped RRF default was retired by rule. Full harness, gated
+question set, run records, mechanical adjudicator, and the independent
+validation sessions ship in that directory.
+
 ## What is here
 
 | File | What it is |

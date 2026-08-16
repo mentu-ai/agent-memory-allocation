@@ -1,0 +1,1 @@
+{"question": "What must the first verdict-producing analyzer use to establish a closure edge?", "answer": "explicit relation types or signal-body fields", "qtype": "lookup"}

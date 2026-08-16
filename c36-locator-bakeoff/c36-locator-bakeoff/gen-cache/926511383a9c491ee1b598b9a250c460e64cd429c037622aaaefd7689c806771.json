@@ -1,0 +1,1 @@
+{"question": "What must the offer-provenance record for every organic offer contain?", "answer": "run_id, offered_signal_id, trigger_type, trigger_key_or_score, ts", "qtype": "lookup"}

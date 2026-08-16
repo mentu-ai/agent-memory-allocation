@@ -1,0 +1,38 @@
+{
+ "P1": {
+  "delta_pp": 13.9,
+  "pass": true,
+  "threshold": 5.0
+ },
+ "P2": {
+  "L1": 93.04347826086956,
+  "L2": 85.21739130434783,
+  "pass": false
+ },
+ "P3": {
+  "delta_pp": null,
+  "n": 0,
+  "pass": null,
+  "powered": false
+ },
+ "P4": {
+  "added_query_ms": 147.4,
+  "build_ms": 193.7,
+  "pass": true
+ },
+ "P5": {
+  "accuracy_pct": {
+   "L0": 38.26086956521739,
+   "L2": 43.47826086956522
+  },
+  "pass": true
+ },
+ "localization_pct": {
+  "L0": 71.30434782608695,
+  "L1": 93.04347826086956,
+  "L2": 85.21739130434783,
+  "L4": 89.56521739130434,
+  "n": 115
+ },
+ "verdict": "revised"
+}

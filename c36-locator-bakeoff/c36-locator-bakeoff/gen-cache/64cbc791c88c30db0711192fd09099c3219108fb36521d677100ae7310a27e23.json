@@ -1,0 +1,1 @@
+{"question": "What column does the relation table have that captures relationship strength?", "answer": "a `strength` column", "qtype": "lookup"}

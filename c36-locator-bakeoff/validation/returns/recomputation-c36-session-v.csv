@@ -1,0 +1,22 @@
+claim,recomputed,matches,method
+n = 115 confirmatory questions,115,True,"len of confirmatory records per arm in localization.jsonl; all four arms 115, ids unique and identical"
+P1 L2-L0 = +13.9 pp (85.2% vs 71.3%),+13.913 pp (85.2174% vs 71.3043%),True,mean of `located` over 115 confirmatory records per arm
+P2 L2-L1 = -7.8 pp (85.2% vs 93.0%),-7.826 pp (85.2174% vs 93.0435%),True,"same, L1 arm"
+"P3 n = 0, underpowered",n = 0,True,spanish-gold-c36.json is []; no confirmatory rp in subset
+P4 build 193.7 ms,193.7 ms,True,"median of metrics cold_build_ms [191.2,192.9,193.7,194.8,194.8]"
+P4 added query +147.4 ms,+147.5 (diff of medians) / +148.2 (median of paired diffs),False,median wall_ms per arm from localization.jsonl; no estimator reproduces 147.4
+P5 L2-L0 = +5.2 pp (43.5% vs 38.3%),+5.217 pp (43.4783% vs 38.2609%),True,reimplemented boundary rule from scoring.py docstring prose; 50/115 vs 44/115
+C34 rule 42.6% / 38.3%,42.6087% / 38.2609%,True,reimplemented normalized-substring rule; 49/115 vs 44/115
+both rules agree within 0.9 pp,max divergence 0.870 pp (L2),True,boundary-c34 per arm; single discordant record q044
+L0 @8/@3/@1 = 71.3/60.9/43.5,71.3043 / 60.8696 / 43.4783,True,"located, located_top3, located_top1 means"
+L1 @8/@3/@1 = 93.0/84.3/65.2,93.0435 / 84.3478 / 65.2174,True,same
+L2 @8/@3/@1 = 85.2/73.0/53.9,85.2174 / 73.0435 / 53.9130,True,same
+L4 @8/@3/@1 = 89.6/76.5/55.7,89.5652 / 76.5217 / 55.6522,True,same
+L1 cuts L0 miss rate 28.7% -> 7.0%,28.6957% -> 6.9565%,True,100 - @8
+our BM25 adds +3.4 pp over FTS5,+3.478 pp (L1 93.0435 - L4 89.5652),True,arm @8 difference
+accuracy given located 53.7% (L0) / 50.0% (L2),53.6585% (44/82) / 50.0000% (49/98),True,boundary hits among records with located=true
+accuracy without locating 0.0% (L0) / 5.9% (L2),0.0000% (0/33) / 5.8824% (1/17),True,boundary hits among located=false
+"P4 margins 77x build, 3.4x query","77.4x, 3.39x",True,15000/193.7 and 500/147.4
+gate rejections length 75 / failable-multidoc 59 / verbatim 46 / non-degenerate 45 / failable-in-question 2,identical; 227 flag events over 146 failed candidate evaluations,True,generation-log gates vs attempts arithmetic (sum(att-1 accepted)+sum(att excluded))
+"115 accepted, 26 excluded from 141 documents",115 + 26 = 141; ids map exactly to sorted-corpus enumeration gaps,True,reconstructed q{index:03d} index over sorted(accepted rp + excluded rp)
+verdict revised,revised,True,"frozen mapping applied to recomputed values: P1 pass, P2 fail, P3 underpowered, P4 pass, P5 pass"

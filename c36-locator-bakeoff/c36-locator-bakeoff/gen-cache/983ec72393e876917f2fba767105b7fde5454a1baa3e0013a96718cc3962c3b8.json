@@ -1,0 +1,1 @@
+{"question": "What is the offer provenance record schema listed for the trigger?", "answer": "{run_id, offered_signal_id, trigger_type, trigger_key_or_score, ts}", "qtype": "lookup"}

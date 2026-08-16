@@ -1,0 +1,1 @@
+{"question": "What eval workspace naming pattern does the paper's quarantined eval experiment require?", "answer": "~/.mentu-eval-<date>/ or an explicit --workspace", "qtype": "lookup"}

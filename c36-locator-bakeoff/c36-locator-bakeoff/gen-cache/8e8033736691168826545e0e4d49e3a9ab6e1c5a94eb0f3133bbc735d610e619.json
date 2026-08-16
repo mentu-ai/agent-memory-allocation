@@ -1,0 +1,1 @@
+{"question": "What analyzer extracts YAML/frontmatter specimens from the audited files and checks field coverage?", "answer": "analyses/c15-compiler-invocation-readiness/analyze.py", "qtype": "lookup"}

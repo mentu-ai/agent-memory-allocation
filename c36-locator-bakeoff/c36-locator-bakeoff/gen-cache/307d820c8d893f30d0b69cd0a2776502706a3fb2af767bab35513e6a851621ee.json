@@ -1,0 +1,1 @@
+{"question": "According to gates.py, what does policy-core never do to the ledger?", "answer": "policy-core never writes the ledger", "qtype": "lookup"}

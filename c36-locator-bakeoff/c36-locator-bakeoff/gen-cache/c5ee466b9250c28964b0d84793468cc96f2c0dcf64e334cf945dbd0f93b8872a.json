@@ -1,0 +1,1 @@
+{"question": "What must future analysis code pass before any C5 verdict is adjudicated?", "answer": "the pure guardrail tests in `analyses/c5-boundary-impedance/`", "qtype": "lookup"}

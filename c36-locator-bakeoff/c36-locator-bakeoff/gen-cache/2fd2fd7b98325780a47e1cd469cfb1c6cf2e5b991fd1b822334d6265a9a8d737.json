@@ -1,0 +1,1 @@
+{"question": "What does the offer row in cir-run-outcomes.jsonl expose that lacks a kind field?", "answer": "injected_signal_ids", "qtype": "lookup"}

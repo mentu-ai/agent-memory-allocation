@@ -1,0 +1,1 @@
+{"question": "What is the primary predictor in the trust forecast?", "answer": "reviewer `rating` in `[0, 1]`", "qtype": "lookup"}

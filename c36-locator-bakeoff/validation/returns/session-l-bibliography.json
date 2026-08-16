@@ -1,0 +1,158 @@
+{
+  "protocol": "operon-c36-v1/session-l",
+  "works": [
+    {
+      "id": "10.1145/1571941.1572114",
+      "title": "Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods",
+      "venue_year": "SIGIR 2009 (pp. 758-759)",
+      "verified": true,
+      "verbatim_quote": "Reciprocal Rank Fusion (RRF), a simple method for combining the document rankings from multiple IR systems, consistently yields better results than any individual system, and better results than the standard method Condorcet Fuse.",
+      "quote_location": "Abstract, opening sentence, author copy PDF p.1 (https://cormack.uwaterloo.ca/cormacksigir09-rrf.pdf); Crossref record 10.1145/1571941.1572114 verified live for venue/pagination",
+      "relation": "CONTRADICTS",
+      "bearing_on_c36": "This is the warrant c36's P2 was staked on and the paper it falsifies: RRF is introduced with the claim that fusion consistently beats any individual system, whereas c36's fused arm loses to its own BM25 leg by 7.8 pp."
+    },
+    {
+      "id": "10.1145/3596512",
+      "title": "An Analysis of Fusion Functions for Hybrid Retrieval",
+      "venue_year": "ACM TOIS, 2023 (arXiv:2210.11934)",
+      "verified": true,
+      "verbatim_quote": "Contrary to existing studies, we find RRF to be sensitive to its parameters; that the learning of a CC fusion is generally agnostic to the choice of score normalization; that CC outperforms RRF in in-domain and out-of-domain settings",
+      "quote_location": "Abstract, final sentence, arXiv:2210.11934 abstract page; Crossref 10.1145/3596512 verified live for journal/year",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Establishes prior that RRF is parameter-sensitive and beatable, which both weakens c36's novelty on 'RRF can lose' and exposes an unswept confound: c36 fixed k=60 and never varied it."
+    },
+    {
+      "id": "2603.02153",
+      "title": "Scaling Retrieval Augmented Generation with RAG Fusion: Lessons from an Industry Deployment",
+      "venue_year": "arXiv preprint, 2026",
+      "verified": true,
+      "verbatim_quote": "Across multiple fusion configurations, we find that retrieval fusion does increase raw recall, but these gains are largely neutralized after re-ranking and truncation.",
+      "quote_location": "Abstract, sentence 4, arXiv:2603.02153 abstract page",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Closest published analogue to finding (ii) — fusion failing to beat a single-retriever baseline under a fixed depth/latency contract — but on multi-query RRF over an enterprise KB with no pre-registration, so it corroborates rather than occupies."
+    },
+    {
+      "id": "2508.01405",
+      "title": "Balancing the Blend: An Experimental Analysis of Trade-offs in Hybrid Search",
+      "venue_year": "arXiv preprint, 2025",
+      "verified": true,
+      "verbatim_quote": "A \"weakest link\" phenomenon, where a weak path can substantially degrade overall accuracy, highlighting the need for path-wise quality assessment before fusion.",
+      "quote_location": "Abstract, finding (1) in the three-key-findings list, arXiv:2508.01405 abstract page",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Names the exact mechanism c36 observed — a weak fusion path dragging down the blend — across 11 datasets, so c36's leg-asymmetry explanation is a published phenomenon and must be cited as such rather than offered as new."
+    },
+    {
+      "id": "2605.15184",
+      "title": "Is Grep All You Need? How Agent Harnesses Reshape Agentic Search",
+      "venue_year": "arXiv preprint, 2026",
+      "verified": true,
+      "verbatim_quote": "Across Chronos and the provider CLIs, grep generally yields higher accuracy than vector retrieval in our comparisons in experiment 1; at the same time, overall scores still depend strongly on which harness and tool-calling style is used, even when the underlying conversation data are the same.",
+      "quote_location": "Abstract, final sentence, arXiv:2605.15184 abstract page",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Nearest substrate match for question 2 (exact/grep vs learned retrieval inside real agent harnesses at comparable n), but contrasts grep against vector rather than against BM25, and finds harness/tool-presentation effects large enough to caution c36's single-contract generalization."
+    },
+    {
+      "id": "2608.01507",
+      "title": "Deep Agentic Search for Repository-Level Code Question Answering: An Empirical Study",
+      "venue_year": "arXiv preprint, 2026 (under review)",
+      "verified": true,
+      "verbatim_quote": "However, our results show that the protection it offers may not be free, and that for read-only questions over a repository that can be indexed, retrieval was the stronger and cheaper option.",
+      "quote_location": "Abstract, final sentence, arXiv:2608.01507 abstract page",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Independently reaches c36's directional conclusion — indexed retrieval beats grep-style search for read-only questions over an indexable corpus — on code repositories rather than an operational doc corpus."
+    },
+    {
+      "id": "2608.05886",
+      "title": "CodeGrep: An RL-Trained Retrieval Agent for LLM Coding Agents",
+      "venue_year": "arXiv preprint, 2026",
+      "verified": true,
+      "verbatim_quote": "Across retrievers, downstream utility follows a precision threshold: BM25 with precision 0.375 degrades the agent, Jina with precision 0.445 is neutral, and CodeGrep with precision 0.677 crosses the threshold at which retrieval begins to reduce rollout cost.",
+      "quote_location": "Abstract, sentence 5 (the precision-threshold result), arXiv:2608.05886 abstract page",
+      "relation": "CONTRADICTS",
+      "bearing_on_c36": "Reports BM25 retrieval actively degrading a downstream agent below a precision threshold, which bounds c36's finding (i) to localization recall and rebuts any reading of it as 'BM25 helps agents generally'."
+    },
+    {
+      "id": "2606.22417",
+      "title": "Code Isn't Memory: A Structural Codebase Index Inside a Coding Agent",
+      "venue_year": "arXiv preprint, 2026",
+      "verified": true,
+      "verbatim_quote": "The within-harness ablation produces a large localization gain and a statistically separated resolve gain, with no cost penalty per cell and lower cost per solve.",
+      "quote_location": "Abstract, sentence 4 (within-harness ablation result), arXiv:2606.22417 abstract page",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Methodologically the closest neighbour — a single-variable within-harness retrieval ablation with model held fixed, a leak audit and a localization-to-resolve chain — so it partly occupies c36's claim to ablation discipline on the agent-retrieval substrate."
+    },
+    {
+      "id": "2503.09089",
+      "title": "LocAgent: Graph-Guided LLM Agents for Code Localization",
+      "venue_year": "arXiv preprint, 2025",
+      "verified": true,
+      "verbatim_quote": "reaching up to 92.7% accuracy on file-level localization while improving downstream GitHub issue resolution success rates by 12% for multiple attempts (Pass@10)",
+      "quote_location": "Abstract, penultimate sentence, arXiv:2503.09089 abstract page",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Prior evidence that a file-level localization gain propagates into downstream task success, so c36's finding (iv) is a replication of an established pattern on a new substrate, not a discovery."
+    },
+    {
+      "id": "2503.01763",
+      "title": "Retrieval Models Aren't Tool-Savvy: Benchmarking Tool Retrieval for Large Language Models",
+      "venue_year": "ACL 2025 (arXiv:2503.01763)",
+      "verified": true,
+      "verbatim_quote": "This low retrieval quality degrades the task pass rate of tool-use LLMs.",
+      "quote_location": "Abstract, sentence 8, arXiv:2503.01763 abstract page (venue from the paper's arXiv comments field: 'ACL 2025')",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Establishes the localization-binds-downstream relation on the tool-retrieval substrate, reinforcing that c36's finding (iv) is convergent with existing agent-retrieval evidence."
+    },
+    {
+      "id": "2104.08663",
+      "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+      "venue_year": "NeurIPS 2021 Datasets and Benchmarks Track (arXiv:2104.08663)",
+      "verified": true,
+      "verbatim_quote": "Our results show BM25 is a robust baseline and re-ranking and late-interaction-based models on average achieve the best zero-shot performances, however, at high computational costs.",
+      "quote_location": "Abstract, sentence 4, arXiv:2104.08663 abstract page (venue from the paper's arXiv comments field)",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "The standard citation for BM25's robustness across heterogeneous corpora, which is why c36's FTS5 control landing at 89.6% is the expected result and 'BM25 the idea' deserves the priority, not the implementation."
+    },
+    {
+      "id": "2606.11217",
+      "title": "Preregistration for Experiments with AI Agents",
+      "venue_year": "ICML 2026 Position Paper (Spotlight, top 5%)",
+      "verified": true,
+      "verbatim_quote": "We systematically catalog the researcher degrees of freedom that experiments with AI agents introduce -- model selection, prompt wording, settings, and outcome-contingent redesign, for example -- and show how the low cost of iteration and lack of reporting norms make these choices both easy to exploit and difficult to detect.",
+      "quote_location": "Abstract, penultimate sentence, arXiv:2606.11217 abstract page (venue from the paper's arXiv comments field)",
+      "relation": "ADJACENT",
+      "bearing_on_c36": "Argues for exactly the discipline c36 practises and catalogs the degrees of freedom it froze, giving the paper a citable methodological warrant while showing pre-registration for agent experiments is now an advocated norm rather than c36's innovation."
+    },
+    {
+      "id": "2403.09040",
+      "title": "RAGGED: Towards Informed Design of Scalable and Stable RAG Systems",
+      "venue_year": "ICML 2025 (arXiv:2403.09040)",
+      "verified": true,
+      "verbatim_quote": "Our analysis reveals that reader robustness to noise is the key determinant of RAG stability and scalability.",
+      "quote_location": "Abstract, sentence 4, arXiv:2403.09040 abstract page (venue from the paper's arXiv comments field: 'ICML 2025')",
+      "relation": "CONTRADICTS",
+      "bearing_on_c36": "Assigns the determining role to reader noise-robustness rather than retrieval, and reports that retrievers do not fundamentally alter reader-driven trends, directly contesting c36's 'localization is the binding stage' framing."
+    }
+  ],
+  "novelty_assessment": {
+    "finding_i_bm25_beats_exact": "novel-on-substrate, not novel-in-kind. BM25's robustness as a lexical baseline is long-established (BEIR, NeurIPS 2021), and the agent-substrate comparisons that exist contrast grep against vector/semantic retrieval (arXiv:2605.15184; arXiv:2608.01507) rather than against a hardened exact leg under a fixed k=8 tool contract. No verified work occupies BM25-vs-exact on a bilingual operational documentation corpus behind an identical agent contract, so the +21.7 pp is a new measurement of a predictable direction. The claim must be scoped to localization recall: CodeGrep (arXiv:2608.05886) reports BM25 degrading a downstream agent below a precision threshold.",
+    "finding_ii_fusion_degrades": "phenomenon occupied, adjudication novel. That RRF can fail to beat its best leg is documented three ways — parameter sensitivity and CC-over-RRF (ACM TOIS 2023), the 'weakest link' path effect (arXiv:2508.01405), and fusion failing to beat single-query baselines in production (arXiv:2603.02153). What is unoccupied is the design: a frozen prior prediction that fusion never costs localization, adjudicated mechanically against an unranked, file-ordered exact leg fused at RRF k=60, with the shipped default retired automatically on the result. c36 should claim the pre-registered retirement, not the discovery, and must concede that k=60 was never swept.",
+    "finding_iv_localization_binds": "convergent replication, contested. The localization-to-downstream chain is independently evidenced on code (arXiv:2503.09089; arXiv:2606.22417) and tool retrieval (ACL 2025, arXiv:2503.01763), so the claim itself is not new. RAGGED (ICML 2025) cuts the other way, naming reader noise-robustness as the key determinant. c36's defensible contribution is the specific decomposition — accuracy conditional on reaching gold ~50-54% in both arms versus 0-6% otherwise, replicated a third time — not the general proposition."
+  },
+  "failed_verifications": [
+    "No candidate was dropped for failed verification: all 13 works entering the bibliography were opened live and each verbatim quote was confirmed as an exact substring of the fetched text.",
+    "10.1145/1571941.1572114 (Cormack et al. 2009) — ACM Digital Library returned HTTP 403 to automated access, and neither the Crossref nor the Semantic Scholar record carries an abstract; verification was completed against the authors' copy at cormack.uwaterloo.ca (66,196-byte PDF, 2 pages) with Crossref confirming venue, year and pagination 758-759.",
+    "Question 3 (pre-registered evaluations of retrieval composition for LLM agents) returned no empirical work that pre-registers retrieval-composition predictions — only a position paper advocating the practice (arXiv:2606.11217) and post-hoc ablation studies. Reported as a genuine gap, not padded with near-misses.",
+    "Question 1's specific sub-condition — RRF fusing a RANKED leg with an UNRANKED, file-ordered leg — returned no work that isolates it; the closest is the 'weakest link' path analysis (arXiv:2508.01405), which varies path quality but not path rankedness."
+  ],
+  "recommended_confrontations": [
+    "10.1145/1571941.1572114 — Cormack et al., SIGIR 2009. The paper c36's P2 was staked against; the fusion retirement is only legible as a falsification if this claim is quoted and confronted directly.",
+    "10.1145/3596512 — Bruch et al., ACM TOIS 2023. Must be engaged twice: it pre-empts 'RRF can lose', and its parameter-sensitivity finding makes c36's unswept k=60 a live confound the paper has to concede.",
+    "arXiv:2508.01405 — Balancing the Blend. Publishes the 'weakest link' mechanism c36 invokes for the fusion degradation; citing it converts c36's explanation from a proposal into a corroboration.",
+    "arXiv:2603.02153 — RAG Fusion industry deployment. The closest published result to finding (ii); omitting it would let a reviewer find the nearest neighbour first.",
+    "arXiv:2608.05886 — CodeGrep. The sharpest bound on finding (i): BM25 below a precision threshold degrades a downstream agent, so the +21.7 pp must be stated as localization recall, not agent benefit.",
+    "arXiv:2403.09040 — RAGGED, ICML 2025. The only verified work that contests finding (iv)'s framing; the paper must argue why localization binds here when RAGGED finds reader robustness decisive.",
+    "arXiv:2606.22417 — Code Isn't Memory. Prior art on c36's methodological selling point (single-variable within-harness retrieval ablation with a localization-to-resolve chain); c36's discipline claim must be positioned relative to it.",
+    "arXiv:2503.09089 and arXiv:2503.01763 — LocAgent and ToolRet. Joint priority on the localization-binds-downstream relation; finding (iv) should be presented as a third replication, not a discovery.",
+    "arXiv:2104.08663 — BEIR. Grounds the FTS5 control result and forces the honest attribution: 'BM25 the idea' carries the gain, the per-language implementation adds +3.4 pp.",
+    "arXiv:2605.15184 and arXiv:2608.01507 — Grep-vs-vector and Deep Agentic Search. Define the agent-substrate neighbourhood for finding (i) and supply the external-validity caveat that harness and tool-presentation choices move results independently of the retriever."
+  ]
+}

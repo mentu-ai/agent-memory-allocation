@@ -1,0 +1,1 @@
+{"question": "What must attention cost capture, per the datasets section, beyond time and decision count?", "answer": "lineage depth, prompt/detail bytes", "qtype": "lookup"}

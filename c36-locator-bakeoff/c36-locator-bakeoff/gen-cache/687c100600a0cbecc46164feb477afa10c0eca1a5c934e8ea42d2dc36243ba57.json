@@ -1,0 +1,1 @@
+{"question": "How many edges does `okf suggest-links` propose, stable at `--max 200`?", "answer": "10 edges (2 back-refs, 8 similarity)", "qtype": "lookup"}

@@ -1,0 +1,23 @@
+{
+ "added_ms_L2_vs_L0_median": 147.4,
+ "cold_build_ms": [
+  191.2,
+  192.9,
+  193.7,
+  194.8,
+  194.8
+ ],
+ "cold_build_ms_median": 193.7,
+ "machine": {
+  "machine": "arm64",
+  "node": "v22.22.3",
+  "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6"
+ },
+ "per_query_ms_median": {
+  "L0": 108.7,
+  "L1": 220.3,
+  "L2": 256.2,
+  "L4": 0.6
+ }
+}

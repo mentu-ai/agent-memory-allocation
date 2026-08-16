@@ -1,0 +1,1 @@
+{"question": "In milestone M1, what PRAGMA statement collects a table's foreign key information?", "answer": "PRAGMA foreign_key_list(<table>)", "qtype": "lookup"}

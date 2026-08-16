@@ -1,0 +1,1 @@
+{"question": "What is the corpus's byte size that stayed identical across project + validate + lint + context + suggest-links?", "answer": "3309121536", "qtype": "lookup"}

@@ -1,0 +1,1 @@
+{"question": "What FNV hash property of runId determines arm assignment under MENTU_CIR_RANDOMIZE=1?", "answer": "FNV-1a hash parity of runId", "qtype": "lookup"}
