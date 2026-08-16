@@ -1,0 +1,18 @@
+{
+ "answer": "0b320d9d\u2026",
+ "cache_creation_tokens": 29428,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0625524,
+ "duration_s": 9.6,
+ "gold_rp": "corpus/2026-07-04-return-base-rate-B2.md",
+ "greps": 0,
+ "input_tokens": 44352,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 439,
+ "policy": "A",
+ "qid": "q002",
+ "reads": []
+}

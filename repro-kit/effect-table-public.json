@@ -1,0 +1,28 @@
+{
+ "answerer": "claude-haiku-4-5-20251001",
+ "note": "PUBLIC demonstrator over 17 English docs \u2014 NOT the paper's 102-question result (that stands on committed hashes).",
+ "per_policy": {
+  "A": {
+   "accuracy": 0.125,
+   "scored": 16,
+   "tokens_total": 727004
+  },
+  "B": {
+   "accuracy": 0.625,
+   "scored": 16,
+   "tokens_total": 2914973
+  },
+  "C": {
+   "accuracy": 0.625,
+   "non_hydrated": 4,
+   "scored": 16,
+   "tokens_total": 3084018,
+   "wrong_stop_rate": 0.1875
+  },
+  "D": {
+   "accuracy": 0.8125,
+   "scored": 16,
+   "tokens_total": 360675
+  }
+ }
+}

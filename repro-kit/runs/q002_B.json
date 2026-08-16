@@ -1,0 +1,22 @@
+{
+ "answer": "`0b320d9d`",
+ "cache_creation_tokens": 31683,
+ "cache_read_tokens": 269702,
+ "cost_usd": 0.10163920000000001,
+ "duration_s": 37.8,
+ "gold_rp": "corpus/2026-07-04-return-base-rate-B2.md",
+ "greps": 5,
+ "input_tokens": 301443,
+ "input_uncached": 58,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 9,
+ "output_tokens": 2249,
+ "policy": "B",
+ "qid": "q002",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-epistemics-program-v1.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2-repro.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/2026-07-04-return-base-rate-B2.md"
+ ]
+}

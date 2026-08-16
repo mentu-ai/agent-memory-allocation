@@ -1,0 +1,18 @@
+{
+ "answer": "0.0222% (or equivalently 91/409,404 trust-state rows)",
+ "cache_creation_tokens": 29192,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0687604,
+ "duration_s": 16.8,
+ "gold_rp": "corpus/BUILD-protocol-v22-obligations-v1.md",
+ "greps": 0,
+ "input_tokens": 44116,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 1775,
+ "policy": "A",
+ "qid": "q014",
+ "reads": []
+}

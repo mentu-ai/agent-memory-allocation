@@ -1,0 +1,20 @@
+[gen] corpus/2026-06-10-when-the-theory-met-its-instrument.md  q=1
+[gen] corpus/2026-07-04-return-base-rate-B2.md  q=2
+[gen] corpus/B2-field.md  q=3
+[gen] corpus/B2-repro.md  q=3
+[gen] corpus/B2-stats.md  q=4
+[gen] corpus/B2-validity.md  q=5
+[gen] corpus/B2v2-field.md  q=6
+[gen] corpus/B2v2-repro.md  q=7
+[gen] corpus/B2v2-stats.md  q=8
+[gen] corpus/B2v2-validity.md  q=9
+[gen] corpus/BUILD-cir-substrate-hardening-v1.md  q=10
+[gen] corpus/BUILD-constitutional-silence-paper-v1.md  q=11
+[gen] corpus/BUILD-epistemics-program-v1.md  q=12
+[gen] corpus/BUILD-evidence-carrying-execution-paper-v1.md  q=13
+[gen] corpus/BUILD-protocol-v22-obligations-v1.md  q=14
+[gen] corpus/BUILD-run-horizon-v1.md  q=15
+[gen] corpus/CONTEXT-parked-and-parallel-papers.md  q=16
+questions-public.json 820352e5b0b4b147
+index-public.json 3bddf1e04da91f95
+DONE questions=16

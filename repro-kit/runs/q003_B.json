@@ -1,0 +1,22 @@
+{
+ "answer": "accurate retrieval",
+ "cache_creation_tokens": 20297,
+ "cache_read_tokens": 81384,
+ "cost_usd": 0.0521784,
+ "duration_s": 14.6,
+ "gold_rp": "corpus/B2-field.md",
+ "greps": 1,
+ "input_tokens": 101707,
+ "input_uncached": 26,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 684,
+ "policy": "B",
+ "qid": "q003",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-field.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2-repro.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2-field.md"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "answer": "98 have ever been read back",
+ "cache_creation_tokens": 3702,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0098504,
+ "duration_s": 5.2,
+ "gold_rp": "corpus/2026-06-10-when-the-theory-met-its-instrument.md",
+ "greps": 0,
+ "input_tokens": 18626,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 189,
+ "policy": "D",
+ "qid": "q001",
+ "reads": []
+}

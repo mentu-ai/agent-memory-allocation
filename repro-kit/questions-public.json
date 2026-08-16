@@ -1,0 +1,118 @@
+{
+ "generator": "claude-sonnet-5",
+ "n": 16,
+ "questions": [
+  {
+   "id": "q001",
+   "rp": "corpus/2026-06-10-when-the-theory-met-its-instrument.md",
+   "question": "of 217,629 signals in the memory, how many have ever been read back",
+   "answer": "98 have ever been read back",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q002",
+   "rp": "corpus/2026-07-04-return-base-rate-B2.md",
+   "question": "What sha256 prefix identifies the pinned .backup snapshot of ~/.mentu/cir.db?",
+   "answer": "sha256 `0b320d9d\u2026`",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q003",
+   "rp": "corpus/B2-field.md",
+   "question": "What does MemoryAgentBench name as an explicit competency?",
+   "answer": "accurate retrieval",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q004",
+   "rp": "corpus/B2-stats.md",
+   "question": "According to F3, how many context_used events exist in the entire history?",
+   "answer": "24 `context_used` events exist in the entire history",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q005",
+   "rp": "corpus/B2-validity.md",
+   "question": "What event marks a trust-state row as \"accessed\"?",
+   "answer": "never operationally defined",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q006",
+   "rp": "corpus/B2v2-field.md",
+   "question": "What phrase now appears in the Abstract in place of the former \"the whole field\" wording?",
+   "answer": "the base rate the memory-evaluation literature presupposes",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q007",
+   "rp": "corpus/B2v2-repro.md",
+   "question": "According to the paper's Data and code availability section, what is described as proprietary and not released?",
+   "answer": "the production trust-state store and hash-chained ledger",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q008",
+   "rp": "corpus/B2v2-stats.md",
+   "question": "In F5, what is the minimum detectable effect at 80% power at n=24/21?",
+   "answer": "on the order of \u00b135 pp",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q009",
+   "rp": "corpus/B2v2-validity.md",
+   "question": "What does \u00a74 heading now read for the pattern non-reuse finding?",
+   "answer": "Pattern non-reuse (floor)",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q010",
+   "rp": "corpus/BUILD-cir-substrate-hardening-v1.md",
+   "question": "What was the size of ~/.mentu/cir.db before the purge, and what did it shrink to?",
+   "answer": "2.2 GB \u2192 897 MB",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q011",
+   "rp": "corpus/BUILD-constitutional-silence-paper-v1.md",
+   "question": "What is dropped from the silence canon's asserted constants due to having no estimator?",
+   "answer": "Curvature Deficit \u0394Gm",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q012",
+   "rp": "corpus/BUILD-epistemics-program-v1.md",
+   "question": "What does the C25 gate clock consist of, according to the program's contamination trade-off discussion?",
+   "answer": "150 post-marker feature-class runs",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q013",
+   "rp": "corpus/BUILD-evidence-carrying-execution-paper-v1.md",
+   "question": "What is the working title of the paper?",
+   "answer": "Evidence-Carrying Execution: A Calculus and Production System for Accountable Agent Orchestration",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q014",
+   "rp": "corpus/BUILD-protocol-v22-obligations-v1.md",
+   "question": "What is the pre-arm baseline organic offer rate referenced in the C25 discipline rule?",
+   "answer": "organic offer 0.0222%",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q015",
+   "rp": "corpus/BUILD-run-horizon-v1.md",
+   "question": "What ran 386 consecutive failures with zero successes and was never slowed, aborted, or retired?",
+   "answer": "ane-fortress",
+   "qtype": "lookup"
+  },
+  {
+   "id": "q016",
+   "rp": "corpus/CONTEXT-parked-and-parallel-papers.md",
+   "question": "What percentage estimate is given for relations per signal in the 2026-07-04 census?",
+   "answer": "0.095 relations/signal, census 2026-07-04",
+   "qtype": "lookup"
+  }
+ ]
+}

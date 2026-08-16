@@ -1,0 +1,18 @@
+{
+ "answer": "the minimum detectable effect at 80% power is \u2248\u00b135 pp",
+ "cache_creation_tokens": 29429,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0662194,
+ "duration_s": 14.9,
+ "gold_rp": "corpus/B2v2-stats.md",
+ "greps": 0,
+ "input_tokens": 44353,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 1172,
+ "policy": "A",
+ "qid": "q008",
+ "reads": []
+}

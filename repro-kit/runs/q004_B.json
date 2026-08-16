@@ -1,0 +1,20 @@
+{
+ "answer": "24 `context_used` events exist in the entire history.",
+ "cache_creation_tokens": 16454,
+ "cache_read_tokens": 179714,
+ "cost_usd": 0.05829440000000001,
+ "duration_s": 28.5,
+ "gold_rp": "corpus/B2-stats.md",
+ "greps": 4,
+ "input_tokens": 196218,
+ "input_uncached": 50,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 6,
+ "output_tokens": 1473,
+ "policy": "B",
+ "qid": "q004",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2-validity.md"
+ ]
+}

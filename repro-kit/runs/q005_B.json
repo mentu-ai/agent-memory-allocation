@@ -1,0 +1,20 @@
+{
+ "answer": "a recorded access against the row in the operational store (`access_count > 0`), written by the engine independent of any model output",
+ "cache_creation_tokens": 11078,
+ "cache_read_tokens": 83885,
+ "cost_usd": 0.0354405,
+ "duration_s": 14.4,
+ "gold_rp": "corpus/B2-validity.md",
+ "greps": 2,
+ "input_tokens": 94989,
+ "input_uncached": 26,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 974,
+ "policy": "B",
+ "qid": "q005",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-validity.md"
+ ]
+}

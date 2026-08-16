@@ -128,3 +128,13 @@ reserve was never drawn on; the confirmatory pass returned zero errors. Every
 milestone was gated in commit order — registration, instrument, corpus
 snapshot, question freeze, excluded smoke, confirmatory, adjudication — and
 each was audited by a party that did not execute it.
+
+## Adjudicator usage note
+
+Invoke the adjudicator as documented: `python3 adjudicate.py --out
+effect-table-replay.json` (any path outside the study directory works). A
+bare `python3 adjudicate.py` writes its output under the script's internal
+date constant (`effect-table-2026-08-13.json`) — byte-identical content
+under a different name — which the bundle's own leak gate then correctly
+rejects as an uncommitted artifact. That is the gate working, not a
+corruption.

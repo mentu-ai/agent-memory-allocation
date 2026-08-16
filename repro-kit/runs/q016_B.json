@@ -1,0 +1,22 @@
+{
+ "answer": "0.095 relations/signal",
+ "cache_creation_tokens": 26527,
+ "cache_read_tokens": 203265,
+ "cost_usd": 0.0791355,
+ "duration_s": 22.9,
+ "gold_rp": "corpus/CONTEXT-parked-and-parallel-papers.md",
+ "greps": 3,
+ "input_tokens": 229842,
+ "input_uncached": 50,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 7,
+ "output_tokens": 1141,
+ "policy": "B",
+ "qid": "q016",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/2026-07-04-return-base-rate-B2.md",
+  "/Users/rashid/.claude/projects/-Users-rashid-Desktop-epistemics-paper-agent-memory-allocation-repro-kit--sandbox/320d2725-5eb8-4c02-9c78-eab8f3b9c6e0/tool-results/toolu_017gvByRnJ7U3R5WWfZGJsqT.txt",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/CONTEXT-parked-and-parallel-papers.md"
+ ]
+}

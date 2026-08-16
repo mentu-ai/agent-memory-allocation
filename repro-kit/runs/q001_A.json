@@ -1,0 +1,18 @@
+{
+ "answer": "98",
+ "cache_creation_tokens": 33228,
+ "cache_read_tokens": 10877,
+ "cost_usd": 0.0692037,
+ "duration_s": 9.7,
+ "gold_rp": "corpus/2026-06-10-when-the-theory-met-its-instrument.md",
+ "greps": 0,
+ "input_tokens": 44115,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 330,
+ "policy": "A",
+ "qid": "q001",
+ "reads": []
+}

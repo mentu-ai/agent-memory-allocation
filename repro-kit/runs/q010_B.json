@@ -1,0 +1,20 @@
+{
+ "answer": "2.2 GB \u2192 897 MB",
+ "cache_creation_tokens": 16036,
+ "cache_read_tokens": 81668,
+ "cost_usd": 0.0430598,
+ "duration_s": 13.0,
+ "gold_rp": "corpus/BUILD-cir-substrate-hardening-v1.md",
+ "greps": 2,
+ "input_tokens": 97730,
+ "input_uncached": 26,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 559,
+ "policy": "B",
+ "qid": "q010",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-cir-substrate-hardening-v1.md"
+ ]
+}

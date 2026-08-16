@@ -1,0 +1,18 @@
+{
+ "answer": "accurate retrieval",
+ "cache_creation_tokens": 5258,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.013177399999999999,
+ "duration_s": 11.1,
+ "gold_rp": "corpus/B2-field.md",
+ "greps": 0,
+ "input_tokens": 20182,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 232,
+ "policy": "D",
+ "qid": "q003",
+ "reads": []
+}

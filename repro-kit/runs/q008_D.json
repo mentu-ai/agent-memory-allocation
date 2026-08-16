@@ -1,0 +1,18 @@
+{
+ "answer": "on the order of \u00b135 pp",
+ "cache_creation_tokens": 6773,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0161624,
+ "duration_s": 6.7,
+ "gold_rp": "corpus/B2v2-stats.md",
+ "greps": 0,
+ "input_tokens": 21697,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 223,
+ "policy": "D",
+ "qid": "q008",
+ "reads": []
+}

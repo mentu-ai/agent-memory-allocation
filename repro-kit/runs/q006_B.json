@@ -1,0 +1,22 @@
+{
+ "answer": "the memory-evaluation literature",
+ "cache_creation_tokens": 11261,
+ "cache_read_tokens": 207729,
+ "cost_usd": 0.0488079,
+ "duration_s": 26.1,
+ "gold_rp": "corpus/B2v2-field.md",
+ "greps": 3,
+ "input_tokens": 219048,
+ "input_uncached": 58,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 1091,
+ "policy": "B",
+ "qid": "q006",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/corpus/B2v2-field.md",
+  "/Users/rashid/Desktop/epistemics/corpus/B2v2-field.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-field.md"
+ ]
+}

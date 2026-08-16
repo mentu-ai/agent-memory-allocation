@@ -1,0 +1,18 @@
+{
+ "answer": "*Evidence-Carrying Execution: A Calculus and Production System for Accountable Agent Orchestration.*",
+ "cache_creation_tokens": 8628,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0198574,
+ "duration_s": 6.3,
+ "gold_rp": "corpus/BUILD-evidence-carrying-execution-paper-v1.md",
+ "greps": 0,
+ "input_tokens": 23552,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 220,
+ "policy": "D",
+ "qid": "q013",
+ "reads": []
+}

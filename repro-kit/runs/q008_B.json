@@ -1,0 +1,20 @@
+{
+ "answer": "\u2248\u00b135 pp",
+ "cache_creation_tokens": 14302,
+ "cache_read_tokens": 111927,
+ "cost_usd": 0.0431907,
+ "duration_s": 15.8,
+ "gold_rp": "corpus/B2v2-stats.md",
+ "greps": 2,
+ "input_tokens": 126263,
+ "input_uncached": 34,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 672,
+ "policy": "B",
+ "qid": "q008",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2-stats.md"
+ ]
+}

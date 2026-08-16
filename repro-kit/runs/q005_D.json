@@ -1,0 +1,18 @@
+{
+ "answer": "never operationally defined",
+ "cache_creation_tokens": 7008,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0195124,
+ "duration_s": 13.4,
+ "gold_rp": "corpus/B2-validity.md",
+ "greps": 0,
+ "input_tokens": 21932,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 799,
+ "policy": "D",
+ "qid": "q005",
+ "reads": []
+}

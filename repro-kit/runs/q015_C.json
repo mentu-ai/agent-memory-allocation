@@ -1,0 +1,20 @@
+{
+ "answer": "`ane-fortress` ran **386 consecutive failures with zero successes** and was never slowed, aborted, or retired",
+ "cache_creation_tokens": 12734,
+ "cache_read_tokens": 79705,
+ "cost_usd": 0.0373145,
+ "duration_s": 19.5,
+ "gold_rp": "corpus/BUILD-run-horizon-v1.md",
+ "greps": 0,
+ "input_tokens": 92465,
+ "input_uncached": 26,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 770,
+ "policy": "C",
+ "qid": "q015",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-run-horizon-v1.md"
+ ]
+}

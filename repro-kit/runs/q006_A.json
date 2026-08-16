@@ -1,0 +1,18 @@
+{
+ "answer": "the memory-evaluation literature",
+ "cache_creation_tokens": 29426,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0639084,
+ "duration_s": 15.0,
+ "gold_rp": "corpus/B2v2-field.md",
+ "greps": 0,
+ "input_tokens": 44350,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 711,
+ "policy": "A",
+ "qid": "q006",
+ "reads": []
+}

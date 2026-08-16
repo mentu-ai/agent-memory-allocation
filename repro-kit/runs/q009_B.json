@@ -1,0 +1,23 @@
+{
+ "answer": "\"We report this as a floor rather than a confirmed zero: the reuse-detection channel is the same class of model-trace instrument shown to fail silently at Stage 2 (\u00a75), and the C9 readiness gate ... is not yet met ... whether they are ever returned into subsequent work cannot be settled until an engine-written selection edge, independent of model output, is in place.\"",
+ "cache_creation_tokens": 25541,
+ "cache_read_tokens": 426670,
+ "cost_usd": 0.11087700000000002,
+ "duration_s": 56.4,
+ "gold_rp": "corpus/B2v2-validity.md",
+ "greps": 5,
+ "input_tokens": 452309,
+ "input_uncached": 98,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 13,
+ "output_tokens": 3406,
+ "policy": "B",
+ "qid": "q009",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-repro.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/2026-07-04-return-base-rate-B2.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-stats.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-stats.md"
+ ]
+}

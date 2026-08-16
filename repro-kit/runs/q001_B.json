@@ -1,0 +1,20 @@
+{
+ "answer": "98 have ever been read back",
+ "cache_creation_tokens": 13567,
+ "cache_read_tokens": 137813,
+ "cost_usd": 0.04473730000000001,
+ "duration_s": 15.9,
+ "gold_rp": "corpus/2026-06-10-when-the-theory-met-its-instrument.md",
+ "greps": 3,
+ "input_tokens": 151422,
+ "input_uncached": 42,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 5,
+ "output_tokens": 756,
+ "policy": "B",
+ "qid": "q001",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/2026-06-10-when-the-theory-met-its-instrument.md"
+ ]
+}

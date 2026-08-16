@@ -1,0 +1,18 @@
+{
+ "answer": "0.095 relations/signal",
+ "cache_creation_tokens": 4780,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0124214,
+ "duration_s": 8.1,
+ "gold_rp": "corpus/CONTEXT-parked-and-parallel-papers.md",
+ "greps": 0,
+ "input_tokens": 19704,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 272,
+ "policy": "D",
+ "qid": "q016",
+ "reads": []
+}

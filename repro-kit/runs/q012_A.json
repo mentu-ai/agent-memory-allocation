@@ -1,0 +1,18 @@
+{
+ "answer": "clock consists of.\n\nThe C25 conjecture is mentioned multiple times across the documents (as the return-intervention preregistration with frozen baselines and gates), but the specific technical discussion you're asking about\u2014the contamination trade-off and its clock composition\u2014doesn't appear in this corpus dump.\n\nCould you clarify where this discussion appears, or provide the relevant document section? It may be in a different part of the epistemic corpus that wasn't included in what you pasted.",
+ "cache_creation_tokens": 29196,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0636834,
+ "duration_s": 12.0,
+ "gold_rp": "corpus/BUILD-epistemics-program-v1.md",
+ "greps": 0,
+ "input_tokens": 44120,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 758,
+ "policy": "A",
+ "qid": "q012",
+ "reads": []
+}

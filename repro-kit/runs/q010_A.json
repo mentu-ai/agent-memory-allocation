@@ -1,0 +1,18 @@
+{
+ "answer": "Not found in the provided corpus documents.",
+ "cache_creation_tokens": 29432,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0642254,
+ "duration_s": 11.5,
+ "gold_rp": "corpus/BUILD-cir-substrate-hardening-v1.md",
+ "greps": 0,
+ "input_tokens": 44356,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 772,
+ "policy": "A",
+ "qid": "q010",
+ "reads": []
+}

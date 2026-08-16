@@ -1,0 +1,22 @@
+{
+ "answer": "The Return Base Rate: Captured Knowledge Is Almost Never Reused in a Production AI-Agent System",
+ "cache_creation_tokens": 13814,
+ "cache_read_tokens": 114514,
+ "cost_usd": 0.045633400000000005,
+ "duration_s": 18.2,
+ "gold_rp": "corpus/BUILD-evidence-carrying-execution-paper-v1.md",
+ "greps": 0,
+ "input_tokens": 128362,
+ "input_uncached": 34,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 4,
+ "output_tokens": 1304,
+ "policy": "C",
+ "qid": "q013",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/README.md",
+  "/Users/rashid/Desktop/epistemics/README.md",
+  "/Users/rashid/Desktop/epistemics/paper/return-base-rate-paper.md"
+ ]
+}

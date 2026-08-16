@@ -1,0 +1,20 @@
+{
+ "answer": "150 post-marker feature-class runs",
+ "cache_creation_tokens": 20383,
+ "cache_read_tokens": 50839,
+ "cost_usd": 0.049607899999999996,
+ "duration_s": 14.2,
+ "gold_rp": "corpus/BUILD-epistemics-program-v1.md",
+ "greps": 0,
+ "input_tokens": 71240,
+ "input_uncached": 18,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 748,
+ "policy": "C",
+ "qid": "q012",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-epistemics-program-v1.md"
+ ]
+}

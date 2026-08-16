@@ -1,0 +1,23 @@
+{
+ "answer": "organic offer 0.0222%",
+ "cache_creation_tokens": 16427,
+ "cache_read_tokens": 298260,
+ "cost_usd": 0.072687,
+ "duration_s": 37.9,
+ "gold_rp": "corpus/BUILD-protocol-v22-obligations-v1.md",
+ "greps": 0,
+ "input_tokens": 314769,
+ "input_uncached": 82,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 10,
+ "output_tokens": 1985,
+ "policy": "C",
+ "qid": "q014",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/corpus/BUILD-protocol-v22-obligations-v1.md",
+  "/Users/rashid/Desktop/epistemics/corpus/BUILD-protocol-v22-obligations-v1.md",
+  "/Users/rashid/Desktop/epistemics/corpus/BUILD-protocol-v22-obligations-v1.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-protocol-v22-obligations-v1.md"
+ ]
+}

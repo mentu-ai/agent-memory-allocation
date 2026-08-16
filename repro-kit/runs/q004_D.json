@@ -1,0 +1,18 @@
+{
+ "answer": "24 `context_used` events exist in the entire history.",
+ "cache_creation_tokens": 8066,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0191034,
+ "duration_s": 6.4,
+ "gold_rp": "corpus/B2-stats.md",
+ "greps": 0,
+ "input_tokens": 22990,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 294,
+ "policy": "D",
+ "qid": "q004",
+ "reads": []
+}

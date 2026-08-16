@@ -1,0 +1,21 @@
+{
+ "answer": "At this n the minimum detectable effect at 80% power is \u2248\u00b135 pp",
+ "cache_creation_tokens": 16671,
+ "cache_read_tokens": 81657,
+ "cost_usd": 0.0497687,
+ "duration_s": 23.4,
+ "gold_rp": "corpus/B2v2-stats.md",
+ "greps": 0,
+ "input_tokens": 98354,
+ "input_uncached": 26,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 3,
+ "output_tokens": 1647,
+ "policy": "C",
+ "qid": "q008",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/2026-06-10-when-the-theory-met-its-instrument.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2-stats.md"
+ ]
+}

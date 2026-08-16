@@ -1,0 +1,23 @@
+# Public corpus for the C29 reproducibility demonstrator (R2 kit).
+# 17 operator-owned English methodology documents; verified free of any
+# third-party/client content (sensitivity_audit.py, 2026-07-20). Repo-relative
+# paths. The paper's headline result used a different, WITHHELD client corpus
+# (85 Spanish operational notes) whose content hashes are the committed order
+# proof; this public set is a runnable demonstrator, not that result.
+docs/BUILD-cir-substrate-hardening-v1.md
+docs/BUILD-constitutional-silence-paper-v1.md
+docs/BUILD-epistemics-program-v1.md
+docs/BUILD-evidence-carrying-execution-paper-v1.md
+docs/BUILD-protocol-v22-obligations-v1.md
+docs/BUILD-run-horizon-v1.md
+docs/CONTEXT-parked-and-parallel-papers.md
+docs/escalations/2026-07-04-return-base-rate-B2.md
+docs/referee/B2-field.md
+docs/referee/B2-repro.md
+docs/referee/B2-stats.md
+docs/referee/B2-validity.md
+docs/referee/B2v2-field.md
+docs/referee/B2v2-repro.md
+docs/referee/B2v2-stats.md
+docs/referee/B2v2-validity.md
+essays/2026-06-10-when-the-theory-met-its-instrument.md

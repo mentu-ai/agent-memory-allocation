@@ -1,0 +1,18 @@
+{
+ "answer": "150 post-marker feature-class runs",
+ "cache_creation_tokens": 14556,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0340334,
+ "duration_s": 11.6,
+ "gold_rp": "corpus/BUILD-epistemics-program-v1.md",
+ "greps": 0,
+ "input_tokens": 29480,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 684,
+ "policy": "D",
+ "qid": "q012",
+ "reads": []
+}

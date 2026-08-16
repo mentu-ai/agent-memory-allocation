@@ -1,0 +1,25 @@
+{
+ "answer": "What event marks a trust-state row as \"accessed\"? A non-null last-read timestamp? An access counter > 0? Membership in a `context_used` join? A referee cannot judge whether \"91\" is correct \u2014 or whether the access channel silently drops events the way \u00a75 proves the *use* channel does \u2014 without the definition. This is not a peripheral quantity; it is the binding numerator of the paper.",
+ "cache_creation_tokens": 15596,
+ "cache_read_tokens": 331468,
+ "cost_usd": 0.07552880000000001,
+ "duration_s": 41.6,
+ "gold_rp": "corpus/B2-validity.md",
+ "greps": 0,
+ "input_tokens": 347154,
+ "input_uncached": 90,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 11,
+ "output_tokens": 2220,
+ "policy": "C",
+ "qid": "q005",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/corpus/B2-validity.md",
+  "/Users/rashid/Desktop/epistemics/corpus/B2-validity.md",
+  "/Users/rashid/Desktop/epistemics/corpus/B2-validity.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/../../../../../corpus/B2-validity.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/../../../../corpus/B2-validity.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2-validity.md"
+ ]
+}

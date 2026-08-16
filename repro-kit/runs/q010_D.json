@@ -1,0 +1,18 @@
+{
+ "answer": "2.2 GB \u2192 897 MB",
+ "cache_creation_tokens": 9820,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.022451400000000003,
+ "duration_s": 6.9,
+ "gold_rp": "corpus/BUILD-cir-substrate-hardening-v1.md",
+ "greps": 0,
+ "input_tokens": 24744,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 262,
+ "policy": "D",
+ "qid": "q010",
+ "reads": []
+}

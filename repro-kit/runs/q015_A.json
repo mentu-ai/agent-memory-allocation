@@ -1,0 +1,18 @@
+{
+ "answer": "four hours for twenty-five days \u2014 about 166 consecutive failures \u2014 without succeeding, stopping, or changing.\"\n\nThat's 166 consecutive failures, not 386. I've scanned through all the provided corpus documents (the synthesis essay, the return-base-rate escalation document, and all four referee reports) and this is the only reference to a workflow running extended consecutive failures without modification.\n\nCould you verify the number, or check if the 386 reference appears elsewhere in the corpus?",
+ "cache_creation_tokens": 29429,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0648544,
+ "duration_s": 14.3,
+ "gold_rp": "corpus/BUILD-run-horizon-v1.md",
+ "greps": 0,
+ "input_tokens": 44353,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 899,
+ "policy": "A",
+ "qid": "q015",
+ "reads": []
+}

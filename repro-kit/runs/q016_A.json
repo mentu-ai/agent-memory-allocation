@@ -1,0 +1,18 @@
+{
+ "answer": "\n\nThe corpus includes materials dated 2026-07-04 (the B2 referee reports), but none of the documents contain that specific phrasing or statistic about \"relations per signal.\"\n\nThe statistics mentioned in the 2026-07-04 materials focus on signal access rates, context-used events, patterns, contradictions, and run outcomes\u2014but not on \"relations per signal\" as a measured quantity.\n\nCould you point me to which document this appears in, or provide the exact context where this statistic should appear?",
+ "cache_creation_tokens": 29194,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0640944,
+ "duration_s": 13.5,
+ "gold_rp": "corpus/CONTEXT-parked-and-parallel-papers.md",
+ "greps": 0,
+ "input_tokens": 44118,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 841,
+ "policy": "A",
+ "qid": "q016",
+ "reads": []
+}

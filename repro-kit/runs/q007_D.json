@@ -1,0 +1,18 @@
+{
+ "answer": "the production trust-state store and hash-chain ledger are proprietary and are not released",
+ "cache_creation_tokens": 8128,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0223474,
+ "duration_s": 15.3,
+ "gold_rp": "corpus/B2v2-repro.md",
+ "greps": 0,
+ "input_tokens": 23052,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 918,
+ "policy": "D",
+ "qid": "q007",
+ "reads": []
+}

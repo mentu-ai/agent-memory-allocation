@@ -1,0 +1,18 @@
+{
+ "answer": "organic offer 0.0222%",
+ "cache_creation_tokens": 6990,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0168764,
+ "duration_s": 8.0,
+ "gold_rp": "corpus/BUILD-protocol-v22-obligations-v1.md",
+ "greps": 0,
+ "input_tokens": 21914,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 279,
+ "policy": "D",
+ "qid": "q014",
+ "reads": []
+}

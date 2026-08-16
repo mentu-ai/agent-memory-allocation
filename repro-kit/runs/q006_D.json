@@ -1,0 +1,18 @@
+{
+ "answer": "the base rate the memory-evaluation literature presupposes.",
+ "cache_creation_tokens": 4431,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0114884,
+ "duration_s": 4.7,
+ "gold_rp": "corpus/B2v2-field.md",
+ "greps": 0,
+ "input_tokens": 19355,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 225,
+ "policy": "D",
+ "qid": "q006",
+ "reads": []
+}

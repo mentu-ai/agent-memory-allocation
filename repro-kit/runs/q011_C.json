@@ -1,0 +1,20 @@
+{
+ "answer": "Curvature Deficit \u0394Gm",
+ "cache_creation_tokens": 13312,
+ "cache_read_tokens": 50834,
+ "cost_usd": 0.0375654,
+ "duration_s": 19.5,
+ "gold_rp": "corpus/BUILD-constitutional-silence-paper-v1.md",
+ "greps": 0,
+ "input_tokens": 64164,
+ "input_uncached": 18,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 2,
+ "output_tokens": 1168,
+ "policy": "C",
+ "qid": "q011",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-constitutional-silence-paper-v1.md"
+ ]
+}

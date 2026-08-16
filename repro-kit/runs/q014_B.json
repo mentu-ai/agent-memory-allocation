@@ -1,0 +1,21 @@
+{
+ "answer": "organic offer 0.0222%",
+ "cache_creation_tokens": 17502,
+ "cache_read_tokens": 272860,
+ "cost_usd": 0.06951600000000001,
+ "duration_s": 26.2,
+ "gold_rp": "corpus/BUILD-protocol-v22-obligations-v1.md",
+ "greps": 5,
+ "input_tokens": 290428,
+ "input_uncached": 66,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 1432,
+ "policy": "B",
+ "qid": "q014",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/2026-07-04-return-base-rate-B2.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-protocol-v22-obligations-v1.md"
+ ]
+}

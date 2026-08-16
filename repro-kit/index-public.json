@@ -1,0 +1,57 @@
+{
+ "generator": "claude-sonnet-5",
+ "authoring_cost_usd": 0.613,
+ "index": {
+  "corpus/2026-06-10-when-the-theory-met-its-instrument.md": {
+   "digest": "Corpus synthesis essay (2026-06-10): narrative recap of C1/C1b, C3, C4, C2 results \u2014 theory-vs-Mentu-instrument reconnection, refutations and one supported claim."
+  },
+  "corpus/2026-07-04-return-base-rate-B2.md": {
+   "digest": "Escalation log (2026-07-04): B2 four-lens referee pass on Return-Base-Rate paper flagged frozen-artifact/number mismatches (P1 unit conflict, denominator discrepancies); marked RESOLVED via read-only "
+  },
+  "corpus/B2-field.md": {
+   "digest": "Adversarial referee report attacking \"inject vs. retrieve\" framing and unverified Wiese/PLoS \"preregistered\" claim in the paper's field-positioning \u00a77/abstract."
+  },
+  "corpus/B2-repro.md": {
+   "digest": "Reproducibility referee report for the return-base-rate paper (v1.1): flags blockers on missing data/code availability, undocumented SQLite provenance, and a self-contradicted \"true zero\" pattern-reus"
+  },
+  "corpus/B2-stats.md": {
+   "digest": "Adversarial statistics referee report on the return-base-rate paper: flags incommensurable P1 test, denominator cherry-picking, and right-censoring bias."
+  },
+  "corpus/B2-validity.md": {
+   "digest": "Adversarial referee report (measurement-validity lens) on the return-base-rate paper, flagging undefined \"accessed\" numerator, funnel unit mismatch, and inconsistent true-zero/floor standards."
+  },
+  "corpus/B2v2-field.md": {
+   "digest": "Adversarial re-referee confirming F1\u2013F6 fixes in paper v1.2's citation/positioning language (\u00a77, Abstract) all resolved; no regressions found so far."
+  },
+  "corpus/B2v2-repro.md": {
+   "digest": "Re-referee of return-base-rate paper v1.2: reproducibility resolved except two headline numbers with wrong provenance and a superseded Figure 4 stat."
+  },
+  "corpus/B2v2-stats.md": {
+   "digest": "Re-audit of 16 prior stats-referee findings against paper v1.2 \u00a7revisions: 13 resolved, 2 partially-resolved, 1 not-resolved (report-only, no recomputation)."
+  },
+  "corpus/B2v2-validity.md": {
+   "digest": "Referee re-review (confirmation pass) of return-base-rate paper v1.2's measurement validity: 11 resolved, 4 partial, 2 unresolved from prior B2 findings."
+  },
+  "corpus/BUILD-cir-substrate-hardening-v1.md": {
+   "digest": "Build spec for CIR substrate hardening: converts the 2026-07-08 exhaust-purge incident fix into structural guarantees across M1\u2013M7 (tiering, maintenance, materialization, C7 routing)."
+  },
+  "corpus/BUILD-constitutional-silence-paper-v1.md": {
+   "digest": "BUILD spec for Paper 4 (\"Constitutional Silence\") \u2014 theory + first-measurement plan for abstention as a governed operation in agentic systems, with executor phases and canon/data constraints."
+  },
+  "corpus/BUILD-epistemics-program-v1.md": {
+   "digest": "BUILD spec (v1) driving the epistemics program via mentu recipes/sessions \u2014 phases, scope, contamination mitigation, and executor constitution for R_k/anchors/framework work."
+  },
+  "corpus/BUILD-evidence-carrying-execution-paper-v1.md": {
+   "digest": "BUILD spec for the platform-anchor systems paper on evidence-carrying agent orchestration \u2014 scope, thesis, prior-art, and executor rules for compiling it via mentu recipes."
+  },
+  "corpus/BUILD-protocol-v22-obligations-v1.md": {
+   "digest": "Build protocol executing four regime-assimilation obligations (C25 co-intervention marker, verifier update, anchor re-grounding, provenance map) after Protocol v2.2 changes."
+  },
+  "corpus/BUILD-run-horizon-v1.md": {
+   "digest": "Build spec: Run Horizon v1, a coupled Mentu build (M0\u2013M2) for behavioral failure prediction + abort/retirement policy, tied to epistemics C24/C1b."
+  },
+  "corpus/CONTEXT-parked-and-parallel-papers.md": {
+   "digest": "Directional record of parked/parallel paper candidates (DEC, semantic-safety thresholds, Fourth-Law hysteresis, \u03c6\u2091 friction, flow-dynamics) with reasons and unlock conditions."
+  }
+ }
+}

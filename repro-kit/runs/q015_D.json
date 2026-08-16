@@ -1,0 +1,18 @@
+{
+ "answer": "ane-fortress",
+ "cache_creation_tokens": 6064,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0157344,
+ "duration_s": 7.3,
+ "gold_rp": "corpus/BUILD-run-horizon-v1.md",
+ "greps": 0,
+ "input_tokens": 20988,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 421,
+ "policy": "D",
+ "qid": "q015",
+ "reads": []
+}

@@ -1,0 +1,21 @@
+{
+ "answer": "the production trust-state store and hash-chained ledger are proprietary and are not released",
+ "cache_creation_tokens": 19709,
+ "cache_read_tokens": 198066,
+ "cost_usd": 0.0660696,
+ "duration_s": 26.9,
+ "gold_rp": "corpus/B2v2-repro.md",
+ "greps": 5,
+ "input_tokens": 217825,
+ "input_uncached": 50,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 8,
+ "output_tokens": 1359,
+ "policy": "B",
+ "qid": "q007",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-repro.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/2026-07-04-return-base-rate-B2.md"
+ ]
+}

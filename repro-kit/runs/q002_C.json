@@ -1,0 +1,24 @@
+{
+ "answer": "0b320d9d3d66\u2026",
+ "cache_creation_tokens": 31046,
+ "cache_read_tokens": 489436,
+ "cost_usd": 0.1315906,
+ "duration_s": 74.4,
+ "gold_rp": "corpus/2026-07-04-return-base-rate-B2.md",
+ "greps": 0,
+ "input_tokens": 520647,
+ "input_uncached": 165,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 13,
+ "output_tokens": 4078,
+ "policy": "C",
+ "qid": "q002",
+ "reads": [
+  "/Users/rashid/Desktop/epistemics/corpus/BUILD-cir-substrate-hardening-v1.md",
+  "/Users/rashid/Desktop/epistemics/corpus/2026-07-04-return-base-rate-B2.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/BUILD-cir-substrate-hardening-v1.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-repro.md",
+  "/Users/rashid/Desktop/epistemics/paper/agent-memory-allocation/repro-kit/_sandbox/corpus/B2v2-repro.md"
+ ]
+}

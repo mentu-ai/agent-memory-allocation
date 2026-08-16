@@ -1,0 +1,18 @@
+{
+ "answer": "the production store is proprietary",
+ "cache_creation_tokens": 29194,
+ "cache_read_tokens": 14914,
+ "cost_usd": 0.0682594,
+ "duration_s": 17.9,
+ "gold_rp": "corpus/B2v2-repro.md",
+ "greps": 0,
+ "input_tokens": 44118,
+ "input_uncached": 10,
+ "is_error": false,
+ "model": "claude-haiku-4-5-20251001",
+ "num_turns": 1,
+ "output_tokens": 1674,
+ "policy": "A",
+ "qid": "q007",
+ "reads": []
+}
