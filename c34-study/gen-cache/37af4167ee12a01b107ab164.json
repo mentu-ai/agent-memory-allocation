@@ -1,1 +1,0 @@
-{"bucket": "digest", "key": "digest:instruments/2026-06-13-okf-projection.md", "value": {"digest": "Read-only projection tool: `okf project` mirrors this corpus into a derived OKF graph/retrieval bundle without mutating source or CIR db.", "tokens": 29101, "cost_usd": 0.0575226, "input_sha256": "8715fbb81ea132cdce9d0042dd43edd132eb02a13970aab5228ac528d76d4bd5"}}

@@ -5,11 +5,11 @@
 *Independent Researcher — San Pedro Garza García, Nuevo León, Mexico*
 *rashid@mentu.ai · rashidazarang.com · ORCID [0009-0008-5528-4246](https://orcid.org/0009-0008-5528-4246)*
 
-**Preprint — 2026-08-15.** This text was hardened against two commissioned
-adversarial reviews (2026-07-22, 2026-08-12) and six further external
+**Preprint — 2026-08-16.** This text was hardened against two commissioned
+adversarial reviews (2026-07-22, 2026-08-12) and seven further external
 audits (2026-08-14 through 2026-08-16: two prior-art audits, one audit
 paired with an independent reproduction of the shipped replication bundle,
-and a three-round artifact-consistency audit); every citation
+and a four-round artifact-consistency audit); every citation
 and arithmetic claim in those reviews was verified against the committed
 artifacts and the cited sources before any finding was adopted, and each
 audit is dispositioned finding by finding in the research repository,
@@ -38,18 +38,25 @@ neighbour records aggregate usage only and names direct read telemetry as a
 target for replication. This paper supplies that instrument for the curated
 arm. In a
 pre-registered comparison over 102 frozen questions on a production corpus, we
-strip the search tool from the curated arm, making an authored one-line-digest
-index the policy's **sole locator**, and record, per question, whether each
+strip the search tool from the curated arm, making an authored, model-written
+one-line-digest index the policy's **sole locator**, and record, per question,
+whether each
 policy reached the gold document, measuring routing and not just accuracy:
 the index located the gold document on **52.0%** of questions
-against grep's **80.4%**. Of the curated policy's 47 wrong-stops, 43 had read a
-wrong file and only 4 had read nothing; the policy issued *more* read events
-than the search policy (192 vs 174); and where the index did locate the
-document, accuracy was **86.8%**, with a difficulty-matched control
+against grep's **80.4%**. Of the curated policy's 47 wrong-stops (answers
+given without ever reading the gold document), 43 had read a
+wrong file and only 4 had read nothing; the policy issued more read events
+than the search policy (192 vs 174, a descriptive count, untested); and
+where the index did locate the
+document, accuracy was **86.8%** (replication: 76.0%), with a
+difficulty-matched control
 detecting no answerability difference in the questions it failed to route
 (Fisher p = 0.80). A policy that
 reads more and finds less is not stopping early on summaries. It is being
-mis-routed by its index. Downstream, search-then-read beats curated disclosure
+mis-routed by its index, and the mechanism is measurable: 44% of the
+replication's questions share no content word with their own gold digest,
+and a lexical signal proxy predicts localization by +21 points.
+Downstream, search-then-read beats curated disclosure
 on accuracy (72.5% vs 47.1%, +25.5 pp) and on error rate (27.5% vs 52.9%),
 and is cheaper on marginal tokens (0.79×) while costing 1.41× on totals; one
 prediction's unfrozen measure is disclosed as a defect of the method. A
@@ -71,8 +78,10 @@ against criteria fixed in advance; the replication ships its corpus,
 questions, harness and adjudicator for byte-identical re-running. We stake one
 prediction for external replication, scoped to its substrate: an authored
 one-line-digest index over a prose corpus, used as a sole locator, routes
-worse than search on that corpus, and its non-hydrated answers are
-overwhelmingly wrong. We decline the neighbors: no claim about indexes
+worse than search on that corpus, and, under the same unhydrated-error
+rule applied to both arms, its non-hydrated answers are wrong more often
+than search's (the differential, not the level, is the falsifiable
+quantity, §Invitation). We decline the neighbors: no claim about indexes
 used alongside search (an unregistered successor), no claim that the accuracy
 margin generalizes across corpora, and the tier-and-policy vocabulary used
 throughout is working vocabulary, not a defended thesis.
@@ -97,8 +106,10 @@ does not? This paper measures that question under pre-registration and reports
 the anatomy of the answer. On 102 frozen questions over a production corpus,
 an authored one-line-digest index used as a policy's sole locator routed to
 the correct document on 52.0% of questions; associative search over the same
-corpus, 80.4%. The curated policy read *more* files than the search policy and
-found fewer of the right ones; of its 47 wrong answers issued without the
+corpus, 80.4%. The curated policy issued more Read events than the search
+policy in both studies (a descriptive count that includes re-reads,
+untested; §4.1) and
+found fewer of the right files; of its 47 wrong answers issued without the
 correct document in context, 43 came after reading a wrong file. Where the
 index did route correctly, accuracy was 86.8%, indistinguishable from an
 oracle approximation, and a difficulty-matched control detects no
@@ -153,9 +164,10 @@ vocabulary). Within that program, this paper contributes:
 
 1. **The mis-routing anatomy** (§4): read-level telemetry on a
    document-corpus curated arm, the decomposition of its failure into
-   located/mis-routed/unread, and a difficulty-matched oracle control
+   located/mis-routed/unread, a difficulty-matched oracle control
    (unregistered in both studies, computed post-verdict, descriptive;
-   §4.2). The
+   §4.2), and the measured mechanism (§5: the digest-signal share and its
+   +20.7-point localization split). The
    isolation itself is shared ground: Cochran's enforced arm achieves it
    [39], and skill routing measures the same deficit class on skill
    registries [47]. The anatomy and the control are what this arm adds,
@@ -202,7 +214,10 @@ representation that silently misdescribes what it stands for. A summary whose
 body would have changed the decision is not a smaller copy of the body; it is
 a different document that happens to share a topic. That is what makes the
 **wrong-stop**, acting on an insufficient representation, a correctness
-failure rather than a cost saving, and it is the failure class §4 anatomizes.
+failure rather than a cost saving, and it is the failure class §4
+anatomizes (the registered measures operationalize it more broadly, as
+answering without ever reading the gold file; §4.1 reports how measure
+and construct relate).
 The candidate repair (invalidate on write, revalidate on read) is an
 economics question that remains open and unregistered (c30; outcome not
 anticipated). A two-tier design of this shape (summary index first, a
@@ -299,10 +314,21 @@ grep-then-read: associative search, then full reads. C is index-then-hydrate:
 an authored one-line-digest index resident, bodies read on demand. D is an
 oracle approximation: the gold file supplied directly, truncated at 60,000
 characters. The realization of C is two-tier by design decision D1 (path plus
-one-line digest, then full body), recorded before question generation; the
-committed digest instruction caps each line at **140 characters**, so the
-staked substrate is per-file digests of at most 140 characters, not
-"one-line" loosely.
+one-line digest, then full body), recorded before question generation. The
+committed digest instruction requests **at most 140 characters** per line;
+the committed builder stores up to 200, and the generator exceeded its own
+instruction on 128 of the replication's 141 digests (mean 164, maximum
+200; the original study: 89 of 102, mean 173) — the same
+instruction-non-compliance class Limits (b) discloses for the question
+generator, here on the treatment side. Two consequences run in opposite
+directions, both stated: extra length adds routing signal, so the
+non-compliance biases *against* the reported deficit; and the storage
+clip is a distinct defect — 12 of the replication's digests sit exactly
+at the builder's 200-character cap (41 of the original study's 102), and
+a digest cut mid-sentence may have lost the term that would have routed.
+The staked substrate is per-file digests as actually produced: instructed
+to 140 characters, observed up
+to 200.
 Authorship of the index, stated plainly: the digests are **model-written**.
 C29's index was produced by the pinned generator (`claude-sonnet-5`) at a
 recorded cost of 1,307,300 tokens, and C34's 141 digests were written by
@@ -317,6 +343,20 @@ source, which is what Limits (b)'s shared-salience note assumes. One
 affirmative consequence: the digests were authored for precisely the job
 they were measured on — deciding whether to open the file — so the 52.0%
 localization is not a strawman of an index built for something else.
+
+**Located, operationally.** A policy located the gold document if and
+only if it issued a Read on the gold path; matches that surface gold
+content inside search output do not count. The rule is identical across
+arms, but the arms can satisfy it differently: search can answer from
+surfaced snippets without a Read, and did — correct without locating on
+7 of its 20 non-located questions in this study (35%) and 8 of 30 in the
+replication (26.7%), against the curated arm's 2 of 49 (4.1%) and 4 of 45
+(8.9%). Search's localization is therefore *understated*, and the bias
+runs against the reported advantage, not for it. The grep outputs
+themselves are not recorded in the run records, so a coverage variant
+counting surfaced snippets (the definition of [43]) cannot be recomputed
+from the bundle; recording search output is named as an instrument
+improvement for successors.
 
 **The ablation, defended where it is made.** Arm C's tool set is `Read` only
 (`DESIGN.md` D5): the authored index is the policy's **sole locator**. No one
@@ -422,7 +462,12 @@ a wrong choice but an underdetermined registration: the measure was chosen
 at adjudication time, which is exactly what a program whose contribution is
 mechanical adjudication against criteria fixed in advance must not allow,
 and this one allowed it. The rule is recorded for the program: freeze the
-measure with the threshold. The oracle-headroom claim is reported hereafter as
+measure with the threshold. One bound worth naming: D acquires an entire
+file of up to 60,000 characters while minimal sufficient context C\*(τ) is
+typically far smaller, so measured policy/D ratios are *lower bounds* on
+headroom against true minimal sufficiency; the frozen bar was nonetheless
+set against D, and on marginal tokens it was not met. The
+oracle-headroom claim is reported hereafter as
 holding on totals only.
 
 These outcomes are the result **on this corpus**. The released kit's public
@@ -452,10 +497,26 @@ those 49 were wrong (96%). An earlier draft read this as the policy trusting
 the digest and stopping. **The run records say otherwise, and the reading is
 withdrawn.** Of those 49 questions, **only 5 involved reading no file at
 all**; the other 44 read at least one file, the wrong one. Of the 47
-wrong-stops, 43 read a wrong file and 4 read nothing. Over the full question
-set C issued **192 Read events to B's 174**, and located the gold file on **53
+wrong-stops, 43 read a wrong file and 4 read nothing. Against §2's
+construct (deciding from the digest alone), most flagged cases are not
+that: 43 of the 47 had hydrated a body, the wrong one, and only 4 acted
+on no body at all (3 of the replication's 41). The registered term
+**wrong-stop** is kept for continuity with the frozen predictions and is
+best read as an *unhydrated-gold error rate*; deciding from the summary
+alone is rare, and that rarity is itself the finding — the failure is
+mis-routing, not misplaced trust in digests. Over the full question
+set C issued **192 Read events to B's 174**, a descriptive count, not a
+tested difference: under a Poisson comparison the gap is under one
+standard deviation, reads cluster within questions, and per §3's
+operational note search can consume content without a Read (the
+replication's counts run the same way, C 219 to B 189; pooled across both
+studies the gap is still short of significance, z ≈ 1.7). The mechanism
+claim does not rest on read volume; it rests on where the reads went. C
+located the gold file on **53
 of 102 (52.0%) against B's 82 of 102 (80.4%)**. A policy that reads more and
-finds less is not stopping early. It is being mis-routed by its index.
+finds less is not stopping early. It is being mis-routed by its index. (The
+title names this observed pattern; the adjudicated finding is the
+localization gap, not the read-count difference.)
 
 ### §4.2 The decomposition and the difficulty-matched control
 
@@ -467,8 +528,10 @@ Decomposing C by whether it located the gold file:
 | read the gold file | 53 | 46 | **86.8%** (Jeffreys 95% CI 75.8–93.9) |
 | C overall | 102 | 48 | 47.1% |
 
-Conditional on locating the file, C is not worse than B and is not worse than
-the oracle approximation. But this conditioning is on the outcome of the thing
+Conditional on locating the file, C is not worse than B and, in the
+original study, not worse than the oracle approximation (the replication's
+matched subset runs even, 57 against 58, §5). But this conditioning is on
+the outcome of the thing
 under test: C's tool set is `Read` only (`DESIGN.md` D5), so the authored index
 is C's sole locator, and "C when it read the body" is "C when the index worked."
 The selection is nonetheless characterizable, and it is **not** question
@@ -488,7 +551,9 @@ localization deficit of the authored index, not a comprehension deficit and not
 a stopping rule.** Two corollaries. First, D is not a ceiling: on the matched
 53, C scores 46 against D's 43, because there C holds the gold file plus the
 index plus whatever else it read while D holds the gold file alone, truncated at
-60,000 characters. The excess is not significant (McNemar exact p = 0.51), and
+60,000 characters; the replication reverses the direction on its matched
+75 (C 57 against D's 58), and neither difference is significant. The
+original excess is not significant (McNemar exact p = 0.51), and
 the frozen conjecture already declared D an approximation rather than true
 optimality; only an earlier draft's prose called it a ceiling. Second, the
 successor arm suggested by an early-stopping reading (index to locate, always
@@ -524,23 +589,34 @@ not depend on A and is unaffected.
 
 **Regime map** (a report owed by the conjecture's registered limitations): B
 beats C on lookup (72.8% vs 49.4%, n=81) *and* on synthesis (71.4% vs 38.1%,
-n=21); the hypothesized regime where hierarchy helps synthesis questions does
-not appear in this data. The synthesis arm is underpowered at 21 questions and
+n=21). One scope correction the design forces: the generator's synthesis
+label is defined in its committed prompt as a question that "relates two
+parts of the text" — two parts of *one* document — and every answer is an
+exact substring of a single gold body, one question per file, so the
+frozen claim's cross-file synthesis regime cannot occur in this question
+set and remains untested (recorded in Limits (b)). What the map shows is
+that the within-document synthesis label marks no regime shift. The
+synthesis arm is underpowered at 21 questions and
 carries correspondingly less weight than the lookup arm. **Corpus-language
 map**, added because the demonstrator's non-reproduction was attributed to it:
 on the paper's own 102 questions, B minus C is **+29.4 pp on the 17 English
 documents** (B 12/17, C 7/17) and **+24.7 pp on the 85 Spanish ones** (B
-62/85, C 41/85). The margin is *larger* on the English slice. Language does
-not explain the demonstrator's tie (§8 Limits (b′)). Conjecture graduated to
+62/85, C 41/85). The margin is *larger* on the English slice — but that
+slice is the same 17 documents Limits (h) flags as observer-contaminated,
+and n=17 carries little inferential weight on its own; the demonstrator's
+tie is disposed of by its 19.0% power (Limits (b′)) regardless of this
+map. Conjecture graduated to
 `corpus/supported/`. Source:
 `results/2026-07-19-c29-curation-vs-search-sufficiency.md`.
 
 ## §5 The public replication at power (C34)
 
-C29's evidence is 408 run records over a corpus that is 85% third-party client
-material and cannot be released. C34 is the successor registered to fix that:
+C29's evidence is 408 run records over a corpus that is 83% third-party
+client material (85 of its 102 files, one question per file) and cannot be
+released. C34 is the successor registered to fix that:
 141 releasable documents selected by a frozen mechanical rule, snapshotted at
-the byte, 120 confirmatory questions, the same pinned answerer, three arms
+the byte, 120 confirmatory questions (one generated per document), the
+same pinned answerer, three arms
 (B, C and D; the flat-load arm exited after §4.4 showed it budget-bounded),
 and **three
 criteria deliberately made harder than C29's**. It was registered
@@ -553,9 +629,17 @@ after (a bundle-copy redaction changing no threshold, prediction, scoring
 rule or verdict); it ran and was adjudicated 2026-08-13/14. Registration
 to verdict inside two days is a fact of the order proof, and the ordering
 is carried by the commit chain (`c34-study/ORDER-PROOF.md`), not by the
-calendar: a symmetric wrong-stop rule,
-a token-headroom prediction frozen on marginal tokens (the measure under which
-C29's own B would have failed), and an added localization prediction. It was
+calendar. The objection that ordering cannot answer — that a designer who
+already knew the original result might choose a favorable corpus — is
+answered by mechanism instead: rule R selected the 141 documents from all
+154 candidates by frozen clauses, and its clause-level evaluation log
+ships (`c34-study/rule-R-evaluation-log.json`). Rule R answers the
+within-repository selection; the choice of the epistemics repository over
+any other corpus in the estate was free, and is a scope condition, not a
+mechanism. The three harder criteria named above are: a symmetric
+wrong-stop rule, a token-headroom prediction frozen on marginal tokens
+(the measure under which C29's own B would have failed), and an added
+localization prediction. It was
 registered before any harness code, corpus snapshot, question or provider call
 existed.
 
@@ -596,10 +680,62 @@ non-hydrated answers across both arms (63 of 75 wrong, 84.0%);
 arm-specific, the curated arm's non-hydrated answers were wrong on 41 of
 45 (**91.1%**) and search's on 22 of 30 (73.3%). The pooled form is the
 registered one; the arm-specific form is what the staked prediction's
-"its" refers to, and it is the stronger of the two. On the
+"its" refers to, and it is the stronger of the two. Third, **the index's
+capacity and signal, measured** (the replication figures re-runnable via
+the shipped `c34-study/digest_signal.py`; the original study's index
+figures are author-verifiable from its committed index file, per §Data's
+verification asymmetry; the script's two rule parameters — content words
+of four or more characters, a small bilingual stopword list — were fixed
+on first computation and not tuned against the outcome). The resident index,
+in the exact layout the curated prompt interpolates (path, dash, digest
+per line), totals 30,223 characters (roughly 7.6K tokens); digest text
+alone is 23,120 characters. The original study's committed index file
+gives 24,163 and 17,668 (roughly 6.0K tokens). **53 of the 120 questions
+(44%) share no content word with their own gold digest**, and only 31
+share two or more; questions whose gold digest carried at least one
+question term were located by the curated arm on 71.6% (48 of 67),
+against 50.9% (27 of 53) when it carried none (Fisher exact p = 0.024,
+descriptive). One deflator is measured with it: of the ten questions
+whose gold digest is storage-clipped at 200 characters, six are
+zero-overlap, against 47 of 110 unclipped — a small-n elevation
+consistent with clipping, not budget, inflating part of the zero-overlap
+share. Stated at its correct strength: a crude lexical proxy for
+digest signal predicts localization by +20.7 points — and 27 of the 53
+zero-overlap questions were located anyway, so signal survives in
+non-lexical forms for half of them. The direction matches the
+body-resident-signal mechanism the skill-routing literature reports [47],
+observed here on a document corpus. One projection is stated now, before
+the budget successor registers, so it cannot be picked afterward: the
+subgroup where the lexical mechanism is already satisfied localizes at
+71.6%, below search's 75.0% on the same corpus — an estimate rather than
+a bound, since lexically-traceable questions may differ systematically,
+but it suggests raising the per-file budget closes part of the gap, not
+all of it (the companion to §4.2's 51.0% bound on the always-hydrate
+arm). The budget lever is also already partially exercised: the index
+averages 164 characters against its 140-character instruction and still
+localizes at 62.5%, independent support for reading 71.6% as near the
+lexical channel's ceiling rather than its floor. On the
 commensurability §4 established for token columns, C34's cache-read
 shares are 91.0% of B's 21.99M total, 82.6% of C's 16.94M, and 62.9% of
-D's 2.91M.
+D's 2.91M; the marginal-token absolutes, the measure that decided the
+verdict, are B 1,989,121, C 2,941,951, D 1,079,014. Arm-D validation,
+owed as §4.4's was for A: in this corpus no gold file's stripped body
+exceeds the 60,000-character truncation and every gold answer lies within
+it (0 of 120 affected), so the difficulty control does not conflate
+answerability with file length. The same checks were run by the author on
+the withheld original corpus (2026-08-16), under the frozen
+normalized-substring rule, with each file first re-hashed against the
+frozen manifest: 70 of the 102 files verify byte-exact today and 32 have
+drifted since the 2026-07-18 freeze, the engagement's files having
+continued to change — one more instance of Limits (g)'s lesson that
+hash-freezing proves integrity, not availability. On the corpus as it
+stands, two gold bodies exceed 60,000 characters (both among the drifted
+files) and no gold answer lies beyond the truncation (0 of 102); the
+6,000–8,000-character band holds 6 of the 102 answers (5 of the 70
+byte-verified files). The frozen adjudication is untouched: C29's
+evidence is its committed run records and hashes, not the corpus's later
+state. Like all of §4, these checks are author-verifiable, not publicly
+recomputable.
 
 Three things follow, and the third is the one the program owes itself.
 
@@ -654,7 +790,15 @@ analyzer's recorded ratio (`inf`) clears the ≥3× bar. The pass carries no
 information. The ratio is undefined at an orphan numerator of zero, the whole
 contrast rests on **two readers against none**, and Fisher's exact test on the
 2×2 table gives **p = 0.51**. It is reported because it was registered, and it
-should be read as an untested prediction rather than a confirmed one.
+should be read as an untested prediction rather than a confirmed one. The
+deeper defect is the adjudicator's: its not-evaluable branch guards the
+orphan population (fires below 20), not the numerator, so a ratio
+undefined at zero readers returned a mechanical pass that prose then had
+to correct — human judgment at reporting time, which §7 exists to
+preclude. The rule is registered for the program going forward: a rate
+ratio whose denominator arm records zero events adjudicates as
+not-evaluable. The frozen analyzer
+stands as run.
 
 Channel caveat, recorded and non-exculpatory: the registered limitations
 declared that the tool-Read channel undercounts (index-only recall and harness
@@ -770,7 +914,11 @@ it would itself be conditioned on the outcomes reported above. The omission is
 deliberate. Index-plus-search is named as the registrable successor; its
 predictions will be frozen before any run; and its outcome, including the
 possibility that an advisory index recovers everything the sole-locator index
-loses, is not anticipated here. §4.2 bounds what these data can say about
+loses, is not anticipated here. The successor family carries a second
+registered axis: the digest budget — whether localization crosses search's
+at some per-file budget above the instructed 140 characters — with the
+known point declared as known, §5's stated projection on the record, and
+every other point's outcome unanticipated. §4.2 bounds what these data can say about
 one member of that family (index-to-locate, always-hydrate: at most 51.0% on
 this corpus) and says nothing about the rest.
 
@@ -802,24 +950,40 @@ dominant path.
 
 **Limits.** (a) *External validity*: every measurement comes from one
 single-operator ecosystem: one practitioner, one machine, one harness family;
-portability is not demonstrated across operators. (b) *C29 scope, carried
-verbatim from its results doc*: single-operator corpora with unusually
+portability is not demonstrated across operators. (b) *C29 scope, from its results doc; the additions of 2026-08 are
+post-hoc and marked*: single-operator corpora with unusually
 consistent naming (plausibly favors grep); auto-generated questions skew
 locatable-fact (81 lookup / 21 synthesis; the split is reported and B wins
 both); D approximates minimal-sufficiency at file granularity; one answerer
 model at one capability tier (a stronger answerer might extract more from
-digests) and one writer-reader pair (the digests were written by
+digests) and — a post-hoc addition, descriptive — one writer-reader pair
+(the digests were written by
 `claude-sonnet-5`, a stronger model than the answerer that consumed them;
 writer capability is an untested lever on routing quality, though one bias
 runs against the reported deficit: the digest writer and the question
 generator are the same model reading the same bodies, so shared salience
 should push digests toward mentioning the queried facts, inflating C's
-localization); per the capability-confound paragraph above, the two-model arm is
-the decisive registered successor, not assumed either way. Two further scope
-conditions: C had no search tool (`DESIGN.md` D5), so the experiment compares
-an authored index against grep as **sole** locators and says nothing about an
-index used alongside search (§3's ablation defense and the successor
-paragraph above); and the tested C is a two-tier realization (path plus a
+localization; the opposite bias is concrete and sized:
+questions came from an 8,000-character prefix and digests from a
+6,000-character one, so gold answers reachable at 8,000 characters but
+not at 6,000 are structurally undescribable by any digest — under the
+frozen normalized rule, 6 of the original study's 102 questions and 10 of
+the replication's 120 (8.3%), each study sized on its own set. Question
+guessability has a direct estimator in the correct-without-hydration
+rate — 35% for search and 4.1% for the curated arm in the original study
+(§3), 26.7% and 8.9% in the replication — an upper bound that mixes
+guessability with content surfaced in search output; only 4 of the
+replication's 12 correct-without-hydration answers carry a flagged
+sub-three-word gold);
+per the capability-confound paragraph above, the two-model arm is
+the decisive registered successor, not assumed either way. Three further
+scope conditions: C had no search tool (`DESIGN.md` D5), so the experiment
+compares an authored index against grep as **sole** locators and says
+nothing about an index used alongside search (§3's ablation defense and
+the successor paragraph above); cross-file synthesis cannot occur in
+either study's question set (one question per document, single-gold
+substring answers) and is untested; and the tested C is a two-tier
+realization (path plus a
 one-line digest, then the full body), not the four-layer ladder the
 conjecture text describes, a design choice recorded in `DESIGN.md` D1 before
 the questions were generated.
@@ -835,7 +999,11 @@ prompt produced a 30% sub-three-word gold-answer rate against roughly 5% on
 C29's, with three of 120 confirmatory golds so unspecific that the frozen
 scoring rule could not fail them, a rate that also violates the generation
 prompt's own 3–15-word instruction, so the defect is generator
-non-compliance surfaced by the new corpus, not only corpus character. Pinning a treatment string is necessary for
+non-compliance surfaced by the new corpus, not only corpus character. The
+digest side carries the same class: the digest instruction's 140-character
+cap was exceeded on 128 of 141 digests, 12 of them clipped at the
+builder's 200-character storage cap (41 of 102 in the original study;
+§3). Pinning a treatment string is necessary for
 comparability and **not sufficient** for it: a replication that carries a
 generator prompt onto a new corpus should measure the resulting question
 set's discriminating power before spending its answering budget. C34 flags
@@ -1151,7 +1319,8 @@ survives the closest published neighbor:
    corpus whose authored one-line-digest index is the policy's sole
    locator; per-question read-level telemetry on that arm; the
    decomposition of failure into located/mis-routed/unread (43 of 47
-   wrong-stops had read a wrong file); and a difficulty-matched control
+   wrong-stops had read a wrong file; conditional-on-routing accuracy
+   86.8% original, 76.0% replication); and a difficulty-matched control
    on an oracle arm detecting no answerability difference in the failed
    questions (Fisher p = 0.80; §4.2 states the interval; post-hoc
    descriptive in both studies, §4.2); the nearest
@@ -1201,7 +1370,7 @@ records are withheld with its client corpus (see Confidentiality below), so
 while §5 re-derives from shipped data byte for byte.
 
 **Canonical public record.** This paper's deposit is DOI
-[10.5281/zenodo.21959970](https://doi.org/10.5281/zenodo.21959970)
+[10.5281/zenodo.21960138](https://doi.org/10.5281/zenodo.21960138)
 (Zenodo); the concept DOI
 [10.5281/zenodo.21938412](https://doi.org/10.5281/zenodo.21938412) resolves
 to the current version. **Cite this version DOI**, not the concept DOI,
@@ -1239,7 +1408,16 @@ digest index, and the per-run answer records contain verbatim client
 operational content and are **withheld**. The audit of exactly what is and is
 not exposed is `SENSITIVITY-AUDIT.md`: the paper's prose, the effect
 tables, and the cited results documents carry no client content; the raw
-C29 data does. That audit document is itself repository-internal by its own
+C29 data does. One transmission fact belongs here rather than left
+implicit: the measurement's provider calls carried client content to the
+model provider — frontmatter-stripped bodies as 6,000- and 8,000-character
+prefixes during digest and question generation, and whole documents during
+the 408 policy runs (search's full reads, the curated arm's hydrations,
+and the oracle arm's gold files of up to 60,000 characters) — together
+with derived questions and answers. That is the same provider, harness and
+account that process the engagement's own working sessions, so the
+measurement introduced no new receiving party; session persistence was
+disabled throughout. That audit document is itself repository-internal by its own
 header (it enumerates the withheld identifiers, so shipping it would
 disclose what it protects) and it therefore stays out of the deposit. No part of the client corpus is released with this paper. The
 `epistemics` repository itself is **not published**: client content sits in its
@@ -1282,11 +1460,17 @@ had to distinguish (mis-routing from early stopping) and it is what we found
 an earlier draft had misread in its own data.
 
 The prediction we stake on replication, scoped to its substrate: **an
-authored one-line-digest index over a prose document corpus, used as a
-policy's sole locator, will route to the correct document less often than
-associative search over the same corpus**, and the resulting non-hydrated
-answers, measured on the curated arm alone, will be overwhelmingly wrong
-(91.1% in the public replication; 96% in the original study). The scope
+authored one-line-digest index (model-written under a fixed operator
+prompt instructing at most 140 characters per file, observed up to 200,
+§3) over a prose document
+corpus, used as a policy's sole locator, will route to the correct
+document less often than associative search over the same corpus**, and,
+under the same unhydrated-error rule applied to both arms, the curated
+arm's non-hydrated answers will be wrong more often than search's (96%
+against 65% in the original study; 91.1% against 73.3% in the
+replication) — the differential, not the level, is the falsifiable
+quantity, since exact-substring answers produced without the source are
+mostly wrong for any arm. The scope
 condition is not decoration;
 on other index classes the published sign differs: a derived structural
 code index shows a within-harness localization gain and non-regression
@@ -1331,19 +1515,19 @@ external audit (2026-08-15) surfaced the instrumented-retrieval neighbors,
 and were verified on 2026-08-15 against their arXiv abstract pages, with the
 coverage definition, metric vocabulary, per-agent attribution and
 win-decomposition statistics of [43] checked against its full text;
-references 47–61 were added after a fifth external audit with an
-accompanying independent reproduction report (both 2026-08-15, dispositioned
+references 47–61 were added after a further external audit paired with an
+independent reproduction report (both 2026-08-15, dispositioned
 finding by finding in `DISPOSITION-2026-08-15.md`), and were verified on
 2026-08-15 against the arXiv API (title, author list, v1 date), with the
 load-bearing quantities of [47], [50], [51], [52], [53], [54], [55], [56],
 [60] and [61] checked against their abstracts or full texts. Two
 parenthetical author counts in the 14–38 range ([5], [32]) did not survive
 re-verification against the live API (author lists drift across arXiv
-versions) and are removed rather than re-pinned; the three-round
+versions) and are removed rather than re-pinned; the four-round
 artifact-consistency audit of 2026-08-16 touched no reference entry, and
 its rounds are dispositioned in the repository's dated disposition
 documents (the provenance note tallies the full series: two commissioned
-reviews, then six audits). Every
+reviews, then seven audits). Every
 reference resolved. Full BibTeX:
 `references.bib`.*
 

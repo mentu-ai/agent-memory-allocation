@@ -2,8 +2,8 @@
 
 *Reading More, Finding Less: A Pre-Registered Anatomy of Progressive
 Disclosure for AI Agents* — Rashid Azarang, Independent Researcher.
-Preprint, 2026-08-15. DOI
-[10.5281/zenodo.21959970](https://doi.org/10.5281/zenodo.21959970); the
+Preprint, 2026-08-16. DOI
+[10.5281/zenodo.21960138](https://doi.org/10.5281/zenodo.21960138); the
 concept DOI
 [10.5281/zenodo.21938412](https://doi.org/10.5281/zenodo.21938412)
 resolves to the current version.
@@ -12,7 +12,7 @@ resolves to the current version.
 
 | File | What it is |
 |---|---|
-| `agent-memory-allocation.pdf` | the preprint, typeset (27 pp) |
+| `agent-memory-allocation.pdf` | the preprint, typeset (30 pp) |
 | `paper.html` | the same text as a single self-contained page |
 | `paper.md` | the canonical markdown the renders are built from |
 | `fig1_misrouting.png`, `fig2_c29_policies.png` | the two figures |

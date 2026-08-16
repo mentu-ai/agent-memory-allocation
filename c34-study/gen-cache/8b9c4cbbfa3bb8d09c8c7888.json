@@ -1,1 +1,0 @@
-{"bucket": "digest", "key": "digest:observatory/packets/2026-07-13.md", "value": {"digest": "Beat #20 (2026-07-13): 13-day observatory outage diagnosed & fixed; C2 gate check FAILED (ephemeral strata); C1b accrual DRY 15 days (anomaly); C3 at 91/100.", "tokens": 27459, "cost_usd": 0.0479406, "input_sha256": "cb665a9b3582f7f8f386fd53d82dd91e07aaeb0fa62bd2761da28c68204803c7"}}

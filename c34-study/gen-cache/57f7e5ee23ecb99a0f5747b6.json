@@ -1,1 +1,0 @@
-{"bucket": "digest", "key": "digest:docs/BUILD-agent-graph-runtime-paper-v1.md", "value": {"digest": "BUILD spec for the Agent Graph Runtime preprint (Mentu as reference implementation): scope, claim classes, P0\u2013P3 build/gate stages, repo rules.", "tokens": 27193, "cost_usd": 0.0461556, "input_sha256": "0b3ae29f75c0fea161d492859388543340fd5a6c116866b98dda8e8d4c42afb1"}}

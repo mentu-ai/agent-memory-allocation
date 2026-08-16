@@ -1,5 +1,5 @@
 {
- "bytes": 2917865,
+ "bytes": 2921715,
  "entries": [
   {
    "path": "BUNDLE-README.md",
@@ -600,6 +600,10 @@
   {
    "path": "corpus_rule.py",
    "sha256": "6a1e251225610286ab0b7305c5fa1e722a2acd32020a7fa21a4e2dd6184b64bd"
+  },
+  {
+   "path": "digest_signal.py",
+   "sha256": "5d513afa21abfb7478cbb9b428d594525020e3ca61437e752fe80f84772db429"
   },
   {
    "path": "effect-table-2026-08-14.json",
@@ -3842,5 +3846,5 @@
    "sha256": "80fe54c5f9615cf67a1ed4d5998c640ce7bd3d746d1ae764cc1d6259b0093168"
   }
  ],
- "files": 960
+ "files": 961
 }
